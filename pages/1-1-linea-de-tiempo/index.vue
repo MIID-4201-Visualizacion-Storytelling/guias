@@ -13,6 +13,10 @@ export default {};
 </script>
 
 <style lang="scss" scoped>
+article {
+  margin: 0;
+}
+
 #lineaDeTiempo {
   width: 100vw;
   height: 98vh;

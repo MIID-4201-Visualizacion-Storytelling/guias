@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/1-1-linea-de-tiempo", {data:[{}],fetch:{},mutations:void 0});
