@@ -29,7 +29,7 @@ La verdad es que es un asunto de gusto. Mi recomendación es:
 
 ## “The Graph Gallery” de Yan Holtz
 
-<a href="https://www.python-graph-gallery.com/" target="_blank"><img src="/imgs/the-graph-gallery.png" /></a>
+<a href="https://www.python-graph-gallery.com/" target="_blank"><img src="/vysimgs/the-graph-gallery.png" /></a>
 
 Un excelente recurso para quienes quieren programar sus propias visualizaciones es la serie de Yan Holtz <a href="https://www.python-graph-gallery.com/" target="_blank">“The Graph Gallery”</a>. Tiene ejemplos de código y excelente análisis corto sobre los posibles usos, errores comúnes y aplicaciones efectivas de cada forma de visualización. Recomendado para todos, incluso los que no quieren programar. La serie esta disponible en diferentes lenguajes de programación:
 

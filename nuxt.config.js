@@ -1,3 +1,18 @@
+function reemplazarUrlImgs(file) {
+  return file.replace(/\/vysimgs\//g, '/guias/vysimgs/');
+}
+
+function customMarkdownParser(file) {
+  const MarkdownParser = require('@nuxt/content/parsers').Markdown;
+  const { getOptions } = require('@nuxt/content/lib');
+
+  const markdownOptions = getOptions().markdown;
+  const md = new MarkdownParser(markdownOptions);
+
+  const fileWithoutPrettierIgnore = reemplazarUrlImgs(file);
+  return md.toJSON(fileWithoutPrettierIgnore);
+}
+
 export default {
   // Target: https://go.nuxtjs.dev/config-target
   target: 'static',
@@ -39,7 +54,11 @@ export default {
   ],
 
   // Content module configuration: https://go.nuxtjs.dev/config-content
-  content: {},
+  content: {
+    extendParser: {
+      '.md': customMarkdownParser,
+    },
+  },
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {},
