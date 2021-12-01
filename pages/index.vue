@@ -1,9 +1,9 @@
 <template>
   <div>
-    <h2>Semana1</h2>
-    <NuxtLink to="1-1-linea-de-tiempo">Linea de Tiempo</NuxtLink>
-    <NuxtLink to="1-3-herramientas">Herramientas de Visualización</NuxtLink>
-    <NuxtLink to="1-4-herramientas-www">Herramientas de Publicación</NuxtLink>
+    <h2>Semana 1</h2>
+    <p><NuxtLink to="1-1-linea-de-tiempo">1.1 Linea de Tiempo</NuxtLink></p>
+    <p><NuxtLink to="1-3-herramientas">1.3 Herramientas de Visualización</NuxtLink></p>
+    <p><NuxtLink to="1-4-herramientas-www">1.4 Herramientas de Publicación</NuxtLink></p>
   </div>
 </template>
 
@@ -11,123 +11,4 @@
 export default {};
 </script>
 
-<style lang="scss">
-@use 'sass:color';
-$fuentePrincipal: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen-Sans, Ubuntu, Cantarell,
-  'Helvetica Neue', sans-serif;
-$fuenteMono: SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', 'Courier New', monospace;
-$fuentePrincipalPeso: 400;
-$fuentePrincipalBold: 700;
-$colorPrincipal: #5757f7;
-
-html {
-  box-sizing: border-box;
-  -ms-text-size-adjust: 100%;
-  -webkit-text-size-adjust: 100%;
-}
-
-*,
-*::before,
-*::after {
-  box-sizing: inherit;
-}
-
-html,
-body {
-  margin: 0;
-  padding: 0;
-}
-
-blockquote,
-dl,
-dd,
-figure,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p,
-pre,
-time {
-  margin: 0;
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  font-family: $fuentePrincipal;
-  font-weight: $fuentePrincipalBold;
-}
-
-body {
-}
-
-button {
-  background: transparent;
-  border: 0;
-  padding: 0;
-}
-
-button:focus {
-  outline: 1px dotted;
-  outline: 5px auto -webkit-focus-ring-color;
-}
-
-fieldset {
-  border: 0;
-  margin: 0;
-  padding: 0;
-}
-
-iframe {
-  border: 0;
-}
-
-ol,
-ul {
-  // list-style: none;
-  // margin: 0;
-  // padding: 0;
-}
-
-img,
-video {
-  max-width: 100%;
-  height: auto;
-}
-
-body {
-  font-family: $fuentePrincipal;
-  font-weight: $fuentePrincipalPeso;
-}
-
-a,
-a:link {
-  text-decoration: none;
-}
-
-::selection {
-  background-color: color.scale($colorPrincipal, $lightness: 50%);
-  color: black;
-}
-
-p {
-  line-height: 1.6;
-  margin: 1.5em 0;
-}
-
-article {
-  margin: 1em;
-}
-
-h1 {
-  text-align: center;
-  font-size: 2em;
-  margin: 1em;
-}
-</style>
+<style lang="scss"></style>
