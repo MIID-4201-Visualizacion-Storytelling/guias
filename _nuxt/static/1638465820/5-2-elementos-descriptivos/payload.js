@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/5-2-elementos-descriptivos", (function(a){return {data:[{page:{slug:"5-2-elementos-descriptivos",description:"...",title:"Elementos Descriptivos",toc:[],body:{type:"root",children:[]},dir:"\u002F",path:"\u002F5-2-elementos-descriptivos",extension:".md",createdAt:a,updatedAt:a}}],fetch:{},mutations:void 0}}("2021-12-02T17:22:56.190Z")));
