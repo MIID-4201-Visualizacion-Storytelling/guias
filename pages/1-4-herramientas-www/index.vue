@@ -7,8 +7,8 @@
 
 <script>
 export default {
-  async asyncData({ $content }) {
-    const page = await $content('1-4-herramientas-www').fetch();
+  async asyncData({ $content, route }) {
+    const page = await $content(route.name).fetch();
 
     return { page };
   },

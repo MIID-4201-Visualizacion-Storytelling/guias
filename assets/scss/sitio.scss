@@ -5,6 +5,13 @@ $fuenteMono: SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', 'Courie
 $fuentePrincipalPeso: 400;
 $fuentePrincipalBold: 700;
 $colorPrincipal: #5757f7;
+$color1: #623c97;
+$color2: #e7e057;
+$color3: #f7932e;
+$color4: #2fc1d5;
+$color5: #767a7d;
+$color6: #ffffff;
+$color7: #000f2e;
 
 html {
   box-sizing: border-box;
@@ -51,6 +58,14 @@ h6 {
 }
 
 body {
+  background: rgba(98, 60, 151, 0.1);
+  background: linear-gradient(
+    180deg,
+    rgba(98, 60, 151, 0.1) 26%,
+    rgba(247, 147, 46, 0.1) 65%,
+    rgba(231, 224, 87, 0.1) 100%
+  );
+  min-height: 100vh;
 }
 
 button {
@@ -98,7 +113,7 @@ a:link {
 }
 
 ::selection {
-  background-color: color.scale($colorPrincipal, $lightness: 50%);
+  background-color: color.scale($color2, $lightness: 50%);
   color: black;
 }
 
