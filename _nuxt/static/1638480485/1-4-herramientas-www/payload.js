@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/1-4-herramientas-www", (function(a){return {data:[{page:{slug:"1-4-herramientas-www",description:"...",title:"Herramientas de Publicación Web",toc:[],body:{type:"root",children:[]},dir:"\u002F",path:"\u002F1-4-herramientas-www",extension:".md",createdAt:a,updatedAt:a}}],fetch:{},mutations:void 0}}("2021-12-02T21:27:19.600Z")));

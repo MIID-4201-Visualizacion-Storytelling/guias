@@ -1,1 +1,0 @@
-window.__NUXT__=(function(a){return {staticAssetsBase:"\u002Fguias\u002F_nuxt\u002Fstatic\u002F1638480002",layout:"default",error:a,serverRendered:true,routePath:"\u002F4-1-herramientas-BI",config:{_app:{basePath:"\u002Fguias\u002F",assetsPath:"\u002Fguias\u002F_nuxt\u002F",cdnURL:a},content:{dbHash:"efab759b"}}}}(null));
