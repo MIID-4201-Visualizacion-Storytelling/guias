@@ -58,13 +58,6 @@ h6 {
 }
 
 body {
-  background: rgba(98, 60, 151, 0.1);
-  background: linear-gradient(
-    180deg,
-    rgba(98, 60, 151, 0.1) 26%,
-    rgba(247, 147, 46, 0.1) 65%,
-    rgba(231, 224, 87, 0.1) 100%
-  );
   min-height: 100vh;
 }
 
@@ -92,6 +85,27 @@ iframe {
 ol,
 ul {
   // list-style: none;
+  // margin: 0;
+  // padding: 0;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  li {
+    margin: 1em 0;
+    &::before {
+      content: '';
+      width: 0.5em;
+      height: 0.5em;
+      display: inline-block;
+      vertical-align: middle;
+      background-color: $color4;
+      margin-right: 0.5em;
+      border-radius: 30%;
+    }
+  }
+
   // margin: 0;
   // padding: 0;
 }
@@ -130,4 +144,35 @@ h1 {
   text-align: center;
   font-size: 2em;
   margin: 1em;
+}
+
+.title-icon {
+  text-align: center;
+  display: block;
+  font-size: 2.2em;
+}
+
+h2 {
+  border-bottom: 3px solid $color1;
+  padding-bottom: 0.5em;
+}
+
+h3 {
+  border-bottom: 1px dotted;
+  padding: 0.5em 0;
+}
+
+.subtitle-icon {
+  color: $color4;
+  font-size: 1.2em;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.inline-icon {
+  width: 32px;
+  height: auto;
+  display: inline-block;
+  vertical-align: bottom;
+  margin: 1em 0.5em 0;
 }
