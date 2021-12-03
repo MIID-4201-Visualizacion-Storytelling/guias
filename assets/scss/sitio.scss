@@ -149,11 +149,19 @@ h1 {
 h2 {
   border-bottom: 3px solid $color1;
   padding-bottom: 0.5em;
+  font-size: 1.6em;
+  margin-bottom: 0.3em;
 }
 
 h3 {
   border-bottom: 1px dotted;
   padding: 0.5em 0;
+  font-size: 1.3em;
+  margin-bottom: 0.7em;
+}
+
+h4 {
+  font-size: 1.1em;
 }
 
 .title-icon {
@@ -193,4 +201,19 @@ th {
 td {
   border: 1px dotted;
   padding: 0.5em;
+}
+
+.check {
+  display: inline-block;
+  vertical-align: bottom;
+  padding-right: 0.3em;
+  color: green;
+
+  &.no-puede {
+    color: red;
+  }
+
+  &.puede {
+    color: #767a7d;
+  }
 }
