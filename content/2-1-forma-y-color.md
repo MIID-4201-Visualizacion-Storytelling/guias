@@ -110,7 +110,7 @@ Acá, todos los puntos representan un apartamento en venta, pero la forma no nos
 
 Pongamos a prueba lo que han aprendido. Tomando como punto de partida la base de datos:
 
-- CSV con resultados de encuesta 1
+- CSV con resultados de encuesta 1: https://www.coursera.org/learn/visualizacin-y-storytelling/resources/qLxCs
 
 Quiero que, de manera individual, describan visualmente a la población que compone este curso en una gráfica que nos muestre los diferentes grupos poblaciones. Pueden agrupar por profesión, edad o ubicación y el objetivo es que escojan una forma visual que comparativamente describa las diferencias entre los miembros del curso.
 
