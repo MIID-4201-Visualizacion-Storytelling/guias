@@ -146,12 +146,6 @@ h1 {
   margin: 1em;
 }
 
-.title-icon {
-  text-align: center;
-  display: block;
-  font-size: 2.2em;
-}
-
 h2 {
   border-bottom: 3px solid $color1;
   padding-bottom: 0.5em;
@@ -160,6 +154,16 @@ h2 {
 h3 {
   border-bottom: 1px dotted;
   padding: 0.5em 0;
+}
+
+.title-icon {
+  text-align: center;
+  display: block;
+  font-size: 2.2em;
+  &.non-material {
+    width: 1.5em;
+    margin: 0 auto;
+  }
 }
 
 .subtitle-icon {
