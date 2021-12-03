@@ -176,3 +176,17 @@ h3 {
   vertical-align: bottom;
   margin: 1em 0.5em 0;
 }
+
+table {
+  border-collapse: collapse;
+}
+
+th {
+  border: 1px solid;
+  padding: 0.5em;
+}
+
+td {
+  border: 1px dotted;
+  padding: 0.5em;
+}
