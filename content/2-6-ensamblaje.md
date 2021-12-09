@@ -29,11 +29,11 @@ Para obtener el enlace deben:
 
 1. Generar enlace desde el botón "compartir" (Share)
 
-![Compartir Enlace](/vysimgs/obtener-enlace.png)
+![Compartir Enlace](/vysimgs/gds-obtener-enlace.png)
 
 2. Esto les abre una ventana desde donde pueden copiar el enlace que nos mandan.
 
-![Enlace Público](/vysimgs/enlace-publico.png)
+![Enlace Público](/vysimgs/gds-enlace-publico.png)
 
 Extra: Para quienes programaron sus visualizaciones, estas dos modalidades aplican igual. Pueden exportar imágenes estáticas que organizan en 1 archivo, o si crean un sitio web con URL pública, deben mandarnos el enlace a internet. **No pueden mandar la aplicación programada o archivos de código.**
 
