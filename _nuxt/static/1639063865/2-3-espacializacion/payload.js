@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/2-3-espacializacion", (function(a){return {data:[{page:{slug:"2-3-espacializacion",description:"...",title:"Espacialización",toc:[],body:{type:"root",children:[]},dir:"\u002F",path:"\u002F2-3-espacializacion",extension:".md",createdAt:a,updatedAt:a}}],fetch:{},mutations:void 0}}("2021-12-09T15:30:26.038Z")));
