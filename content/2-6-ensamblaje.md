@@ -7,7 +7,7 @@ description: '...'
 
 ## Introducción
 
-Es hora de construir una narrativa con los elementos que vienen construyendo a lo largo de la semana. En nuestro caso, estamos trabajando a partir de una base de datos que describe la población del curso, en ese sentido, los datos nos indican ciertas verdades de quienes son ustedes. Pero la manera como le comunicamos esta información a un público general es un ejercicio narrativo que cada uno de ustedes puede construir con libertad.
+Es hora de construir una narrativa con los elementos que vienen construyendo a lo largo de la semana. En nuestro caso, estamos trabajando a partir de una base de datos que describe la población del curso, en ese sentido, los datos nos indican ciertas verdades de quiénes son ustedes. Pero la manera como le comunicamos esta información a un público general es un ejercicio narrativo que cada uno de ustedes puede construir con libertad.
 
 ## Ejercicio
 

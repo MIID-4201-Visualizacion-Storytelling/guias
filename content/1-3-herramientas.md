@@ -35,7 +35,7 @@ La verdad es que es un asunto de gusto. Mi recomendación es:
 
 <a href="https://www.python-graph-gallery.com/" target="_blank"><img src="/vysimgs/the-graph-gallery.png" /></a>
 
-Un excelente recurso para quienes quieren programar sus propias visualizaciones es la serie de Yan Holtz <a href="https://www.python-graph-gallery.com/" target="_blank">“The Graph Gallery”</a>. Tiene ejemplos de código y excelente análisis corto sobre los posibles usos, errores comúnes y aplicaciones efectivas de cada forma de visualización. Recomendado para todos, incluso los que no quieren programar. La serie esta disponible en diferentes lenguajes de programación:
+Un excelente recurso para quienes quieren programar sus propias visualizaciones es la serie de Yan Holtz <a href="https://www.python-graph-gallery.com/" target="_blank">“The Graph Gallery”</a>. Tiene ejemplos de código y excelente análisis corto sobre los posibles usos, errores comunes y aplicaciones efectivas de cada forma de visualización. Recomendado para todos, incluso los que no quieren programar. La serie esta disponible en diferentes lenguajes de programación:
 
 **Python**: <a href="https://www.python-graph-gallery.com/" target="_blank">https://www.python-graph-gallery.com/</a>  
 **R**: <a href="https://www.r-graph-gallery.com/" target="_blank">https://www.r-graph-gallery.com/</a>  
@@ -47,4 +47,4 @@ JavaScript es el lenguaje de la web, las herramientas prediseñadas mencionadas 
 
 ## Resumen
 
-Si los abruma la programación o quieren trabajar de manera ágil sobre los datos, mi recomendación es que trabajen con herramientas prediseñadas. Pero, si ya saben programar o quieren adquirir habilidades que los diferencien como profesionales, pueden sumergirse en visualizar con programación. Este curso no va a entrar en profundidad en las herramientas, pero es una excelente excusa para aprender autónomamente con el acompañamiento nuestro durante su proceso.
+Si los abruma la programación o quieren trabajar de manera ágil sobre los datos, mi recomendación es que trabajen con herramientas prediseñadas. Pero si ya saben programar o quieren adquirir habilidades que los diferencien como profesionales, pueden sumergirse en visualizar con programación. Este curso no va a entrar en profundidad en las herramientas, pero es una excelente excusa para aprender autónomamente con nuestro acompañamiento durante su proceso.
