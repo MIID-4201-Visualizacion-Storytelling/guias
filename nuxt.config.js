@@ -1,5 +1,7 @@
 function reemplazarUrlImgs(file) {
-  return file.replace(/\/vysimgs\//g, '/guias/vysimgs/');
+  const ret = file.replace(/\/vysimgs\//g, '/guias/vysimgs/');
+
+  return ret.replace(/\/vysvideos\//g, '/guias/vysvideos/');
 }
 
 function customMarkdownParser(file) {

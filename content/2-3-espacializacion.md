@@ -3,6 +3,8 @@ title: Espacialización
 description: '...'
 ---
 
+<span class="material-icons title-icon">travel_explore</span>
+
 ## Introducción
 
 En las dos guías anteriores (“Forma y color” y “Escalas”) cubrimos bastante terreno conceptual en las introducciones. Teniendo en cuenta lo aprendido, vamos a espacializar los datos usando la referencia geográfica que tenemos en nuestra base de datos para producir diferentes tipos de mapas y así reconocer posibles narrativas que podemos construir con datos geográficos sobre un mapa.
@@ -120,12 +122,12 @@ No se preocupen que primero debemos definir los campos para que funcione el mapa
 
 ## Resumen
 
-1. Los conceptos de forma, color y escala aplican directamente en el momento de espacializar los datos.
-2. Dependiendo de la intención narrativa, debemos elegir el tipo de visualización que hacemos sobre el mapa.
-3. Cada estrategia de visualización tiene ventajas y desventajas, debemos privilegiar nuestra intención narrativa para saber cuál nos apoya retóricamente lo que queremos decir.
+- Los conceptos de forma, color y escala aplican directamente en el momento de espacializar los datos.
+- Dependiendo de la intención narrativa, debemos elegir el tipo de visualización que hacemos sobre el mapa.
+- Cada estrategia de visualización tiene ventajas y desventajas, debemos privilegiar nuestra intención narrativa para saber cuál nos apoya retóricamente lo que queremos decir.
 
 ## Ejercicio
 
-1. Utilizando la base de datos “poblacion-curso.csv” identificar una historia que desean contar sobre la población del curso. Recuerden que la definición de la narrativa es un ejercicio creativo, ¿Qué creen que es valioso contar sobre esta población en particular?
-2. Según su intención narrativa, crear un mapa utilizando cualquier software de visualización. Puede ser _Google Data Studio_ o cualquier otro en el que se sientan cómodos. El tipo de visualización debe apoyar su intención narrativa. En el caso de _Google Data Studio_, no es lo mismo usar “Bubble map” a “Filled map”, esta elección debe ser coherente a lo que quieren contar.
-3. Acompañar el mapa con un texto corto (máximo 1 párrafo) donde resumen lo que quieren contar con el mapa. Pueden usar este texto para abrir preguntas o esbozar conclusiones de lo que vemos en el mapa. (ver los textos en el tutorial para tener una guía de posibles formas en que pueden redactar este texto)
+- Utilizando la base de datos “poblacion-curso.csv” identificar una historia que desean contar sobre la población del curso. Recuerden que la definición de la narrativa es un ejercicio creativo, ¿Qué creen que es valioso contar sobre esta población en particular?
+- Según su intención narrativa, crear un mapa utilizando cualquier software de visualización. Puede ser _Google Data Studio_ o cualquier otro en el que se sientan cómodos. El tipo de visualización debe apoyar su intención narrativa. En el caso de _Google Data Studio_, no es lo mismo usar “Bubble map” a “Filled map”, esta elección debe ser coherente a lo que quieren contar.
+- Acompañar el mapa con un texto corto (máximo 1 párrafo) donde resumen lo que quieren contar con el mapa. Pueden usar este texto para abrir preguntas o esbozar conclusiones de lo que vemos en el mapa. (ver los textos en el tutorial para tener una guía de posibles formas en que pueden redactar este texto)
