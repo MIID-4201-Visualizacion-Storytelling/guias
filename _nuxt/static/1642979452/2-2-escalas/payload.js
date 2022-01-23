@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/2-2-escalas", (function(a){return {data:[{page:{slug:"2-2-escalas",description:"...",title:"Escalas",toc:[],body:{type:"root",children:[]},dir:"\u002F",path:"\u002F2-2-escalas",extension:".md",createdAt:a,updatedAt:a}}],fetch:{},mutations:void 0}}("2022-01-23T23:10:15.436Z")));
