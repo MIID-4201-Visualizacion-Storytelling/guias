@@ -102,7 +102,7 @@ Hagamos un paso a paso para construir el mapa de "Figura 1", pueden ver el sigui
 
 Cuando insertan un mapa a _Google Data Studio_, lo más probable es que les salga el siguiente error:
 
-<img src="/vysimgs/gds-error-mapa.jpg" alt="Error al cargar mapa en Google Data Studio" />
+<img src="/vysimgs/gds-error-mapa.JPG" alt="Error al cargar mapa en Google Data Studio" />
 
 No se preocupen que primero debemos definir los campos para que funcione el mapa.
 
@@ -110,11 +110,11 @@ No se preocupen que primero debemos definir los campos para que funcione el mapa
 5. Para este ejemplo, "Location" van a ser las ciudades porque estamos haciendo el mapa de burbujas. _Si estuviéramos creando los mapas de las figuras 2 y 3, este campo sería "País" ya que corresponde a las zonas que queremos rellenar en el mapa._
 6. Luego hacen clic en el botón para editar el campo que se encuentra justo a la izquierda (resaltado en la siguiente imágen)
 
-<img src="/vysimgs/gds-location.jpg" alt="Campo Location en Google Data Studio" />
+<img src="/vysimgs/gds-location.JPG" alt="Campo Location en Google Data Studio" />
 
 7. Ir a la sección "Type" -> "Geo" y seleccionar la opción "City". _Noten que debemos ser específicos con el tipo de datos, si estuviéramos usando el campo de país, el tipo que definimos en este paso sería "Country"._
 
-<img src="/vysimgs/gds-geo-ciudad.jpg" alt="Campo City en Google Data Studio" />
+<img src="/vysimgs/gds-geo-ciudad.JPG" alt="Campo City en Google Data Studio" />
 
 8. De vuelta en "Fields" debemos definir el campo "Size" y opcionalmente el de "Color dimension", en ambos casos voy a usar el campo "País" para definir estos parámetros.
 
