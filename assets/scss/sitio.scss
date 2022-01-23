@@ -223,3 +223,37 @@ td {
   margin: 0;
   height: 80vh;
 }
+
+blockquote {
+  background-color: #dddddd;
+  font-size: 0.8em;
+
+  p {
+    padding: 1em;
+  }
+}
+
+.iframe-container {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  padding-top: 66.66%; /* 16:9 Aspect Ratio (divide 9 by 16 = 0.5625) */
+
+  iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+  }
+}
+
+.historia {
+  font-size: 1.2em;
+  background-color: #e7e057b6;
+  font-weight: bold;
+  padding: 1em;
+  margin: 1em 3em;
+}

@@ -19,8 +19,6 @@ La visualización es clave en cualquiera de estos casos ya que nos ayuda a compr
 
 Veamos un ejemplo sencillo:
 
-En este segundo ejemplo, reconocemos que los datos que muestra la visualización se tratan de un modelo predictivo sobre el coronavirus, ya que hay un contexto escrito. Para terminar de acceder a lo que la gráfica puede decir, debemos tener un conocimiento previo.
-
 ### A nosotros mismos <span class="material-icons subtitle-icon">brightness_1</span>
 
 <img src="/vysimgs/viz-sin-contexto.png" alt="Visualización sin contexto" />
@@ -36,13 +34,11 @@ Si nuestra audiencia somos nosotros mismos, quiere decir que conocemos de antema
 
 <img src="/vysimgs/forecast.jpg" alt="Visualización con contexto" />
 
-```md
-fuente:
-"How can we predict the number of future COVID-19 hospital admissions?"
-Oct 27, 2021
-Jocelyn Solis-Moreira
-https://www.news-medical.net/news/20211027/How-can-we-predict-the-number-of-future-COVID-19-hospital-admissions.aspx
-```
+> **Figura 2**  
+> _"How can we predict the number of future COVID-19 hospital admissions?"_  
+> Oct 27, 2021  
+> Jocelyn Solis-Moreira  
+> https://www.news-medical.net/news/20211027/How-can-we-predict-the-number-of-future-COVID-19-hospital-admissions.aspx
 
 En el segundo caso, le damos las pistas suficientes a un público especializado. Podemos asumir que estas personas tienen la capacidad de descifrar la información en la visualización porque tienen experiencia previa que les ayuda a discernir en detalle lo que aquí se muestra. La diferencia con la anterior es que hay un contexto escrito que nos indica claramente que estas visualizaciones representan un modelo predictivo.
 
@@ -57,21 +53,19 @@ En el segundo caso, le damos las pistas suficientes a un público especializado.
 
 _Gráfica interactiva - pueden mover el cursor por la gráfica_
 
-**Death Outlook**  
+**Death Outlook**
 **Covid-19 deaths by week forecast to drop in April**
 
 <iframe src="https://www.bloomberg.com/toaster/v2/charts/56a0525be5e440cf8c42716bcb746aad.html?brand=politics&webTheme=politics&web=true&hideTitles=true" frameborder="0" scrolling="no" height="270" width="600"></iframe>
 
-_Source: Covid-19 Forecast Hub ensemble forecast from Reich Lab of the University of Massachusetts Amherst_  
+_Source: Covid-19 Forecast Hub ensemble forecast from Reich Lab of the University of Massachusetts Amherst_
 _Note: Past weeks' data is based on Johns Hopkins University data_
 
-```md
-fuente:
-"Covid-19 Death Forecast Drops as Pandemic Indicators Improve"
-Mar 9, 2021
-Nic Querolo
-https://www.bloomberg.com/news/articles/2021-03-09/covid-19-death-forecast-drops-as-pandemic-indicators-improve
-```
+> **Figura 3**  
+> _"Covid-19 Death Forecast Drops as Pandemic Indicators Improve"_  
+> Mar 9, 2021  
+> Nic Querolo  
+> https://www.bloomberg.com/news/articles/2021-03-09/covid-19-death-forecast-drops-as-pandemic-indicators-improve
 
 En el tercer caso, nuestra audiencia es variada y nos sabemos exactamente lo que saben previamente. Lo que sí podemos asumir es una capacidad innata para reconocer patrones en una imagen, pero no necesariamente cómo leerla. Esto no quiere decir que debemos subestimar la inteligencia del espectador, pero sí debemos proveer más pistas que contextualizan y construyen un relato.
 
@@ -98,3 +92,7 @@ Deberíamos siempre apuntar a las exigencias y rigor que nos demanda narrar al p
 | No necesita contexto, nosotros lo conocemos.                                                              | El contexto puede ser mínimo, ya que la audiencia lo conoce previamente. | Debemos construir un relato contextualizado para proveer al espectador los elementos que le puedan faltar. |
 
 En la siguiente sección van a encontrar un pequeño examen automatizado que pondrá a prueba lo que acaban de aprender.
+
+```
+
+```
