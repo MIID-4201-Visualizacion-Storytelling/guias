@@ -3,6 +3,8 @@ title: Escalas
 description: '...'
 ---
 
+<span class="material-icons title-icon">line_weight</span>
+
 ## Introducción
 
 Una de las más importantes propiedades de nuestras visualizaciones va a ser los cambios de escala en las formas abstractas que utilizamos para describir las diferencias entre cada instancia de los datos. Visualmente decimos que X es mayor que Y mostrando cambios de escala entre dos formas similares entre sí.
