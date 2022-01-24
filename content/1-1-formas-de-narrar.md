@@ -67,9 +67,9 @@ _Note: Past weeks' data is based on Johns Hopkins University data_
 > Nic Querolo  
 > https://www.bloomberg.com/news/articles/2021-03-09/covid-19-death-forecast-drops-as-pandemic-indicators-improve
 
-En el tercer caso, nuestra audiencia es variada y nos sabemos exactamente lo que saben previamente. Lo que sí podemos asumir es una capacidad innata para reconocer patrones en una imagen, pero no necesariamente cómo leerla. Esto no quiere decir que debemos subestimar la inteligencia del espectador, pero sí debemos proveer más pistas que contextualizan y construyen un relato.
+En el tercer caso, nuestra audiencia es variada y no sabemos exactamente lo que saben previamente. Lo que sí podemos asumir es una capacidad innata para reconocer patrones en una imagen, pero no necesariamente cómo leerla. Esto no quiere decir que debemos subestimar la inteligencia del espectador, pero sí debemos proveer más pistas que contextualizan y construyen un relato.
 
-En este caso, pueden ver cómo hay una estructura clásica de narración: inicio, nudo y desenlace. El inicio es el título, nos define una situación _(predicción de posibles muertes por COVID-19)_, personajes _(sus habitantes representados en miles de personas)_ y contexto _(pandemia)_ específico de lo que sucede en sus vidas. El nudo es la presentación de un problema que está en la visualización misma: hay un incremento de casos en febrero representado por la línea negra. El desenlace de la historia lo cuentan las líneas roja y amarilla: la roja nos dice que el modelo viene funcionando ya que conserva el patrón de casos, la línea amarilla es el modelo en acción y predice que entre marzo y abril se van a reducir considerablemente.
+En este caso, pueden ver cómo hay una estructura clásica de narración: inicio, nudo y desenlace. El inicio es el título, nos define una situación _(predicción de posibles muertes por COVID-19)_, personajes _(sus habitantes representados en miles de personas)_ y contexto _(pandemia)_ específico de lo que sucede en sus vidas. El nudo es la presentación de un problema que está en la visualización misma: hay un incremento de casos en febrero representado por la línea negra. El desenlace de la historia lo cuentan las líneas roja y amarilla: la roja nos dice que el modelo viene funcionando, ya que conserva el patrón de casos, la línea amarilla es el modelo en acción y predice que entre marzo y abril se van a reducir considerablemente.
 
 Este relato no lo cuenta claramente la gráfica y adquiere un sentido puntual gracias a que el espectador tiene todos los elementos para comprender la historia: lugar, personajes, contexto, nudo y desenlace.
 
@@ -92,7 +92,3 @@ Deberíamos siempre apuntar a las exigencias y rigor que nos demanda narrar al p
 | No necesita contexto, nosotros lo conocemos.                                                              | El contexto puede ser mínimo, ya que la audiencia lo conoce previamente. | Debemos construir un relato contextualizado para proveer al espectador los elementos que le puedan faltar. |
 
 En la siguiente sección van a encontrar un pequeño examen automatizado que pondrá a prueba lo que acaban de aprender.
-
-```
-
-```
