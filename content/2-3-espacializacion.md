@@ -43,12 +43,12 @@ En _Google Data Studio_ tenemos 2 opciones de mapa: “Mapa con burbujas” (Bub
 </div>
 
 <div class="iframe-container">
-  <iframe width="600" height="400"  src="https://datastudio.google.com/embed/reporting/5f73d237-b16e-4e8f-bec2-ce9d26bded05/page/p_8gw5qxqirc" frameborder="0" style="border:0" allowfullscreen></iframe>
+  <iframe width="600" height="400" src="https://datastudio.google.com/embed/reporting/e77160bf-581c-4956-94de-6d324a73736c/page/p_8gw5qxqirc" frameborder="0" style="border:0" allowfullscreen></iframe>
 </div>
 
 > **Figura 1**  
 > _Número de estudiantes por ciudad_  
-> https://datastudio.google.com/reporting/5f73d237-b16e-4e8f-bec2-ce9d26bded05
+> https://datastudio.google.com/s/hal2cV91mPk
 
 Lo que quiero narrar en este mapa tiene que ver con el número de estudiantes por ciudad. Hay 2 elementos específicos que necesito revelar en el mapa: Cáda una de las ciudades donde viven los estudiantes y el número de estudiantes ubicados allí. Los globos son útiles para identificar visualmente la ubicación geográfica (posición), diferentes países (color) y la cantidad de estudiantes (escala).
 
