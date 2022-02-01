@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/2-4-movimiento", (function(a){return {data:[{page:{slug:"2-4-movimiento",description:"...",title:"Movimiento",toc:[],body:{type:"root",children:[]},dir:"\u002F",path:"\u002F2-4-movimiento",extension:".md",createdAt:a,updatedAt:a}}],fetch:{},mutations:void 0}}("2022-02-01T13:09:50.931Z")));
