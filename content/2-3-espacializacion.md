@@ -42,13 +42,11 @@ En _Google Data Studio_ tenemos 2 opciones de mapa: “Mapa con burbujas” (Bub
   <p>La virtualidad durante la pandemia ha sido agotadora y los estudiantes quieren tener algunos encuentros presenciales. En este mapa podemos ver que solamente los estudiantes que viven en Bogotá tienen la posibilidad de encontrarse para tomarse un café y trabajar en su proyecto de manera presencial.<p>
 </div>
 
-<div class="iframe-container">
-  <iframe width="600" height="400" src="https://datastudio.google.com/embed/reporting/e77160bf-581c-4956-94de-6d324a73736c/page/p_8gw5qxqirc" frameborder="0" style="border:0" allowfullscreen></iframe>
-</div>
+<a href="https://datastudio.google.com/u/0/reporting/f5fe7209-3471-4bb9-a60d-8e75691da34e/page/EVtkC" target="_blank"><img src="/vysimgs/VYS_-_2.3.1_Número_de_estudiantes_por_ciudad.jpg" alt="Número_de_estudiantes_por_ciudad" /></a>
 
 > **Figura 1**  
 > _Número de estudiantes por ciudad_  
-> https://datastudio.google.com/s/hal2cV91mPk
+> Para ver el reporte interactivo, ir a: https://datastudio.google.com/reporting/f5fe7209-3471-4bb9-a60d-8e75691da34e
 
 Lo que quiero narrar en este mapa tiene que ver con el número de estudiantes por ciudad. Hay 2 elementos específicos que necesito revelar en el mapa: Cada una de las ciudades donde viven los estudiantes y el número de estudiantes ubicados allí. Los globos son útiles para identificar visualmente la ubicación geográfica (posición), diferentes países (color) y la cantidad de estudiantes (escala).
 
