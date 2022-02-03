@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/3-3-visualizar-refinar", (function(a){return {data:[{page:{slug:"3-3-visualizar-refinar",description:"...",title:"Visualizar y Refinar",toc:[],body:{type:"root",children:[]},dir:"\u002F",path:"\u002F3-3-visualizar-refinar",extension:".md",createdAt:a,updatedAt:a}}],fetch:{},mutations:void 0}}("2022-02-03T21:57:12.287Z")));

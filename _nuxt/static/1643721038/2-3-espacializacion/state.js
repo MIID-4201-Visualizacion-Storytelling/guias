@@ -1,1 +1,0 @@
-window.__NUXT__=(function(a){return {staticAssetsBase:"\u002Fguias\u002F_nuxt\u002Fstatic\u002F1643721038",layout:"default",error:a,serverRendered:true,routePath:"\u002F2-3-espacializacion",config:{_app:{basePath:"\u002Fguias\u002F",assetsPath:"\u002Fguias\u002F_nuxt\u002F",cdnURL:a},content:{dbHash:"cd01636e"}}}}(null));
