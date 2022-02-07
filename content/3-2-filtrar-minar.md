@@ -13,11 +13,11 @@ El proceso de filtrar los datos es un proceso intelectual en el que atendemos nu
 
 ### Ejercicio
 
-Para atender la pregunta que formulaba antes -¿qué pasa si quisiéramos comparar esos salarios de manera global?- tenemos que decidir una sola moneda base. En el siguiente ejercicio vamos a convertir el salario anual (_Annual salary_) a pesos colombianos. Primero tenemos que revisar la moneda que describe cada _"Annual Salary"_ usando la variable _"Currency"_ y multiplicamos el valor de _"Annual Salary"_ por la tasa de cambio (TRM).
+Para atender la pregunta que formulaba antes -¿qué pasa si quisiéramos comparar esos salarios de manera global?- tenemos que decidir una sola moneda base. En el siguiente ejercicio vamos a convertir el salario anual (_Annual Salary_) a pesos colombianos. Primero tenemos que revisar la moneda que describe cada _Annual Salary_ usando la variable _Currency_ y multiplicamos el valor de _Annual Salary_ por la tasa de cambio (TRM).
 
 Si se sienten cómodos creando fórmulas en Excel, pueden crear una nueva columna directamente en la base de datos. Acá les voy a mostrar cómo crear una nueva variable desde _Google Data Studio_:
 
-Seleccionan **“ADD A FIELD”**, luego le dan un nombre a su variable, en mi caso la voy a llamar “Salarios (pesos colombianos)” y agregamos la fórmula para nuestro nuevo campo usando la condicional CASE (pueden leer más sobre las posibles condicionales en https://support.google.com/datastudio/topic/10490726?hl=en&ref_topic=7019880):
+Seleccionan **“ADD A FIELD”**, luego le dan un nombre a su variable, en mi caso la voy a llamar “Salarios (pesos colombianos)” y agregamos la fórmula para nuestro nuevo campo usando la condicional `CASE` (pueden leer más sobre las posibles condicionales en https://support.google.com/datastudio/topic/10490726?hl=en&ref_topic=7019880):
 
 ```sql
 CASE
@@ -36,7 +36,7 @@ La fórmula en este caso hace lo siguiente:
 - Primero revisa el tipo de moneda `WHEN Currency = “…”`
 - Si es verdadero, multiplica el valor de `Anunal salary` por la tasa TRM _(valores extraídos manualmente de <a href="https://www.xe.com/currencyconverter/" target="_blank">Xe Live Exchange Rates</a>)_ a pesos colombianos `THEN Annual salary * {TRM}`.
 
-La fórmula anterior no contiene todas la monedas que se encuentran en la base de datos, y ustedes deben completar el resto. Acá les dejo la lista completa: **USD, CAD, GBP, EUR, AUD/NZD, CHF, SEK, JPY, ZAR, HKD**, _Other_. Para este ejercicio pueden omitir los de “Other” para que no se queden mucho tiempo creando esta fórmula, pero si la quieren hacer, pueden replicar la última parte de la fórmula:
+La fórmula anterior no contiene todas la monedas que se encuentran en la base de datos, y ustedes deben completar el resto. Acá les dejo la lista completa: **USD, CAD, GBP, EUR, AUD/NZD, CHF, SEK, JPY, ZAR, HKD, _Other_**. Para este ejercicio pueden omitir los de _Other_ para que no se queden mucho tiempo creando esta fórmula, pero si la quieren hacer, pueden replicar la última parte de la fórmula:
 
 ```sql
 WHEN Currency = "Other" AND Currency - other = "USD" THEN Annual salary * 3956.54

@@ -101,12 +101,11 @@ La base de datos con la que estamos trabajando esta semana es un ejemplo típico
 
 Si revisamos el <a href="https://www.askamanager.org/2021/04/how-much-money-do-you-make-4.html" target="_blank">formulario</a> desde el cual se capturan los datos, vamos a ver que hay varios campos de texto libre como **“Country”**. Esto produce resultados como el siguiente mapa:
 
-<div class="iframe-container">
-  <iframe width="600" height="400" src="https://datastudio.google.com/embed/reporting/369461f0-a5e7-4593-bf70-1d747e3ffc6c/page/7c6kC" frameborder="0" style="border:0" allowfullscreen></iframe>
-</div>
+<img src="/vysimgs/mapa-sin-limpiar.png">
 
 > **Figura 9**  
 > _Nombres y descripciones en Google Data Studio_
+> Para ver el reporte interactivo ir a: https://datastudio.google.com/reporting/369461f0-a5e7-4593-bf70-1d747e3ffc6c
 
 **¡Es un desastre! ¿Cuántas instancias diferentes hay de Estados Unidos?** Hay muchas formas de escribir el nombre de un país y nuestra aplicación simplemente no las reconoce como uno solo.
 
@@ -115,7 +114,7 @@ Para limpiar los datos tienen dos opciones:
 - **Limpieza manual**: Directamente en Excel o Google Sheets, pueden elegir una única forma de escribir el nombre de un país, buscar todas las otras y reemplazarlas por la que eligieron. Esto puede ser un proceso tedioso y poco productivo si queremos actualizar los datos en el futuro.
 - **Limpieza con “scripts”**: En este caso debemos usar programación para automatizar la limpieza, implica siempre el reto de crear las fórmulas y probarlas detenidamente, pero una vez tenemos esto, actualizar los datos es automático y efectivo para un proyecto.
 
-Para este ejercicio pueden elegir la opción que más les convenga, ya que estamos trabajando sobre datos estáticos que no van a cambiar en el futuro. Pero les voy a mostrar cómo crear un script para limpiar país en Google Data Studio:
+Para este ejercicio pueden elegir la opción que más les convenga, ya que estamos trabajando sobre datos estáticos que no van a cambiar en el futuro. Pero les voy a mostrar cómo crear un script para limpiar país en _Google Data Studio_:
 
 Pueden ver el siguiente video para el paso a paso, también está escrito después del video:
 
@@ -144,7 +143,7 @@ Veamos parte por parte lo que está haciendo la fórmula:
 
 - `CASE` abre la función y `END` la cierra.
 - Entre `WHEN` e `IN` seleccionamos la variable que queremos revisar que es **“País- Sucio”**.
-- La variable **“País - Sucio”** la estoy transformando antes de compararla usando las funciones `TRIM()` y `LOWER()`. `TRIM()` borra espacios al principio y al final del texto, un problema común en campos de texto manuales como este. `LOWER()` por otro lado, convierte todas las mayúsculas en minúsculas, para no tener que revisar tantas versiones del mismo texto. Por ejemplo, si no usamos `LOWER()`, el texto _“United States”_ es diferente a _“united states”_, pero usando la función LOWER(), ambos son iguales y nos ahorramos mucho trabajo manual.
+- La variable **“País - Sucio”** la estoy transformando antes de compararla usando las funciones `TRIM()` y `LOWER()`. `TRIM()` borra espacios al principio y al final del texto, un problema común en campos de texto manuales como este. `LOWER()` por otro lado, convierte todas las mayúsculas en minúsculas, para no tener que revisar tantas versiones del mismo texto. Por ejemplo, si no usamos `LOWER()`, el texto _“United States”_ es diferente a _“united states”_, pero usando la función `LOWER()`, ambos son iguales y nos ahorramos mucho trabajo manual.
 - Teniendo en cuenta que transformamos el texto a minúsculas, podemos poner entre los paréntesis todas las versiones que significan lo mismo en minúsculas y no como están escritas en la base de datos.
 - Luego de poner todas las versiones en las que está escrito el nombre de un país en la base de datos, concluimos la transformación escribiendo la versión que nosotros queremos usar después del `THEN`.
 - Cuando terminen su fórmula, recuerden hacer clic en el botón **“UPDATE”** para guardar los cambios.
