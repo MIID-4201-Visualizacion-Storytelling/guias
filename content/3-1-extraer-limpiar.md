@@ -101,12 +101,11 @@ La base de datos con la que estamos trabajando esta semana es un ejemplo típico
 
 Si revisamos el <a href="https://www.askamanager.org/2021/04/how-much-money-do-you-make-4.html" target="_blank">formulario</a> desde el cual se capturan los datos, vamos a ver que hay varios campos de texto libre como **“Country”**. Esto produce resultados como el siguiente mapa:
 
-<div class="iframe-container">
-  <iframe width="600" height="400" src="https://datastudio.google.com/embed/reporting/369461f0-a5e7-4593-bf70-1d747e3ffc6c/page/7c6kC" frameborder="0" style="border:0" allowfullscreen></iframe>
-</div>
+<img src="/vysimgs/mapa-sin-limpiar.png">
 
 > **Figura 9**  
 > _Nombres y descripciones en Google Data Studio_
+> Para ver el reporte interactivo ir a: https://datastudio.google.com/reporting/369461f0-a5e7-4593-bf70-1d747e3ffc6c
 
 **¡Es un desastre! ¿Cuántas instancias diferentes hay de Estados Unidos?** Hay muchas formas de escribir el nombre de un país y nuestra aplicación simplemente no las reconoce como uno solo.
 
