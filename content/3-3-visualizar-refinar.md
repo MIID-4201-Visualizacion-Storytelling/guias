@@ -14,7 +14,7 @@ En Google Data Studio, este proceso es muy sencillo:
 <img src="/vysimgs/gds-graficas.jpg" alt="Nueva gráfica" />
 
 > **Figura 1**  
-> _Agregear gráfica a espacio de trabajo en Google Data Studio_
+> _Agregar gráfica a espacio de trabajo en Google Data Studio_
 
 - Google Data Studio reconoce los tipos de datos que ustedes definieron y hace un intento por conectar las variables más relevantes al tipo de gráfica elegida. Si seleccionan alguna de las opciones de Google Maps, la aplicación conecta automáticamente las variables de georeferencia que definieron en el modelado.
 
@@ -40,6 +40,6 @@ El proceso de modelado nos permite acotar y refinar las posibilidades que tienen
 - El modelado, que como hemos visto esta semana es un proceso reiterativo entre formular preguntas -> crear nuevas variables -> visualizar y refinar el modelado, reduce aún más aquello que vamos a resaltar del fenómeno original.
 - Por último, el storytelling, es decir, las narraciones más allá de nosotros mismos, pretende contar específicamente algo del fenómeno original. Es como pasar los datos por un embudo que va reduciendo, discriminando y precisando aquello que nos parece relevante contar.
 
-Este proceso de reducción no es necesariamente negativo. Es un error pensar que las visualizaciones deberían contar todo lo que es un fenómeno en su estado natural, pues los datos (incluso crudos) son una reducción del fenómeno. Los procesos de visualización, hasta llegar al storytelling, nos ayudan a entender aspectos del fenómeno original, ya que usualmente este es demasiado complejos para entenderlo sin ninguna ayuda.
+Este proceso de reducción no es necesariamente negativo. Es un error pensar que las visualizaciones deberían contar todo lo que es un fenómeno en su estado natural, pues los datos (incluso crudos) son una reducción del fenómeno. Los procesos de visualización, hasta llegar al storytelling, nos ayudan a entender aspectos del fenómeno original, ya que usualmente este es demasiado complejo para entenderlo sin ninguna ayuda.
 
 _Si quieren ampliar un poco sobre la diferencia entre los fenómenos y la visualización, les recomiendo la lectura de "Data Visualization as New Abstraction and Anti-sublime" (2002) de Lev Manovich: http://manovich.net/index.php/projects/data-visualisation-as-new-abstraction-and-anti-sublime_
