@@ -117,7 +117,7 @@ Es lo que hace _Google Data Studio_ cuando define nuestras variables iniciales e
 
 <img src="/vysimgs/modelado-source.jpg" alt="Fuentes de datos" />
 
-> **Figura 4**  
+> **Figura 5**  
 > _Variables disponibles en la fuente de datos dentro de Google Data Studio_
 
 La última parte del código:
