@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/4-2-herramienta-propia", (function(a){return {data:[{page:{slug:"4-2-herramienta-propia",description:"...",title:"Herramienta Propia",toc:[],body:{type:"root",children:[]},dir:"\u002F",path:"\u002F4-2-herramienta-propia",extension:".md",createdAt:a,updatedAt:a}}],fetch:{},mutations:void 0}}("2022-02-08T02:23:08.397Z")));
