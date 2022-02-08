@@ -256,4 +256,40 @@ blockquote {
   font-weight: bold;
   padding: 1em;
   margin: 1em 3em;
+  color: rgb(60, 109, 165);
+}
+
+#api {
+  display: inline-block;
+  background-color: #353e50;
+  color: white;
+  padding: 1em;
+
+  .icono {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 5px;
+    text-align: center;
+    p {
+      margin: 0;
+      max-width: 80px;
+      line-height: 1;
+    }
+  }
+
+  .material-icons {
+    font-size: 2.2em;
+    color: #d4dcec;
+
+    &.servicio {
+      font-size: 3em;
+      color: #cddfe7;
+    }
+  }
+
+  .texto {
+    border: 1px solid #ecebca;
+    padding: 0.5em;
+    border-radius: 5px;
+  }
 }
