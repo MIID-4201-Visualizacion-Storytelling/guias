@@ -21,8 +21,8 @@ Ahora sí entremos en asunto. En este tutorial vamos a trabajar en la primera fa
 
 En el momento de decidir nuestra fuente de datos para análisis y visualización tenemos dos tipos de fuentes disponibles:
 
-1. **Datos estáticos** que están alojados en un archivo (.csv, .json, .xls, etc.) o en una base de datos. En este caso podemos ver la estructura y los datos completos.
-2. **Datos dinámicos** que extremos por medio de una aplicación (API, sensores o aplicaciones con cálculos matemáticos en tiempo real). En este tipo de fuente podemos reconocer la estructura inicial de los datos y una muestra de los que produce la aplicación, pero no conocemos todos los datos de manera anticipada como en el caso anterior.
+1. **Datos estáticos**: que están alojados en un archivo (.csv, .json, .xls, etc.) o en una base de datos. En este caso podemos ver la estructura y los datos completos.
+2. **Datos dinámicos**: que extraemos por medio de una aplicación (API, sensores o aplicaciones con cálculos matemáticos en tiempo real). En este tipo de fuente podemos reconocer la estructura inicial de los datos y una muestra de los que produce la aplicación, pero no conocemos todos los datos de manera anticipada como en el caso anterior.
 
 En ambos, la primera aproximación a los datos la hacemos estudiando su estructura original y nuestro primer trabajo es definir el tipo de datos que le corresponde a cada variable. Observar la estructura es apenas una mirada parcial y opaca de las potencias que tiene la base de datos, pero es un paso importante para investigarlos.
 
