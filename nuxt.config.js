@@ -69,6 +69,11 @@ export default {
     extendParser: {
       '.md': customMarkdownParser,
     },
+    markdown: {
+      prism: {
+        theme: 'prism-themes/themes/prism-coldark-dark.css',
+      },
+    },
   },
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
