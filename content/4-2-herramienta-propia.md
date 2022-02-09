@@ -7,9 +7,7 @@ description: '...'
 
 En este tutorial van a crear la siguiente aplicación que muestra, en tiempo real, las fluctuaciones en precio de varias criptomonedas:
 
-<div class="iframe-container">
-  <iframe width="600" height="450" src="https://precios-criptomonedas-funcional.1cgonza.repl.co/" frameborder="0" style="border:0"></iframe>
-</div>
+<iframe width="850" height="750" src="https://precios-criptomonedas-funcional.1cgonza.repl.co/" frameborder="0" style="border:0"></iframe>
 
 > **Figura 1**  
 > _Cambio de precios en criptomonedas_
