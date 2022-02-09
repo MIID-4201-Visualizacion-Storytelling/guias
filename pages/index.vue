@@ -11,9 +11,6 @@
     <p><NuxtLink to="2-1-forma-y-color">2.1 Forma y Color</NuxtLink></p>
     <p><NuxtLink to="2-2-escalas">2.2 Escalas</NuxtLink></p>
     <p><NuxtLink to="2-3-espacializacion">2.3 Espacialización</NuxtLink></p>
-    <p><NuxtLink to="2-4-movimiento">2.4 Movimiento</NuxtLink></p>
-    <p><NuxtLink to="2-5-interaccion">2.5 Interacción</NuxtLink></p>
-    <p><NuxtLink to="2-6-ensamblaje">2.6 Ensamblaje en Dashboard</NuxtLink></p>
 
     <h2>Semana 3</h2>
     <p><NuxtLink to="3-1-extraer-limpiar">3.1 Extraer y Limpiar</NuxtLink></p>
