@@ -50,11 +50,11 @@ Ahora hagan clic en el botón verde “Run” para ver la plantilla en su estado
 > **Figura 4**  
 > _Aplicación corriendo dentro de Replit_
 
-Está bastante vacía, apenas tenemos algunos campos de texto y pueden ver que algunos de esos textos cambian de manera dinámica. A pesar de la apariencia escueta que tiene la aplicación en este momento, ya están sucediendo bastantes cosas internamente: tenemos un esqueleto de las secciones que vamos a crear en el archivo “index.html”, también tenemos un archivo para definir estilos que se llama “style.css” y en el archivo “scripts.js” tenemos ya funcionando la conexión a la API con WebSockets y unas bases de modelado. Primero veamos como editar la estructura en HTML.
+Está bastante vacía, apenas tenemos unos cuantos campos de texto y pueden ver que algunos de esos textos cambian de manera dinámica. A pesar de la apariencia escueta que tiene la aplicación en este momento, ya están sucediendo bastantes cosas internamente: tenemos un esqueleto de las secciones que vamos a crear en el archivo “index.html”, también tenemos un archivo para definir estilos que se llama “style.css” y en el archivo “scripts.js” tenemos ya funcionando la conexión a la API con WebSockets y unas bases de modelado. Primero veamos cómo editar la estructura en HTML.
 
 ### HTML
 
-El archivo de HTML en una aplicación web es la estructura del sitio y está dividido en dos secciones principales: `head` y `body`. En el head tenemos metadatos y cargamos archivos necesarios como el de “style.css”. Lo que esta en esta sección no se ve en la página, mientras que todo lo que esta dentro de body si se ve en la página así que nos vamos a enfocar en lo que esta dentro de `body`.
+El archivo de HTML en una aplicación web es la estructura del sitio y está dividido en dos secciones principales: `head` y `body`. En el `head` tenemos metadatos y cargamos archivos necesarios como el de “style.css”. Lo que hay en esta sección no se ve en la página, mientras que todo lo que está dentro de body sí se ve, así que nos vamos a enfocar en lo que se encuentra dentro de `body`.
 
 Todo en HTML funciona por bloques, por ejemplo:
 
@@ -68,19 +68,19 @@ Todo en HTML funciona por bloques, por ejemplo:
 </div>
 ```
 
-El orden en el que ponen cada bloque es importante, ya que la página se construye de arriba abajo. Como pueden ver, el "Título 1" está de primero y es lo primero que se ve en la página. Ahora, cambien el contenido de `<h1></h1>` y le dan clic al botón “Run” de nuevo para ver sus cambios en el visor. Escriban lo que quieran, luego van a usar este bloque para ponerle un título a su aplicación.
+El orden en el que ponen cada bloque es importante, ya que la página se construye de arriba hacia abajo. Como pueden ver, el "Título 1" está de primero y es lo primero que se ve en la página. Ahora, cambien el contenido de `<h1></h1>` y denle clic al botón “Run” de nuevo para ver sus cambios en el visor. Escriban lo que quieran, luego van a usar este bloque para ponerle un título a su aplicación.
 
 ```html
-<h1 id="titulo">HOLA! Yo soy el título</h1>
+<h1 id="titulo">¡HOLA! Yo soy el título</h1>
 ```
 
-En este archivo quiero que editen el Título y más abajo van a encontrar una sección llamada "descripción". Allí van a reemplazar los textos que dicen "Párrafo 1 ...." y "Parrafo 2 ....." con el texto descriptivo que van a redactar cuando terminen de crear su aplicación. Esto lo pueden hacer al final cuando entiendan mejor cómo funciona la visualización.
+En este archivo quiero que editen el Título y más abajo van a encontrar una sección llamada "Descripción". Allí van a reemplazar los textos que dicen "Párrafo 1 ...." y "Parrafo 2 ....." con el texto descriptivo que van a redactar cuando terminen de crear su aplicación. Esto lo pueden hacer al final, cuando entiendan mejor cómo funciona la visualización.
 
 Si quieren ampliar sobre conceptos de HTML, les recomiendo los tutoriales de <a href="https://www.w3schools.com/html/" target="_blank">W3School HTML Tutorial</a>.
 
 ### CSS
 
-Esta semana no vamos a hacer mucho énfasis en el diseño, pero el archivo de "styles.css" les permite modificar los estilos de todos los elementos que tienen en el HTML. La sintaxis es un poco diferente a la de HTML y pueden investigar todas las opciones de diseño en <a href="https://www.w3schools.com/css/default.asp" target="_blank">W3School CSS Tutorial</a>. Les dejé en la plantilla una estructura muy sencilla si quieren trabajar en el diseño aunque no lo tienen que hacer para esta semana. A continuación les muestro como hacer unos cambios al estilo para que se hagan a una idea general:
+Esta semana no vamos a hacer mucho énfasis en el diseño, pero el archivo de "styles.css" les permite modificar los estilos de todos los elementos que tienen en el HTML. La sintaxis es un poco diferente a la de HTML y pueden investigar todas las opciones de diseño en <a href="https://www.w3schools.com/css/default.asp" target="_blank">W3School CSS Tutorial</a>. Les dejé en la plantilla una estructura muy sencilla si quieren trabajar en el diseño, aunque no lo tienen que hacer para esta semana. A continuación les muestro cómo hacer unos cambios al estilo para que tengan una idea general:
 
 ```css
 #titulo {
@@ -111,7 +111,7 @@ En el JavaScript vamos a hacer 3 cosas que vienen haciendo en _Google Data Studi
 
 #### Conexión con datos en tiempo real
 
-En el tutorial anterior vimos como conectarse a la API de _CoinCap_ por el protocolo de WebSockets con la siguiente estructura:
+En el tutorial anterior vimos cómo conectarse a la API de _CoinCap_ por el protocolo de WebSockets con la siguiente estructura:
 
 ```js
 // Conectammos nuestra aplicación al API de coincap.
@@ -132,7 +132,7 @@ function procesarNuevoMensaje(mensaje) {
 
 #### Estructura para modelado de datos
 
-La semana pasada vimos como limpiar y modelar los datos por medio de scripts en _Google Data Studio_. Este proceso nos ayudó a convertir la estructura original de los datos a una nueva estructura que tiene sentido para nuestra investigación. En el caso de _CoinCap_, estamos conectados a la API para que nos envíe datos en el momento que cambia el precio de alguna criptomoneda que nos interesa. La estructura original que nos llega es simplemente el nombre de la moneda y su valor actual que se ve así en formato JSON:
+La semana pasada vimos cómo limpiar y modelar los datos por medio de scripts en _Google Data Studio_. Este proceso nos ayudó a convertir la estructura original de los datos a una nueva estructura que tiene sentido para nuestra investigación. En el caso de _CoinCap_, estamos conectados a la API para que nos envíe datos en el momento que cambia el precio de alguna criptomoneda que nos interesa. La estructura original que nos llega es simplemente el nombre de la moneda y su valor actual que se ve así en formato JSON:
 
 ```json
 {
@@ -158,7 +158,7 @@ En esta lista (o array), creamos un objeto por cada una de las criptomonedas que
 
 #### Procesamiento y modelado de los datos
 
-Volamos ahora a la función donde recibimos mensajes nuevos de la API para introducirlos a la estructura que definimos en el modelo `const monedas = [...]` anteriormente:
+Volvamos ahora a la función donde recibimos mensajes nuevos de la API para introducirlos a la estructura que definimos en el modelo `const monedas = [...]` anteriormente:
 
 ```js
 // Función que recibe los mensajes del Socket
@@ -215,7 +215,7 @@ function procesarNuevoMensaje(mensaje) {
 }
 ```
 
-Independiente del lenguaje de programación que les guste utilizar, procesar los datos como lo acabamos de hacer es exigente pero fundamental a la hora de extraer valor de una base de datos. Es muy raro que los datos los encuentren perfectamente estructurados para el valor que ustedes les pueden asignar y las historias que pueden contarle a otros sobre ellos. El preprocesamiento y modelado de datos toma tiempo dominar pues requiere de mucha abstracción, debemos pensar de manera anticipada en las potencias que tienen los datos y abrir esas potencias reestructurándolos. Si sienten que la aplicación puede decir cosas nuevas, pero los datos aún no les sirven para decirlo, este es el primer lugar que pueden revisar creando otro modelo de los datos o sumando variables al existente. Por ejemplo: ¿cómo guardar las fechas de los puntos más altos o bajos en el precio de cada criptomoneda?, o más retador aún ¿en qué momentos del día hay mayor fluctuación en los precios?. No tienen que implementar esto al modelo, pero pueden buscar soluciones a estas preguntas si quieren mejorar sus habilidades en programación.
+Independiente del lenguaje de programación que les guste utilizar, procesar los datos como lo acabamos de hacer es exigente pero fundamental a la hora de extraer valor de una base de datos. Es muy raro que los datos los encuentren perfectamente estructurados para el valor que ustedes les pueden asignar y las historias que pueden contarle a otros sobre ellos. Dominar el preprocesamiento y modelado de datos toma tiempo pues requiere de mucha abstracción, debemos pensar de manera anticipada en las potencias que tienen los datos y abrir esas potencias reestructurándolos. Si sienten que la aplicación puede decir cosas nuevas pero los datos aún no les sirven para decirlo, este es el primer lugar que pueden revisar creando otro modelo de los datos o sumando variables al existente. Por ejemplo: ¿cómo guardar las fechas de los puntos más altos o bajos en el precio de cada criptomoneda?, o más retador aún ¿en qué momentos del día hay mayor fluctuación en los precios?. No tienen que implementar esto en el modelo, pero pueden buscar soluciones a estas preguntas si quieren mejorar sus habilidades en programación.
 
 #### Textos dinámicos
 
@@ -243,7 +243,7 @@ function actualizar(objetoMoneda) {
   contexto1.innerText = '- ' + menu.value + ': ' + formatoUSD.format(objetoMoneda.precioActual) + ' USD.';
 
   // Para el segundo texto vamos a hacer comparaciones entre el precio inicial y el actual.
-  // El texto va a indicar si es igual, ha subido o bajado y la diferencia de cuanto ha cambiado el precio.
+  // El texto va a indicar si es igual, ha subido o bajado y la diferencia de cuánto ha cambiado el precio.
   var precioInicial = objetoMoneda.datos[0].precio;
 
   if (precioInicial < objetoMoneda.precioActual) {
@@ -262,7 +262,7 @@ Ustedes deben cambiar estos textos para la entrega, recuerden que su público ob
 
 #### Visualización
 
-Para visualizar los datos vamos a usar la librería D3 que es bastante robusta y permite crear todo tipo de gráficas, tanto las que vemos disponibles en _Google Data Studio_ como otras que no van a encontrar allí. Para este casi vamos a usar una línea para mostrar la fluctuación de precios en las criptomonedas, aparte de ser sencilla de implementar nos funciona narrativamente.
+Para visualizar los datos vamos a usar la librería D3 que es bastante robusta y permite crear todo tipo de gráficas, tanto las que vemos disponibles en _Google Data Studio_ como otras que no van a encontrar allí. Para este caso vamos a usar una línea para mostrar la fluctuación de precios en las criptomonedas, aparte de ser sencilla de implementar nos funciona narrativamente.
 
 Justo antes de la declaración de la función creamos el contenedor de la gráfica:
 
@@ -272,7 +272,7 @@ function actualizar(objetoMoneda) {...}
 
 ```js
 // Pueden cambiar los valores de estas variables para cambiar el tamaño del contenedor.
-// Usamos margenes para darle espacio a los textos de cada eje.
+// Usamos márgenes para darle espacio a los textos de cada eje.
 var margen = { top: 10, right: 30, bottom: 30, left: 100 };
 var ancho = 800 - margen.left - margen.right;
 var alto = 400 - margen.top - margen.bottom;
@@ -288,7 +288,7 @@ const svg = d3
 
 // Definición general de cada eje:
 
-// El eje x es el tiempo que en nuestros datos guardamos en cada instancia usando Date.now() que representa la fecha
+// El eje x es el tiempo que en nuestros datos guardamos en cada instancia usando Date.now(), que representa la fecha
 // D3 puede procesar fechas usando la escala "scaleTime()"
 // El rango va de 0 al ancho de la gráfica.
 const x = d3.scaleTime().range([0, ancho]);
@@ -336,7 +336,7 @@ y.domain([
 ]);
 svg.selectAll('.ejeY').transition().duration(300).call(ejeY);
 
-// Pasamos los datos actuales a la linea que vamos a pintar
+// Pasamos los datos actuales a la línea que vamos a pintar
 const linea = svg.selectAll('.linea').data([objetoMoneda.datos], function (d) {
   return d;
 });
@@ -479,7 +479,7 @@ const svg = d3
 
 // Definición general de cada eje:
 
-// El eje x es el tiempo que en nuestros datos guardamos en cada instancia usando Date.now() que representa la fecha
+// El eje x es el tiempo que en nuestros datos guardamos en cada instancia usando Date.now(), que representa la fecha
 // D3 puede procesar fechas usando la escala "scaleTime()"
 // El rango va de 0 al ancho de la gráfica.
 const x = d3.scaleTime().range([0, ancho]);
@@ -503,7 +503,7 @@ function actualizar(objetoMoneda) {
   contexto1.innerText = '- ' + menu.value + ': ' + formatoUSD.format(objetoMoneda.precioActual) + ' USD.';
 
   // Para el segundo texto vamos a hacer comparaciones entre el precio inicial y el actual.
-  // El texto va a indicar si es igual, ha subido o bajado y la diferencia de cuanto ha cambiado el precio.
+  // El texto va a indicar si es igual, ha subido o bajado y la diferencia de cuánto ha cambiado el precio.
   var precioInicial = objetoMoneda.datos[0].precio;
 
   if (precioInicial < objetoMoneda.precioActual) {
@@ -543,7 +543,7 @@ function actualizar(objetoMoneda) {
   ]);
   svg.selectAll('.ejeY').transition().duration(300).call(ejeY);
 
-  // Pasamos los datos actuales a la linea que vamos a pintar
+  // Pasamos los datos actuales a la línea que vamos a pintar
   const linea = svg.selectAll('.linea').data([objetoMoneda.datos], function (d) {
     return d;
   });
