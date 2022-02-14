@@ -3,7 +3,7 @@ title: Estado de las herramientas BI y su paralelo con código
 description: '...'
 ---
 
-## Introdución
+## Introducción
 
 Hasta este momento del curso nos hemos enfocado en la creación de dashboards con herramientas prediseñadas. En particular con _Google Data Studio_, el cual nos permite:
 
@@ -15,20 +15,20 @@ Pero hay dos tipos de problemas comunes con estas herramientas que nos obligan a
 
 En su vida profesional, idealmente ustedes pueden llegar a ser lo suficientemente versátiles para resolver cualquier problema de visualización y es por lo que esta semana vamos a revisar los principios fundamentales para programar una herramienta propia. Específicamente vamos a crear un dashboard con datos en vivo de los cambios en precio de algunas criptomonedas populares: Bitcoin, Ethereum, Monero y Litecoin. Para eso vamos a usar una fuente de datos gratuita llamada CoinCap (https://docs.coincap.io/) la cual ofrece datos en tiempo real por medio de una API. Si quisiéramos trabajar con datos de criptomonedas en _Google Data Studio_, tendríamos que usar datos históricos, pero vamos a ir un poco más lejos con el desarrollo de una aplicación con datos en vivo.
 
-Para simplificar el proceso y darles insumos para su proyecto final, vamos a usar una de las librerías más populares de visualización datos en páginas web que se llama D3. Pero antes de entrar al código, vamos a hacer un paralelo entre lo que ya conocen de Google Data Studio y las partes de una aplicación en código.
+Para simplificar el proceso y darles insumos para su proyecto final, vamos a usar una de las librerías más populares de visualización de datos en páginas web que se llama D3. Pero antes de entrar al código, vamos a hacer un paralelo entre lo que ya conocen de Google Data Studio y las partes de una aplicación en código.
 
 ### Conectar Datos
 
-En _Google Data Studio_ ya vimos que la primera opción cuando creamos un reporte es decidir el conector a la fuente de datos. Hemos usado archivos estáticos en .csv y también el de “Google Sheets”. Otras fuentes populares serían “PostgreSQL” o “MySQL”, las cuales deben estar alojadas en algún servidor con el cual hacer la conexión. En todos estos casos, _Google Data Studio_ importa una instancia de los datos y actualiza la fuente al ritmo que definamos en “Data freshness”.
+En _Google Data Studio_ ya vimos que la primera opción cuando creamos un reporte es decidir el conector a la fuente de datos. Hemos usado archivos estáticos en .csv y también el de “Google Sheets”. Otras fuentes populares serían “PostgreSQL” o “MySQL”, las cuales deben estar alojadas en algún servidor con el cual hacer la conexión. En todos estos casos, _Google Data Studio_ importa una instancia de los datos y actualiza la fuente al ritmo que definamos en **“Data freshness”**.
 
-Para definir cada cuanto debe actualizar _Google Data Studio_ nuestros datos, van a “Resources -> Manage added data sources -> EDIT”. En la parte superior van a ver que por lo general está predeterminado para actualizar cada 15 minutos:
+Para definir cada cuanto debe actualizar _Google Data Studio_ nuestros datos, van a **“Resources -> Manage added data sources -> EDIT”**. En la parte superior van a ver que por lo general está predeterminado para actualizar cada 15 minutos:
 
 <img src="/vysimgs/refresh-rate.jpg" alt="Refresh Rate" />
 
 > **Figura 1**  
-> _Frecuencia con el que Google Data Studio actualiza la fuente de datos_
+> _Frecuencia con la que Google Data Studio actualiza la fuente de datos_
 
-Al seleccionarla, les aparecen las diferentes opciones que van desde 15 minutos hasta 12 horas, con la advertencia de que actualizaciones muy frecuentes pueden volver lenta la aplicación o incurrir en altos gastos si nuestro conector es de pago (por ejemplo: BigQuery o Amazon Redshift).
+Al seleccionarla, les aparecen diferentes opciones que van desde 15 minutos hasta 12 horas, con la advertencia de que actualizaciones muy frecuentes pueden volver lenta la aplicación o incurrir en altos gastos si nuestro conector es de pago (por ejemplo: BigQuery o Amazon Redshift).
 
 <img src="/vysimgs/opciones-refresh-rate.jpg" alt="Opciones Refresh Rate" />
 
@@ -62,32 +62,32 @@ Esta puede ser una gran limitación considerando el mercado actual de fuentes de
   </div>
 </div-->
 
-En estos casos, se vuelve necesario acudir a las fuentes de datos a medida que van cambiando por medio de APIs. API o Aplication Programming Interface (Interfaz de programación de aplicaciones) es, como su nombre lo indica, una interfaz que permite conectar una aplicación con otra por medio de la programación. La siguiente gráfica resume la forma como conectamos nuestras aplicaciones propias a una fuente de datos por medio de una API:
+En estos casos, se vuelve necesario acudir a las fuentes de datos a medida que van cambiando por medio de APIs. API o Aplication Programming Interface (Interfaz de Programación de Aplicaciones) es, como su nombre lo indica, una interfaz que permite conectar una aplicación con otra por medio de la programación. La siguiente gráfica resume la forma como conectamos nuestras aplicaciones propias a una fuente de datos por medio de una API:
 
 <img src="/vysimgs/api.jpg" alt="API" />
 
 > **Figura 3**  
-> _¿Qué es un API?_
+> _¿Qué es una API?_
 
-Una API tiene acceso exclusivo a una base de datos por medio de un servicio web. Nosotros, desde nuestra aplicación, únicamente tenemos acceso a las partes de la base de datos que la API nos ofrece por medio de su interfaz programable. La API puede ofrecer dos tipos de protocolos para hacer la transferencia de los datos: **RESTful API** o **WebSockets**. La diferencia principal es que en RESTful, tenemos que pedir los datos en el momento que los necesitamos, mientras que con WebSockets, la API nos va mandando nuevos datos a medida que se vuelven disponibles.
+Una API tiene acceso exclusivo a una base de datos por medio de un servicio web. Nosotros, desde nuestra aplicación, únicamente tenemos acceso a las partes de la base de datos que la API nos ofrece por medio de su interfaz programable. La API puede ofrecer dos tipos de protocolos para hacer la transferencia de los datos: **RESTful API** o **WebSockets**. La diferencia principal es que en RESTful tenemos que pedir los datos en el momento que los necesitamos, mientras que con WebSockets, la API nos va mandando nuevos datos a medida que se vuelven disponibles.
 
 ### RESTful API
 
-Los RESTful son útiles cuando necesitamos unos datos en específico, por ejemplo, datos de contexto o que no cambian con tanta frecuencia. Veamos por ejemplo como pedir una lista de criptomonedas (con sus metadatos) a la API CoinCap. En JavaScript podemos usar la función nativa `fetch()` para esto:
+Los RESTful son útiles cuando necesitamos unos datos en específico, por ejemplo, datos de contexto o que no cambian con tanta frecuencia. Veamos por ejemplo cómo pedir una lista de criptomonedas (con sus metadatos) a la API CoinCap. En JavaScript podemos usar la función nativa `fetch()` para esto:
 
 ```js
 // La función fetch recibe como parámetro una URL que contiene nuestra petición
 fetch('https://api.coincap.io/v2/assets')
-  // fetch() es una función asincrónica pues no sabemos cuanto se demoran los datos en volver.
+  // fetch() es una función asincrónica pues no sabemos cuánto se demoran los datos en volver.
   // El método then() espera la respuesta y ejecuta la función que pasamos como parámetro:
   .then(function (respuesta) {
-    // Los API envían los datos en bloques de texto que debemos interpretar, casi siempre, ese bloque de texto representa unos datos en formato JSON.
+    // Las API envían los datos en bloques de texto que debemos interpretar. Casi siempre ese bloque de texto representa unos datos en formato JSON.
     // La respuesta del servidor tiene un método que hace esta conversión de texto (string) a JSON.
     return respuesta.json();
   })
   // Cuando termina de convertir el texto a JSON, ya tenemos nuestros datos listos para usar en nuestra aplicación.
   .then(function (datos) {
-    // Listo! tenemos datos en la aplicación :)
+    // ¡Listo! tenemos datos en la aplicación :)
     console.log(datos);
   });
 ```
@@ -98,7 +98,7 @@ Para hacer un paralelo con _Google Data Studio_, cuando decimos en la programaci
 fetch('https://api.coincap.io/v2/assets');
 ```
 
-Es igual a elegir el conector a la fuente de datos cuando creamos un nuevo reporte ("File Upload", "Google Sheets", etc):
+Es igual a elegir el conector a la fuente de datos cuando creamos un nuevo reporte ("File Upload", "Google Sheets", etc.):
 
 <img src="/vysimgs/gds-fuentes-datos.jpg" alt="Fuentes de datos" />
 
@@ -167,18 +167,18 @@ Es donde podemos procesar, modelar y visualizar los datos. Por ejemplo, los dato
 
 ### WebSockets
 
-Mientras que con RESTful hacemos peticiones a la API para que nos envíe datos, con WebSockets lo que pedimos es abrir un canal de comunicación entre la API y nuestra aplicación. Este protocolo es muy liviano y se usa normalmente en aplicaciones de tiempo-real como un chat, actualizaciones pequeñas a una interfaz, o en nuestro caso, para recibir cambios de precio en criptomonedas. Veamos como se ve esto en JavaScript:
+Mientras que con RESTful hacemos peticiones a la API para que nos envíe datos, con WebSockets lo que pedimos es abrir un canal de comunicación entre la API y nuestra aplicación. Este protocolo es muy liviano y se usa normalmente en aplicaciones de tiempo-real como un chat, actualizaciones pequeñas a una interfaz, o en nuestro caso, para recibir cambios de precio en criptomonedas. Veamos cómo se ve esto en JavaScript:
 
 ```js
 // El explorador (Chrome, Firefox, etc.) abre el canal de comunicación (o Socket) con la API.
 // Pueden ver la documentación de la API en: https://docs.coincap.io/#37dcec0b-1f7b-4d98-b152-0217a6798058
 var preciosEndPoint = new WebSocket('wss://ws.coincap.io/prices?assets=bitcoin,ethereum,monero,litecoin');
 
-// Como no sabemos cuando van a llegar los datos, creamos un evento (Event en JavaScript) para que ejecute una función cuando lleguen mensajes por el Socket.
+// Como no sabemos cuándo van a llegar los datos, creamos un evento (Event en JavaScript) para que ejecute una función cuando lleguen mensajes por el Socket.
 preciosEndPoint.onmessage = function (mensaje) {
   // Al igual que en RESTful, los datos llegan en formato texto y debemos convertirlos a JSON.
   var mensajeJson = JSON.parse(mensaje.data);
-  // Listo! ya tenemos datos, podemos procesarlos y visualizarlos.
+  // ¡Listo! ya tenemos datos, podemos procesarlos y visualizarlos.
 };
 ```
 
