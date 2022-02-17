@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/5-3-ejercicio-final", (function(a){return {data:[{page:{slug:"5-3-ejercicio-final",description:"...",title:"Proyecto Final",toc:[],body:{type:"root",children:[]},dir:"\u002F",path:"\u002F5-3-ejercicio-final",extension:".md",createdAt:a,updatedAt:a}}],fetch:{},mutations:void 0}}("2022-02-17T23:03:41.646Z")));
