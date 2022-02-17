@@ -28,7 +28,8 @@
     <p><NuxtLink to="5-4-recomendaciones">5.4 Recomendaciones</NuxtLink></p>
 
     <h2>Semana 6</h2>
-    <p><NuxtLink to="6-1-galeria">6.1 Galería de proyectos</NuxtLink></p>
+    <p><NuxtLink to="6-1-problemas">6.1 Problemas comunes</NuxtLink></p>
+    <p><NuxtLink to="6-2-galeria">6.2 Galería de proyectos</NuxtLink></p>
   </article>
 </template>
 
