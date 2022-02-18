@@ -93,7 +93,7 @@ ul {
   list-style: none;
   padding: 0;
   li {
-    margin: 1em 0;
+    margin: 1em;
     &::before {
       content: '';
       width: 0.5em;
@@ -148,7 +148,7 @@ h1 {
 
 h2 {
   border-bottom: 3px solid $color1;
-  padding-bottom: 0.5em;
+  padding: 0.5em 0;
   font-size: 1.6em;
   margin-bottom: 0.3em;
 }
