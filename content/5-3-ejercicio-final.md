@@ -13,7 +13,7 @@ Los siguientes puntos deben trabajarlos como equipo, independiente del rol que t
 
 ### Definir su fuente de datos
 
-Pueden utilizar los datos que quieran, la idea es que investiguen y trabajen sobre temas que a ustedes les pueda interesar como grupo para que el desarrollo del proyecto los motive desde el inicio. Tener libertad total sobre el tema y fuente de datos a trabajar puede implicar un reto de entrada, pero no quiero que se detengan mucho tiempo decidiendo sobre que trabajar. Aquí van algunas opciones para agilizar el proceso de decidir la fuente de datos:
+Pueden utilizar los datos que quieran, la idea es que investiguen y trabajen sobre temas que a ustedes les pueda interesar como grupo para que el desarrollo del proyecto los motive desde el inicio. Tener libertad total sobre el tema y fuente de datos a trabajar puede implicar un reto de entrada, pero no quiero que se detengan mucho tiempo decidiendo sobre qué trabajar. Aquí van algunas opciones para agilizar el proceso de decidir la fuente de datos:
 
 - Hablen entre ustedes para ver si alguno ya está trabajando sobre una fuente de datos (en otros proyectos de investigación propios, de otros cursos de la maestría, de las empresas donde estén trabajando, etc.), es una gran ventaja tener a alguien del equipo que ya esté familiarizado con los datos y posibles temas relevantes a tratar con ellos.
 - Pueden retomar algunas de las fuentes de datos que trabajamos en el curso: población de estudiantes (semana 2), Sueldos profesionales (semana 3) o precios de criptomonedas (semana 4). Todos ustedes conocen las bases de datos y tuvieron una primera aproximación, eso facilita avanzar sobre la forma de trabajarlas más a fondo en el proyecto final.
@@ -25,7 +25,7 @@ Como equipo deben investigar el tema: revisar literatura, familiarizarse con los
 
 ### Definir el público objetivo e intención narrativa
 
-Teniendo en cuenta la fuente de datos y la investigación que han hecho sobre el tema, deben pensar en su público objetivo para poder alinear los esfuerzos individuales hacia un lugar común. Independientemente de la fuente de datos, quiero que hagan un esfuerzo por considerar el público general, esto quiere decir que desde el modelado de datos, pasando por las visualizaciones, hasta la presentación final en el sitio web, van a definir una forma especifica, concreta y clara de hablar sobre los datos. Van a construir una opinión sobre lo que pueden decir los datos y la van a volver explicita a su público.
+Teniendo en cuenta la fuente de datos y la investigación que han hecho sobre el tema, deben pensar en su público objetivo para poder alinear los esfuerzos individuales hacia un lugar común. Independientemente de la fuente de datos, quiero que hagan un esfuerzo por considerar el público general, esto quiere decir que desde el modelado de datos, pasando por las visualizaciones, hasta la presentación final en el sitio web, van a definir una forma específica, concreta y clara de hablar sobre los datos. Van a construir una opinión sobre lo que pueden decir los datos y la van a volver explícita a su público.
 
 Por ejemplo: Si mi fuente de datos son los sueldos profesionales (base de datos que trabajamos en semana 3), no es suficiente con visualizar todas las variables en el dashboard para que otros las investiguen y formen una opinión por su propia cuenta. La idea es que desde el título, los elementos descriptivos y el dashboard, puntualicen la forma como la audiencia puede entender los datos que están presentando. Para eso puedo definir una intención narrativa. Para este ejemplo voy a definir que mi intención narrativa es **"las diferencias en los sueldos a partir de la identidad de género y raza en Estados Unidos y Canadá"**. Esta intención narrativa me perfila de forma específica las necesidades de modelado, el tipo de visualizaciones, y los elementos descriptivos que acompañan el dashboard en el sitio web.
 
@@ -49,7 +49,7 @@ Entre ustedes se han asignado roles dentro del equipo y esto les permite distrib
 
 ## Nota sobre entregables de la semana
 
-El detalle de los entregables de esta semana los encuentran en la ["Evaluación del equipo calificado"](https://www.coursera.org/learn/visualizacin-y-storytelling/irt/bAuyp/plan-de-trabajo) de esta semana. Tengan en cuenta lo siguiente para el cronograma y presupuesto:
+El detalle de los entregables de esta semana los encuentran en la ["Plan de trabajo"](https://www.coursera.org/learn/visualizacin-y-storytelling/irt/bAuyp/plan-de-trabajo) de esta semana. Tengan en cuenta lo siguiente para el cronograma y presupuesto:
 
 ### Cronograma
 
@@ -69,7 +69,7 @@ También tengan en cuenta las siguientes fechas importantes:
 
 ### Presupuesto
 
-Quiero que hagan el ejercicio de contemplar los costos de un proyecto de _Visualización y Storytelling_ en la vida real. No espero que incurran en estos gastos para su entrega final, pero es formativo anticipar los costos desde ahora. Estas son algunas sugerencias para que puedan desglosar el presupuesto:
+En el ejercicio de planeación de esta semana, quiero que hagan el ejercicio de contemplar los costos de un proyecto de _Visualización y Storytelling_ en la vida real. No espero que incurran en estos gastos para su entrega final, pero es formativo anticipar los costos desde ahora. Estas son algunas sugerencias para que puedan desglosar el presupuesto:
 
 - Teniendo en cuenta el cronograma y el tiempo que tienen para realizar el proyecto, cada uno puede hacer un cálculo global del número de horas que le van a dedicar al proyecto. ¿Cuánto cuesta su hora de trabajo según su experiencia actual? Con estos dos valores tienen un primer costo por miembro del equipo.
 - Antes de crear un presupuesto es importante saber que tipo de visualizaciones se necesitan ¿Pueden usar herramientas prediseñadas o necesitan programar algo?
