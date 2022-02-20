@@ -5,7 +5,7 @@ description: '...'
 
 ## Introducción
 
-Esta semana van a estar trabajando de lleno en la primera versión de su proyecto final, no tenemos sesión sincrónica y las lecturas son cortas para que le puedan dedicar todo el tiempo posible a su proyecto.
+Esta semana van a estar trabajando de lleno en la primera versión de su proyecto final, no tenemos sesión sincrónica y las lecturas son cortas para que le puedan dedicar todo el tiempo posible a su proyecto. Revisen la siguiente lista para identificar problemas comunes y si alguno aplica a su equipo, atiendan las sugerencias o nos escriben para ayudarles:
 
 ### No hemos decidido la fuente de datos
 
