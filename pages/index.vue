@@ -25,7 +25,6 @@
     <p><NuxtLink to="5-1-plantillas-web">5.1 Plantillas Web</NuxtLink></p>
     <p><NuxtLink to="5-2-elementos-descriptivos">5.2 Elementos descriptivos</NuxtLink></p>
     <p><NuxtLink to="5-3-ejercicio-final">5.3 Primera versión del proyecto final</NuxtLink></p>
-    <p><NuxtLink to="5-4-recomendaciones">5.4 Recomendaciones</NuxtLink></p>
 
     <h2>Semana 6</h2>
     <p><NuxtLink to="6-1-problemas">6.1 Problemas comunes</NuxtLink></p>
