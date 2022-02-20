@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/5-4-recomendaciones", (function(a){return {data:[{page:{slug:"5-4-recomendaciones",description:"...",title:"Recomendaciones",toc:[],body:{type:"root",children:[]},dir:"\u002F",path:"\u002F5-4-recomendaciones",extension:".md",createdAt:a,updatedAt:a}}],fetch:{},mutations:void 0}}("2022-02-20T07:08:27.186Z")));
