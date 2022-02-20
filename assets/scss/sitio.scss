@@ -293,3 +293,17 @@ blockquote {
     border-radius: 5px;
   }
 }
+
+.proyecto {
+  width: 33%;
+  padding: 1em;
+  border: 1px dotted rgb(11, 75, 128);
+  display: inline-block;
+  border-radius: 20px;
+  vertical-align: top;
+  margin: 1em 0;
+
+  .descripcion {
+    font-size: 0.8em;
+  }
+}
