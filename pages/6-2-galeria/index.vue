@@ -23,7 +23,7 @@
           target="_blank"
         >
           <h3>The Big Mac Index</h3>
-          <img src="/vysimgs/galeria-1.jpg" alt="The Big Mac Index" />
+          <img src="/guias/vysimgs/galeria-1.jpg" alt="The Big Mac Index" />
         </a>
         <div class="descripcion">
           <p>
@@ -41,7 +41,7 @@
           target="_blank"
         >
           <h3>Databloo</h3>
-          <img src="/vysimgs/galeria-2.jpg" alt="The Big Mac Index" />
+          <img src="/guias/vysimgs/galeria-2.jpg" alt="The Big Mac Index" />
         </a>
         <div class="descripcion">
           <p>
@@ -62,7 +62,7 @@
           target="_blank"
         >
           <h3>U.S. Household Income Distribution by State (2016)</h3>
-          <img src="/vysimgs/galeria-3.jpg" alt="The Big Mac Index" />
+          <img src="/guias/vysimgs/galeria-3.jpg" alt="The Big Mac Index" />
         </a>
         <div class="descripcion">
           <p><strong>Lo bueno:</strong> Un excelente ejemplo de cómo usar bien una paleta de colores.</p>
@@ -82,7 +82,7 @@
           target="_blank"
         >
           <h3>50-Year Flood values (gauge data is up to 2017)</h3>
-          <img src="/vysimgs/galeria-4.jpg" alt="The Big Mac Index" />
+          <img src="/guias/vysimgs/galeria-4.jpg" alt="The Big Mac Index" />
         </a>
         <div class="descripcion">
           <p>
@@ -105,7 +105,7 @@
           target="_blank"
         >
           <h3>My Email Habits</h3>
-          <img src="/vysimgs/galeria-5.jpg" alt="The Big Mac Index" />
+          <img src="/guias/vysimgs/galeria-5.jpg" alt="The Big Mac Index" />
         </a>
         <div class="descripcion">
           <p>
