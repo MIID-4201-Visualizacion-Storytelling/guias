@@ -5,7 +5,7 @@ description: '...'
 
 ## Introducción
 
-A partir de esta semana, y hasta el final del curso, van a trabajar en sus proyectos finales donde el objetivo es contar una historia en un sitio web. Teniendo en cuenta que este curso no puede cubrir todas las opciones de publicación web, vamos a continuar con los tutoriales de _Google Data Studio_ como una posible herramienta de trabajo. No quiere decir que deban usarla para su proyecto final, pero veamos como nos sirve para ir más allá de un simple dashboard.
+A partir de esta semana, y hasta el final del curso, van a trabajar en sus proyectos finales donde el objetivo es contar una historia en un sitio web. Teniendo en cuenta que este curso no puede cubrir todas las opciones de publicación web, vamos a continuar con los tutoriales de _Google Data Studio_ como una posible herramienta de trabajo. No quiere decir que deban usarla para su proyecto final, pero veamos cómo nos sirve para ir más allá de un simple dashboard.
 
 ### La plantilla
 
@@ -28,7 +28,7 @@ Para crear una copia de la plantilla que pueden editar, deben hacer clic en los 
 
 ### "Scrollytelling"
 
-Quiero que noten el formato vertical del reporte, en este caso, las dimensiones del proyecto son de 1200 (ancho) x 3000 (alto). Esto significa que nuestro espacio de trabajo es vertical y nuestra audiencia va a tener que hacer scroll para ir descubriendo en contenido _(Este es un formato común en sitios web, y podemos asumir con tranquilidad que nuestra audiencia va a hacer scroll al abrir la página)_. El formato vertical del sitio nos ayuda a conectar el orden en que queremos contar la historia con el formato en el que presentamos el contenido. La parte superior es el inicio de la historia, a medida que se hace scroll vamos presentando en orden los diferentes momentos del relato, y al final cerramos narrativamente lo que le queremos contar al espectador. En sentido clásico de narración: Inicio, Nudo y desenlace.
+Quiero que noten el formato vertical del reporte, en este caso, las dimensiones del proyecto son de 1200 (ancho) x 3000 (alto). Esto significa que nuestro espacio de trabajo es vertical y nuestra audiencia va a tener que hacer scroll para ir descubriendo el contenido _(Este es un formato común en sitios web, y podemos asumir con tranquilidad que nuestra audiencia va a hacer scroll al abrir la página)_. El formato vertical del sitio nos ayuda a conectar el orden en que queremos contar la historia con el formato en el que presentamos el contenido. La parte superior es el inicio de la historia, a medida que se hace scroll vamos presentando en orden los diferentes momentos del relato, y al final cerramos narrativamente lo que le queremos contar al espectador. En sentido clásico de narración: Inicio, nudo y desenlace.
 
 Ustedes pueden cambiar el formato acorde a su contenido en: **"Theme and layout" -> "Layout"** en la sección **"Canvas Size"**:
 
@@ -39,7 +39,7 @@ Ustedes pueden cambiar el formato acorde a su contenido en: **"Theme and layout"
 
 ### Paleta de colores
 
-Lo primero que deben hacer en su sitio web es seleccionar una paleta de colores, los colores del fondo y la letra les ayuda a tener una identidad propia. En esta plantilla, el fondo es un gris oscuro y el color del texto contrasta con un gris claro. Esto me ayuda a resaltar el naranja brillante que resalta los detalles importantes a lo largo del relato.
+Lo primero que deben hacer en su sitio web es seleccionar una paleta de colores, los colores del fondo y la letra les ayuda a tener una identidad propia. En esta plantilla el fondo es gris oscuro y el color del texto contrasta con un gris claro. Esto me ayuda a resaltar el naranja brillante que marca los detalles importantes a lo largo del relato.
 
 Para definir la paleta de colores van a **"Theme and layout" -> "Theme" -> "Customize"**:
 
@@ -48,7 +48,7 @@ Para definir la paleta de colores van a **"Theme and layout" -> "Theme" -> "Cust
 > **Figura 4**  
 > _Ir a sección de paleta de colores en Google Data Studio_
 
-Donde van a encontrar una serie de opciones generales de estilo, incluyendo la opción para cambiar el color de fondo (**Report Background**), tipo de funete y color para los textos (**Text Style**), etc.
+Allí van a encontrar una serie de opciones generales de estilo, incluyendo la opción para cambiar el color de fondo (**Report Background**), tipo de fuente y color de los textos (**Text Style**), etc.
 
 <img src="/vysimgs/editar-plantilla-formato.jpg" alt="formato general reporte" />
 
@@ -57,7 +57,7 @@ Donde van a encontrar una serie de opciones generales de estilo, incluyendo la o
 
 ### Secciones y tipos de contenido
 
-Ahora veamos como dividir el espacio de la página en secciones que van contando una historia. Para eso vamos a usar las herramientas para insertar texto, formas y contenido externo que pueden encontrar en la parte superior de la interfaz:
+Ahora veamos cómo dividir el espacio de la página en secciones que van contando una historia. Para eso vamos a usar las herramientas para insertar texto, formas y contenido externo que encuentran en la parte superior de la interfaz:
 
 <img src="/vysimgs/gds-elementos-descriptivos.jpg" alt="Elementos descriptivos" />
 
@@ -66,7 +66,7 @@ Ahora veamos como dividir el espacio de la página en secciones que van contando
 
 #### Bloques de texto
 
-En la parte superior de la plantilla tenemos varios bloques de texto. Pueden cambiar el tipo de fuente, color y tamaño en la sección que aparece a la derecha cuando seleccionan su campo de texto en el espacio de trabajo. En esta plantilla estamos usando la fuente "Oswald" para el título y "Roboto" para el resto del contenido (Oswald se ve bien en formatos grandes mientras que Roboto es fácil de leer en cualquier tamaño, pueden usar diferentes fuentes pero usar muchas fuentes diferentes a lo largo de la página puede saturar su diseño, es buena práctica limitarse a 2 o 3 tipos de fuente máximo). Algunas secciones tienen textos centrados o con diferentes tamaños con los cual vamos dirigiendo la mirada del espectador a medida que avanza en el relato.
+En la parte superior de la plantilla tenemos varios bloques de texto. Pueden cambiar el tipo de fuente, color y tamaño en la sección que aparece a la derecha cuando seleccionan su campo de texto en el espacio de trabajo. En esta plantilla estamos usando la fuente "Oswald" para el título y "Roboto" para el resto del contenido (Oswald se ve bien en formatos grandes mientras que Roboto es fácil de leer en cualquier tamaño, pueden usar diferentes fuentes pero combinar muchas fuentes diferentes a lo largo de la página puede saturar su diseño. Es buena práctica limitarse a 2 o 3 tipos de fuente máximo). Algunas secciones tienen textos centrados o con diferentes tamaños, con lo cual vamos dirigiendo la mirada del espectador a medida que avanza en el relato.
 
 <img src="/vysimgs/editor-texto.jpg" alt="Editor de texto" />
 
@@ -75,7 +75,7 @@ En la parte superior de la plantilla tenemos varios bloques de texto. Pueden cam
 
 #### Elementos externos: imágenes y videos
 
-En la plantilla pueden ver una ilustración en la parte superior derecha y un video después del texto introductorio. Veamos como agregar estos elementos adicionales al reporte:
+En la plantilla pueden ver una ilustración en la parte superior derecha y un video después del texto introductorio. Veamos cómo agregar estos elementos adicionales al reporte:
 
 Las imágenes pueden ser archivos que tienen guardados en su computador o enlaces a imágenes existentes en internet por medio de la URL:
 
@@ -84,7 +84,7 @@ Las imágenes pueden ser archivos que tienen guardados en su computador o enlace
 > **Figura 8**  
 > _Agregar imágenes en Google Data Studio_
 
-_La ilustración es un archivo .svg que descargue de una fuente gratuita de ilustraciones llamada unDraw: https://undraw.co/illustrations donde se puede cambiar el color de la ilustración antes de descargarla. En mi caso usé el naranja brillante que definí para la identidad del sitio._
+_La ilustración es un archivo .svg que descargué de una fuente gratuita de ilustraciones llamada unDraw: https://undraw.co/illustrations donde se puede cambiar el color de la ilustración antes de descargarla. En mi caso usé el naranja brillante que definí para la identidad del sitio._
 
 <img src="/vysimgs/undraw_knowledge_re_leit.svg" alt="Ilustración de unDraw" />
 
@@ -92,7 +92,7 @@ _La ilustración es un archivo .svg que descargue de una fuente gratuita de ilus
 > _Ilustración gratuita de unDraw_  
 > https://undraw.co/illustrations
 
-En el caso del video no podemos subir un archivo de video directamente a _Google Data Studio_, pero podemos vincular uno desde plataformas como YouTube o Vimeo. Para agregar el video a la página, seleccionan la opción "URL Embed":
+En el caso del video no podemos subir el archivo directamente a _Google Data Studio_, pero podemos vincular uno desde plataformas como YouTube o Vimeo. Para agregar el video a la página seleccionan la opción "URL Embed":
 
 <img src="/vysimgs/embed.jpg" alt="Embed" />
 
@@ -124,7 +124,7 @@ Estos los podemos crear con la opción de línea (que ofrece diferentes conector
 > **Figura 13**  
 > _Líneas y formas en Google Data Sutdio_
 
-En ocasiones, debemos ordenar estas figuras para que estén encima o detrás de otros elementos en la página. En _Google Data Studio_, podemos ordenar cualquier elemento haciendo clic derecho y en la sección "Order" y elegir si queremos traer el elemento seleccionado hacia adelante o hacia atrás (En la caso de la línea que señala el mapa, usé la opción "Bring Forward" para que quedara encima del mapa):
+En ocasiones debemos ordenar estas figuras para que estén encima o detrás de otros elementos en la página. En _Google Data Studio_ podemos ordenar cualquier elemento haciendo clic derecho y en la sección **"Order"** elegir si queremos traer el elemento seleccionado hacia adelante o hacia atrás. (En la caso de la línea que señala el mapa, usé la opción **"Bring Forward"** para que quedara encima del mapa):
 
 <img src="/vysimgs/orden.jpg" alt="Orden de los elementos" />
 
@@ -133,4 +133,4 @@ En ocasiones, debemos ordenar estas figuras para que estén encima o detrás de 
 
 ## Conclusiones
 
-A lo largo del curso vimos como crear visualizaciones en _Google Data Studio_, una herramienta flexible y ágil para crear dashboards. Pero podemos hacer uso de conceptos básicos de diseño web para transformar esta herramienta en un espacio potente para contar historias más allá de un simple reporte. Estos mismos conceptos los pueden aplicar a otras herramientas que estén usando para crear sus visualizaciones. El orden en que presentan cada sección de la página nos ayuda a contar una historia coherente y persuasiva, es un recorrido donde progresivamente le cuentan la historia a su audiencia y deben mantenerla intrigada e interesada hasta el final.
+A lo largo del curso vimos cómo crear visualizaciones en _Google Data Studio_, una herramienta flexible y ágil para crear dashboards. Pero podemos hacer uso de conceptos básicos de diseño web para transformar esta herramienta en un espacio potente para contar historias más allá de un simple reporte. Estos mismos conceptos los pueden aplicar a otras herramientas que estén usando para crear sus visualizaciones. El orden en que presentan cada sección de la página nos ayuda a contar una historia coherente y persuasiva, es un recorrido donde progresivamente le cuentan la historia a su audiencia y deben mantenerla intrigada e interesada hasta el final.
