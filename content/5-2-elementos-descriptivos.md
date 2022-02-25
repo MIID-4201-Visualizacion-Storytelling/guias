@@ -30,6 +30,8 @@ Con esta aclaración y advertencia sobre el uso de ilustraciones en sus proyecto
 - **illu.station** https://themeisle.com/illustrations/: También pueden cambiar el color de las ilustraciones, tiene una colección más variada en comparación a unDraw.
 - **Freebie Supply** https://freebiesupply.com/: Tiene una amplia colección de ilustraciones e íconos.
 - **Icons8** https://icons8.com/icons: Varios estilos de íconos, a diferencia de las ilustraciones, los íconos pueden complementar el diseño de la interfaz.
+- **The noun project** https://thenounproject.com/: Íconos y fotos, gratuitas si son en baja resolución.
+
 
 ### Secciones
 
