@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/6-2-galeria", {data:[{page:{slug:"6-2-galeria",description:"...",title:"Galería de Proyectos",toc:[],body:{type:"root",children:[]},dir:"\u002F",path:"\u002F6-2-galeria",extension:".md",createdAt:"2022-03-03T23:39:55.587Z",updatedAt:"2022-03-03T23:39:55.591Z"}}],fetch:{},mutations:void 0});
