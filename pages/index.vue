@@ -29,6 +29,10 @@
     <h2>Semana 6</h2>
     <p><NuxtLink to="6-1-problemas">6.1 Problemas comunes</NuxtLink></p>
     <p><NuxtLink to="6-2-galeria">6.2 Galería de proyectos</NuxtLink></p>
+
+    <h2>Semana 7</h2>
+    <p><NuxtLink to="7-1-recursos">7.1 Recursos</NuxtLink></p>
+    <p><NuxtLink to="2-2-pitch">7.2 El Pitch</NuxtLink></p>
   </article>
 </template>
 
