@@ -32,7 +32,7 @@
 
     <h2>Semana 7</h2>
     <p><NuxtLink to="7-1-recursos">7.1 Recursos</NuxtLink></p>
-    <p><NuxtLink to="2-2-pitch">7.2 El Pitch</NuxtLink></p>
+    <p><NuxtLink to="7-2-pitch">7.2 El Pitch</NuxtLink></p>
   </article>
 </template>
 
