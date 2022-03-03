@@ -13,6 +13,7 @@ Estos son recursos de consulta para profundizar en temas que hemos abordado en c
 
 - <a href="https://spectrum.adobe.com/page/color-for-data-visualization/" target="_blank">Color for data visualization</a>: Tips sobre usos del color para diferenciar datos secuenciales, categóricos y divergentes.
 - <a href="https://infogram.com/blog/dataviz-chart-guide-101-dos-and-donts/" target="_blank">Chart Do’s and Don’ts: The Ultimate Data Visualization Guide</a>: No soy muy partidario de este tipo de reglas que pueden conducir a pensar que hay sólo una forma de hacer visualizaciones correctamente. Las reglas, como en todo contexto, tienen instancias donde deben ser reconsideradas. A pesar de esto, este es un excelente artículo sobre cosas a considerar en diferentes tipos de visualizaciones.
+- <a href="https://datasavvy.me/2019/05/16/turning-a-corporate-color-palette-into-a-data-visualization-color-palette/" target="_blank">Turning a Corporate Color Palette into a Data Visualization Color Palette</a>: Artículo sobre estrategias para convertir el color que identifica una marca o empresa en una paleta de colores para visualización. Este es un problema común en el momento de hacer este tipo de implementaciones para una empresa que ya tiene una identidad gráfica.
 
 ## Herramientas
 
