@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/7-2-pitch", (function(a){return {data:[{page:{slug:"7-2-pitch",description:"...",title:"El Pitch",toc:[],body:{type:"root",children:[]},dir:"\u002F",path:"\u002F7-2-pitch",extension:".md",createdAt:a,updatedAt:a}}],fetch:{},mutations:void 0}}("2022-03-03T23:39:55.591Z")));
