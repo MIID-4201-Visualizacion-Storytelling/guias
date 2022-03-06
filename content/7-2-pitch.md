@@ -3,15 +3,41 @@ title: El Pitch
 description: '...'
 ---
 
+# Introducción
+
+Para lo próxima semana deben realizar un pitch que presente su proyecto a la audiencia a la que está dirigida. Es un ejercicio que nos obliga a pensar en esa audiencia de manera profunda, ya que literalmente le estamos hablando directamente a nuestro público por medio del video. Ponemos nuestro cuerpo frente a la cámara y no escapatoria a pensar a quien le estamos hablando. Dentro de las estrategias de narración que hemos explorado en clase, el pitch es una oportunidad de sintetizar el contexto y las potencias de nuestro proyecto, mientras que el sitio web y las visualizaciones nos cuentan en profundidad la historia con datos. En todos los ejercicios que han realizado, le hemos delegado al título y textos explicativos lo que en el pitch podemos hacer de manera expandida: persuadir y generar intriga sobre nuestro proyecto para que la audiencia quiera saber más y potencialmente unirse de alguna forma (colaborar, comprar, invertir dinero, etc.).
+
+En un pitch tenemos un tiempo muy corto para persuadir a nuestra audiencia, por ende, no hay que explicar en detalle las especificidades del proyecto, eso se lo dejamos a los datos y el sitio web. A continuación les presentamos una estructura ideal para el pitch de su proyecto. Pueden estructurar su video a partir de los siguientes puntos:
+
+## Estructura de pitch
+
+1. **Introducción:** Entren con una afirmación o una pregunta sugestiva. Recuerden que estamos contando una historia, así como en los títulos de las páginas web, este primer momento va a enganchar a la audiencia.
+2. Quiénes son: Preséntese brevemente (como colectivo, empresa, estudio –puede ser ficticia–).
+3. **Presentación del problema:** Qué problema, caso, o situación identificaron y por qué es un problema a resolver o investigar. Es la esencia de su proyecto e idealmente nuestra audiencia puede sentirse identificada o es capas de reconocer que es un problema que vale mucho la pena ser atendido.
+4. Cómo lo solucionaron o solucionarán. Es la oportunidad de resaltar las potencias y alcances de su proyecto.
+5. **Solución:** Por qué su solución de visualización y análisis es relevante, pertinente o la más acertada. Es la oportunidad de resaltar la singularidad de su proyecto como algo que vale la pena y potencialmente merece ser financiado.
+6. **Cierre:** Llamado a la acción. Es la oportunidad de invitar a la audiencia a conocer más a fondo el proyecto y que al terminar de ver el video quieran seguir investigando su propuesta. En el mejor de los casos, los cierres del pitch generan apetito y curiosidad en su audiencia para invertir en ustedes y su proyecto.
+
+### Recursos complementarios
+
 La universidad tiene una serie de apoyos de Lectura, oralidad y escritura (LEO) que pueden resultarles útil para escribir un guión previo a la grabación: <strong><a href="https://leo.uniandes.edu.co/index.php?option=com_content&view=article&id=131:como-preparar-un-pitch&catid=69&Itemid=126" target="_blank">Como preparar un Pitch</a></strong>
 
-Existen tutoriales y recomendaciones generales para hacer un pitch. Aquí les dejamos una guía que funciona muy bien para darnos pistas de una versión muy rápida.
-
-### Ejemplo de Elevator Pitch para presentarte tú o un proyecto
+**Ejemplo de Elevator Pitch para presentarte tú o un proyecto**
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/uv357YzY7-k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 _Recuerden que estamos presentando una plataforma, luego no tiene por qué ser tan resumido como el video de ejemplo. Ese video es útil para pensar en el tono y el paso a paso._
+
+## Entregable
+
+- Deben hacer un video con un máximo de duración de 3 minutos.
+- Este lo deben montar en una plataforma de video como YouTube o Vimeo y lo que nos entregan es el enlace.
+
+Lo que vamos a calificar no es la calidad del video como producto audiovisual, ya que esto no es lo que aprendemos en clase. La idea es que hagan un simulacro de algo que van a tener que hacer en diferentes contextos de su vida profesional. Así que para esta entrega, busquen la solución más fácil para realizar el video.
+
+Una solución sencilla y a la mano de todos es por ejemplo es hacer la presentación por Zoom y grabar la sesión. Esto les permite aparecer en cámara y al tiempo controlar las diapositivas mientras presentan.
+
+Para quienes quieran controlar mejor la forma como aparecen en cámara, a continuación les dejamos unas recomendaciones gratuitas y accesibles para grabar su video.
 
 ## Para la grabación del video
 
@@ -93,3 +119,7 @@ Si prefieren grabar la pantalla para luego integrarlo en edición pueden usar ap
 Desde dispositivos móviles hay muchas aplicaciones para grabar pantalla, pero les recomendamos que estudien si su plataforma realmente se puede visualizar en esa resolución.
 
 Les dejamos un ejemplo que hizo un miembro del equipo, usando InShot y la cámara de su celular, además de OBS y Google Chrome en su PC.
+
+<div class="video-container">
+  <iframe width="1280" height="720" src="https://www.youtube.com/embed/4YclvzvucYo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
