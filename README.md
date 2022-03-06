@@ -1,69 +1,33 @@
-# guias
+# Guías
 
-## Build Setup
+![Despliegue](https://github.com/MIID-4201-Visualizacion-Storytelling/guias/actions/workflows/despliegue.yml/badge.svg)
+
+Este repositorio contiene los tutoriales y guías para el curso de Visualización y Storytelling de la Maestría en Inteligencia Analítica de Datos de la Universidad de los Andes.
+
+El sitio está creado con [NuxtJS](https://nuxtjs.org/) en modo de "static site generator". El contenido escrito en Markdown se encuentra en la carpeta `/content`, y el sitio web se publica aquí mismo en Github Pages: https://miid-4201-visualizacion-storytelling.github.io/guias/
+
+## Desarrollo local del sitio web
+
+Se puede recrear o modificar el contenido (si se quiere usar este proyecto como plantilla para otro curso).
 
 ```bash
-# install dependencies
-$ yarn install
+# Primero se debe clonar localmente el repositorio
+git clone https://github.com/MIID-4201-Visualizacion-Storytelling/guias.git
 
-# serve with hot reload at localhost:3000
-$ yarn dev
+# Entrar a la carpeta
+cd guias
 
-# build for production and launch server
-$ yarn build
-$ yarn start
-
-# generate static project
-$ yarn generate
+# Instalar dependencias
+yarn install
 ```
 
-For detailed explanation on how things work, check out the [documentation](https://nuxtjs.org).
+Para iniciar un servidor local con "hot reload" al hacer cambios:
 
-## Special Directories
+```bash
+# El sitio web se puede ver en localhots:3000
+yarn dev
+```
 
-You can create the following extra directories, some of which have special behaviors. Only `pages` is required; you can delete them if you don't want to use their functionality.
+## Despliegue
 
-### `assets`
-
-The assets directory contains your uncompiled assets such as Stylus or Sass files, images, or fonts.
-
-More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/assets).
-
-### `components`
-
-The components directory contains your Vue.js components. Components make up the different parts of your page and can be reused and imported into your pages, layouts and even other components.
-
-More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/components).
-
-### `layouts`
-
-Layouts are a great help when you want to change the look and feel of your Nuxt app, whether you want to include a sidebar or have distinct layouts for mobile and desktop.
-
-More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/layouts).
-
-
-### `pages`
-
-This directory contains your application views and routes. Nuxt will read all the `*.vue` files inside this directory and setup Vue Router automatically.
-
-More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/get-started/routing).
-
-### `plugins`
-
-The plugins directory contains JavaScript plugins that you want to run before instantiating the root Vue.js Application. This is the place to add Vue plugins and to inject functions or constants. Every time you need to use `Vue.use()`, you should create a file in `plugins/` and add its path to plugins in `nuxt.config.js`.
-
-More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/plugins).
-
-### `static`
-
-This directory contains your static files. Each file inside this directory is mapped to `/`.
-
-Example: `/static/robots.txt` is mapped as `/robots.txt`.
-
-More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/static).
-
-### `store`
-
-This directory contains your Vuex store files. Creating a file in this directory automatically activates Vuex.
-
-More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/store).
+Este proyecto usa Github Pages para alojar el sitio web y la página se actualiza automáticamente al hacer push a la rama principal `main` usando [Github Workflows](./.github/workflows/despliegue.yml).
