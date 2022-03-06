@@ -3,7 +3,9 @@ title: El Pitch
 description: '...'
 ---
 
-# Introducción
+<span class="material-icons title-icon">record_voice_over</span>
+
+## Introducción
 
 Para lo próxima semana deben realizar un pitch que presente su proyecto a la audiencia a la que está dirigida. Es un ejercicio que nos obliga a pensar en esa audiencia de manera profunda, ya que literalmente le estamos hablando directamente a nuestro público por medio del video. Ponemos nuestro cuerpo frente a la cámara y no escapatoria a pensar a quien le estamos hablando. Dentro de las estrategias de narración que hemos explorado en clase, el pitch es una oportunidad de sintetizar el contexto y las potencias de nuestro proyecto, mientras que el sitio web y las visualizaciones nos cuentan en profundidad la historia con datos. En todos los ejercicios que han realizado, le hemos delegado al título y textos explicativos lo que en el pitch podemos hacer de manera expandida: persuadir y generar intriga sobre nuestro proyecto para que la audiencia quiera saber más y potencialmente unirse de alguna forma (colaborar, comprar, invertir dinero, etc.).
 
