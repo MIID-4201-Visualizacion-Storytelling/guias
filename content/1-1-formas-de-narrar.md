@@ -51,15 +51,10 @@ En el segundo caso, le damos las pistas suficientes a un público especializado.
 
 ### A público general <span class="material-icons subtitle-icon">public</span>
 
-_Gráfica interactiva - pueden mover el cursor por la gráfica_
-
 **Death Outlook**
 **Covid-19 deaths by week forecast to drop in April**
 
-<iframe src="https://www.bloomberg.com/toaster/v2/charts/56a0525be5e440cf8c42716bcb746aad.html?brand=politics&webTheme=politics&web=true&hideTitles=true" frameborder="0" scrolling="no" height="270" width="600"></iframe>
-
-_Source: Covid-19 Forecast Hub ensemble forecast from Reich Lab of the University of Massachusetts Amherst_
-_Note: Past weeks' data is based on Johns Hopkins University data_
+<img src="/vysimgs/death-outlook.png" alt="Visualización a público general" />
 
 > **Figura 3**  
 > _"Covid-19 Death Forecast Drops as Pandemic Indicators Improve"_  
@@ -69,9 +64,9 @@ _Note: Past weeks' data is based on Johns Hopkins University data_
 
 En el tercer caso, nuestra audiencia es variada y no sabemos exactamente lo que saben previamente. Lo que sí podemos asumir es una capacidad innata para reconocer patrones en una imagen, pero no necesariamente cómo leerla. Esto no quiere decir que debemos subestimar la inteligencia del espectador, pero sí debemos proveer más pistas que contextualizan y construyen un relato.
 
-En este caso, pueden ver cómo hay una estructura clásica de narración: inicio, nudo y desenlace. El inicio es el título, nos define una situación _(predicción de posibles muertes por COVID-19)_, personajes _(sus habitantes representados en miles de personas)_ y contexto _(pandemia)_ específico de lo que sucede en sus vidas. El nudo es la presentación de un problema que está en la visualización misma: hay un incremento de casos en febrero representado por la línea negra. El desenlace de la historia lo cuentan las líneas roja y amarilla: la roja nos dice que el modelo viene funcionando, ya que conserva el patrón de casos, la línea amarilla es el modelo en acción y predice que entre marzo y abril se van a reducir considerablemente.
+En este caso, pueden ver cómo hay una estructura clásica de narración: inicio, nudo y desenlace. El inicio es el título, nos define una situación _(predicción de posibles muertes por COVID-19)_, personajes _(sus habitantes representados en miles de personas)_ y contexto _(pandemia)_ específico de lo que sucede en sus vidas. El nudo es la presentación de un problema que está en la visualización misma: hay un incremento de casos a mediados de Enero y principios de febrero representado por la línea blanca. El desenlace de la historia lo cuentan las líneas roja y azul: la azul nos dice que el modelo predictivo viene funcionando, ya que conserva el patrón de casos, la línea roja es el modelo en acción y predice que entre marzo y abril se van a reducir los casos considerablemente.
 
-Este relato no lo cuenta claramente la gráfica y adquiere un sentido puntual gracias a que el espectador tiene todos los elementos para comprender la historia: lugar, personajes, contexto, nudo y desenlace.
+Este relato lo cuenta claramente la gráfica y adquiere un sentido puntual gracias a que el espectador tiene todos los elementos para comprender la historia: lugar, personajes, contexto, nudo y desenlace.
 
 **Dónde y cuándo:**
 
