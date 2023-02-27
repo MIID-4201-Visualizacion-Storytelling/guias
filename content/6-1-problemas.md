@@ -31,7 +31,7 @@ Recuerden que la entrega de esta semana es parcial y van a tener la oportunidad 
 
 ### Las herramientas que decidimos usar están fallando y le estamos dedicando mucho tiempo a resolver problemas técnicos
 
-Si esta herramienta es _Google Data Studio_ los tutores y yo estamos atentos para ayudarles. Si por el contrario decidieron usar una herramienta diferente y están estancados, les recomiendo pasarse a _Google Data Studio_ y trabajar dentro de los límites que esta tiene. Por ejemplo, si están usando datos de una API, pueden descargar los datos y trabajarlos de manera estática en _Google Data Studio_ no como una aplicación en su estado ideal, pero sí un prototipo de la idea que tienen. Para la entrega final es más importante la idea y si es un prototipo de algo que necesita más desarrollo, es más que suficiente para cumplir los objetivos del curso.
+Si esta herramienta es _Looker Studio_ los tutores y yo estamos atentos para ayudarles. Si por el contrario decidieron usar una herramienta diferente y están estancados, les recomiendo pasarse a _Looker Studio_ y trabajar dentro de los límites que esta tiene. Por ejemplo, si están usando datos de una API, pueden descargar los datos y trabajarlos de manera estática en _Looker Studio_ no como una aplicación en su estado ideal, pero sí un prototipo de la idea que tienen. Para la entrega final es más importante la idea y si es un prototipo de algo que necesita más desarrollo, es más que suficiente para cumplir los objetivos del curso.
 
 ### Conclusión
 
