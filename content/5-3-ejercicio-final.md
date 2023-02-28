@@ -63,9 +63,9 @@ Es natural pensar que primero deben hacer el procesamiento y modelado de datos a
 
 También tengan en cuenta las siguientes fechas importantes:
 
-- Primera versión: domingo marzo 6.
-- Versión final: miércoles marzo 16.
-- Pitch: Domingo marzo 20
+- Primera versión: domingo marzo 5.
+- Versión final: miércoles marzo 15.
+- Pitch: Domingo marzo 19
 
 ### Presupuesto
 
