@@ -7,7 +7,7 @@ description: '...'
 
 En este tutorial van a crear la siguiente aplicación que muestra, en tiempo real, las fluctuaciones en precio de varias criptomonedas:
 
-<iframe width="850" height="750" src="https://9fb9f5d4-f1bc-4ff6-a51d-4ecf642a5ff1-00-3a9l0syp8gqoa.worf.repl.co/" frameborder="0" style="border:0"></iframe>
+<iframe width="800" height="750" src="https://miid-4201-visualizacion-storytelling.github.io/viz-api-criptomonedas/" frameborder="0" style="border:0"></iframe>
 
 > **Figura 1**  
 > _Cambio de precios en criptomonedas_
