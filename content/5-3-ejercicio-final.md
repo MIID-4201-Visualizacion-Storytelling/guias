@@ -49,7 +49,7 @@ Entre ustedes se han asignado roles dentro del equipo y esto les permite distrib
 
 ## Nota sobre entregables de la semana
 
-El detalle de los entregables de esta semana lo encuentran en el ["Plan de trabajo"](https://www.coursera.org/learn/visualizacin-y-storytelling/irt/bAuyp/plan-de-trabajo) de esta semana. Tengan en cuenta lo siguiente para el cronograma y presupuesto:
+El detalle de los entregables de esta semana lo encuentran en el ["Plan de trabajo"](https://www.coursera.org/learn/visualizacin-y-storytelling/assignment-submission/bAuyp/plan-de-trabajo) de esta semana. Tengan en cuenta lo siguiente para el cronograma y presupuesto:
 
 ### Cronograma
 
