@@ -71,12 +71,12 @@ La torta en estos casos es una mala opción, pero con las barras podemos solucio
 > _Barras con valores similares y corte alto para mejorar resolución_  
 > https://datastudio.google.com/reporting/03f48dcf-2c02-4623-880b-5ab3d8b9c5d0
 
-Para lograr esto en _Google Data Studio_, deben ir a la sección "STYLE" y cambiar el valor de "Left Y-Axis" de su gráfica de barras:
+Para lograr esto en _Looker Studio_, deben ir a la sección "STYLE" y cambiar el valor de "Left Y-Axis" de su gráfica de barras:
 
 <img src="/vysimgs/gds-corte-y.jpg" alt="Corte eje Y en gráfica de barras" />
 
 > **Figura 4**  
-> _Cambiar corte del eje Y en Google Data Studio_
+> _Cambiar corte del eje Y en Looker Studio_
 
 **NOTA IMPORTANTE SOBRE CORTAR EL EJE**: Cuando cortamos la base en una gráfica de barras, esta deja de ser _preatencional_, ya que el público debe revisar atentamente que la base ya no comienza en 0, que es lo que siempre asumimos inconscientemente. Adicionalmente, puede ser tentador cortar la base en todas las gráficas de barras para aumentar la resolución, pero si los valores no son tan similares, el corte puede producir una distorsión narrativa, ya que la diferencia entre las barras comienza a ser exagerada. Así que usen esta estrategia con cautela y en casos excepcionales.
 

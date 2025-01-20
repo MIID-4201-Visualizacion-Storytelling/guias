@@ -5,37 +5,37 @@ description: '...'
 
 ## Introducción
 
-Hasta este momento del curso nos hemos enfocado en la creación de dashboards con herramientas prediseñadas. En particular con _Google Data Studio_, el cual nos permite:
+Hasta este momento del curso nos hemos enfocado en la creación de dashboards con herramientas prediseñadas. En particular con _Looker Studio_, el cual nos permite:
 
 - Conectar una base de datos estática con facilidad.
 - Modelar los datos en una interfaz amigable.
 - Crear visualizaciones con mínimo esfuerzo.
 
-Pero hay dos tipos de problemas comunes con estas herramientas que nos obligan a programar una propia: No podemos conectar nuestra fuente de datos, o el tipo de visualización que quisiéramos usar no está disponible en la galería de gráficas. Incluso en el modelado de datos dentro de _Google Data Studio_, a veces tenemos que programar scripts para producir una nueva estructura de datos (tal cual lo vimos la semana pasada).
+Pero hay dos tipos de problemas comunes con estas herramientas que nos obligan a programar una propia: No podemos conectar nuestra fuente de datos, o el tipo de visualización que quisiéramos usar no está disponible en la galería de gráficas. Incluso en el modelado de datos dentro de _Looker Studio_, a veces tenemos que programar scripts para producir una nueva estructura de datos (tal cual lo vimos la semana pasada).
 
-En su vida profesional, idealmente ustedes pueden llegar a ser lo suficientemente versátiles para resolver cualquier problema de visualización y es por lo que esta semana vamos a revisar los principios fundamentales para programar una herramienta propia. Específicamente vamos a crear un dashboard con datos en vivo de los cambios en precio de algunas criptomonedas populares: Bitcoin, Ethereum, Monero y Litecoin. Para eso vamos a usar una fuente de datos gratuita llamada CoinCap (https://docs.coincap.io/) la cual ofrece datos en tiempo real por medio de una API. Si quisiéramos trabajar con datos de criptomonedas en _Google Data Studio_, tendríamos que usar datos históricos, pero vamos a ir un poco más lejos con el desarrollo de una aplicación con datos en vivo.
+En su vida profesional, idealmente ustedes pueden llegar a ser lo suficientemente versátiles para resolver cualquier problema de visualización y es por lo que esta semana vamos a revisar los principios fundamentales para programar una herramienta propia. Específicamente vamos a crear un dashboard con datos en vivo de los cambios en precio de algunas criptomonedas populares: Bitcoin, Ethereum, Monero y Litecoin. Para eso vamos a usar una fuente de datos gratuita llamada CoinCap (https://docs.coincap.io/) la cual ofrece datos en tiempo real por medio de una API. Si quisiéramos trabajar con datos de criptomonedas en _Looker Studio_, tendríamos que usar datos históricos, pero vamos a ir un poco más lejos con el desarrollo de una aplicación con datos en vivo.
 
-Para simplificar el proceso y darles insumos para su proyecto final, vamos a usar una de las librerías más populares de visualización de datos en páginas web que se llama D3. Pero antes de entrar al código, vamos a hacer un paralelo entre lo que ya conocen de Google Data Studio y las partes de una aplicación en código.
+Para simplificar el proceso y darles insumos para su proyecto final, vamos a usar una de las librerías más populares de visualización de datos en páginas web que se llama D3. Pero antes de entrar al código, vamos a hacer un paralelo entre lo que ya conocen de Looker Studio y las partes de una aplicación en código.
 
 ### Conectar Datos
 
-En _Google Data Studio_ ya vimos que la primera opción cuando creamos un reporte es decidir el conector a la fuente de datos. Hemos usado archivos estáticos en .csv y también el de “Google Sheets”. Otras fuentes populares serían “PostgreSQL” o “MySQL”, las cuales deben estar alojadas en algún servidor con el cual hacer la conexión. En todos estos casos, _Google Data Studio_ importa una instancia de los datos y actualiza la fuente al ritmo que definamos en **“Data freshness”**.
+En _Looker Studio_ ya vimos que la primera opción cuando creamos un reporte es decidir el conector a la fuente de datos. Hemos usado archivos estáticos en .csv y también el de “Google Sheets”. Otras fuentes populares serían “PostgreSQL” o “MySQL”, las cuales deben estar alojadas en algún servidor con el cual hacer la conexión. En todos estos casos, _Looker Studio_ importa una instancia de los datos y actualiza la fuente al ritmo que definamos en **“Data freshness”**.
 
-Para definir cada cuanto debe actualizar _Google Data Studio_ nuestros datos, van a **“Resources -> Manage added data sources -> EDIT”**. En la parte superior van a ver que por lo general está predeterminado para actualizar cada 15 minutos:
+Para definir cada cuanto debe actualizar _Looker Studio_ nuestros datos, van a **“Resources -> Manage added data sources -> EDIT”**. En la parte superior van a ver que por lo general está predeterminado para actualizar cada 15 minutos:
 
 <img src="/vysimgs/refresh-rate.jpg" alt="Refresh Rate" />
 
 > **Figura 1**  
-> _Frecuencia con la que Google Data Studio actualiza la fuente de datos_
+> _Frecuencia con la que Looker Studio actualiza la fuente de datos_
 
 Al seleccionarla, les aparecen diferentes opciones que van desde 15 minutos hasta 12 horas, con la advertencia de que actualizaciones muy frecuentes pueden volver lenta la aplicación o incurrir en altos gastos si nuestro conector es de pago (por ejemplo: BigQuery o Amazon Redshift).
 
 <img src="/vysimgs/opciones-refresh-rate.jpg" alt="Opciones Refresh Rate" />
 
 > **Figura 2**  
-> _Opciones de frecuencia para actualizar los datos en Google Data Studio_
+> _Opciones de frecuencia para actualizar los datos en Looker Studio_
 
-Esta puede ser una gran limitación considerando el mercado actual de fuentes de datos en internet. Hay una creciente disponibilidad de fuentes, incluso gratuitas, que nos abren espacios de investigación potentes a los profesionales de “Analytics”. Sobre todo, si el fenómeno que estamos estudiando cambia constantemente. Consideren por ejemplo los datos de redes sociales, sensores, mercados de valores o criptomonedas, los cuales contienen información que está cambiando constantemente, cada segundo incluso (muy por encima de los 15 minutos que nos permite _Google Data Studio_).
+Esta puede ser una gran limitación considerando el mercado actual de fuentes de datos en internet. Hay una creciente disponibilidad de fuentes, incluso gratuitas, que nos abren espacios de investigación potentes a los profesionales de “Analytics”. Sobre todo, si el fenómeno que estamos estudiando cambia constantemente. Consideren por ejemplo los datos de redes sociales, sensores, mercados de valores o criptomonedas, los cuales contienen información que está cambiando constantemente, cada segundo incluso (muy por encima de los 15 minutos que nos permite _Looker Studio_).
 
 <!--div id="api">
   <div class="icono">
@@ -92,7 +92,7 @@ fetch('https://api.coincap.io/v2/assets')
   });
 ```
 
-Para hacer un paralelo con _Google Data Studio_, cuando decimos en la programación:
+Para hacer un paralelo con _Looker Studio_, cuando decimos en la programación:
 
 ```js
 fetch('https://api.coincap.io/v2/assets');
@@ -103,7 +103,7 @@ Es igual a elegir el conector a la fuente de datos cuando creamos un nuevo repor
 <img src="/vysimgs/gds-fuentes-datos.jpg" alt="Fuentes de datos" />
 
 > **Figura 4**  
-> _Fuentes de datos en Google Data Studio_
+> _Fuentes de datos en Looker Studio_
 
 Luego, cuando decimos:
 
@@ -113,12 +113,12 @@ Luego, cuando decimos:
 })
 ```
 
-Es lo que hace _Google Data Studio_ cuando define nuestras variables iniciales estructuradamente:
+Es lo que hace _Looker Studio_ cuando define nuestras variables iniciales estructuradamente:
 
 <img src="/vysimgs/modelado-source.jpg" alt="Fuentes de datos" />
 
 > **Figura 5**  
-> _Variables disponibles en la fuente de datos dentro de Google Data Studio_
+> _Variables disponibles en la fuente de datos dentro de Looker Studio_
 
 La última parte del código:
 
@@ -186,4 +186,4 @@ Con WebSockets, los datos llegan de la API a una frecuencia indeterminada, en nu
 
 ## Conclusión
 
-Mientras que en _Google Data Studio_ trabajamos principalmente con datos estáticos, con programación podemos aprovechar las APIs para crear aplicaciones que pueden usar datos estáticos (con RESTful) o datos en tiempo real (con WebSockets). Hasta ahora vimos las bases de cómo conectar la fuente de datos a una aplicación en JavaScript, en el siguiente tutorial vamos a construir una aplicación completa usando la API de _CoinCap_.
+Mientras que en _Looker Studio_ trabajamos principalmente con datos estáticos, con programación podemos aprovechar las APIs para crear aplicaciones que pueden usar datos estáticos (con RESTful) o datos en tiempo real (con WebSockets). Hasta ahora vimos las bases de cómo conectar la fuente de datos a una aplicación en JavaScript, en el siguiente tutorial vamos a construir una aplicación completa usando la API de _CoinCap_.

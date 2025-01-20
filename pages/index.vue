@@ -5,7 +5,7 @@
     <p><NuxtLink to="1-2-linea-de-tiempo">1.2 Linea de Tiempo</NuxtLink></p>
     <p><NuxtLink to="1-3-herramientas">1.3 Herramientas de Visualización</NuxtLink></p>
     <p><NuxtLink to="1-4-herramientas-www">1.4 Herramientas de Publicación</NuxtLink></p>
-    <p><NuxtLink to="1-5-google-data-studio">1.5 Google Data Studio</NuxtLink></p>
+    <p><NuxtLink to="1-5-google-data-studio">1.5 Looker Studio</NuxtLink></p>
 
     <h2>Semana 2</h2>
     <p><NuxtLink to="2-1-forma-y-color">2.1 Forma y Color</NuxtLink></p>

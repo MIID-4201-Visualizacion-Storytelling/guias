@@ -42,7 +42,7 @@ Incluso podemos reconocer que la población es principalmente estadounidense y c
 
 Pueden descargar los datos en .csv desde **“File -> Download -> Comma Separated Values (.csv)”** y montarlos en su aplicación de visualización.
 
-Si usan _Google Data Studio_, pueden hacer una copia a su propia cuenta desde **“File -> Make a Copy”**. Luego van a Google Data Studio, crean un reporte nuevo y en la opción **“Connect Data”** usan la opción **“Google Sheets”**
+Si usan _Looker Studio_, pueden hacer una copia a su propia cuenta desde **“File -> Make a Copy”**. Luego van a Looker Studio, crean un reporte nuevo y en la opción **“Connect Data”** usan la opción **“Google Sheets”**
 
 <img src="/vysimgs/Inkedgoogle-sheets_LI.jpg">
 
@@ -56,14 +56,14 @@ Aquí van a poder seleccionar la copia que acaban de hacer.
 > **Figura 3**  
 > _Conexión con Google Sheets paso 2_
 
-Al cargar los datos, pueden ver que _Google Data Studio_ reconoce inicialmente los tipos de variables que identificamos anteriormente: textos (ícono “ABC”) y números (ícono “123”). Se debe ver algo así:
+Al cargar los datos, pueden ver que _Looker Studio_ reconoce inicialmente los tipos de variables que identificamos anteriormente: textos (ícono “ABC”) y números (ícono “123”). Se debe ver algo así:
 
 <img src="/vysimgs/variables.jpg">
 
 > **Figura 4**  
 > _Variables iniciales_
 
-Ahora tenemos que especificar mejor estas variables definiendo el tipo de datos para comenzar el proceso de modelado. En _Google Data Studio_ van a **“Resource -> Manage added data sources”**
+Ahora tenemos que especificar mejor estas variables definiendo el tipo de datos para comenzar el proceso de modelado. En _Looker Studio_ van a **“Resource -> Manage added data sources”**
 
 <img src="/vysimgs/data-sources.jpg">
 
@@ -77,7 +77,7 @@ En la nueva pantalla seleccionan la opción **“Edit”**
 > **Figura 6**  
 > _Editar variables de la fuente de datos_
 
-En este espacio podemos editar y documentar las variables, idealmente el tipo de dato debe ser lo más específico posible. Por ejemplo, sabemos que hay campos con información georgráfica que no son simplemente textos. Cambien **“City”** y **“Country”** a variables **“Geo -> City”** y **“Geo -> Country”** respectivamente. Van a ver que cambia el ícono de texto a uno con un globo como se ve acá:
+En este espacio podemos editar y documentar las variables, idealmente el tipo de dato debe ser lo más específico posible. Por ejemplo, sabemos que hay campos con información geográfica que no son simplemente textos. Cambien **“City”** y **“Country”** a variables **“Geo -> City”** y **“Geo -> Country”** respectivamente. Van a ver que cambia el ícono de texto a uno con un globo como se ve acá:
 
 <img src="/vysimgs/modelado-source.jpg">
 
@@ -86,12 +86,12 @@ En este espacio podemos editar y documentar las variables, idealmente el tipo de
 
 En este punto tenemos los datos bien definidos para la base de datos inicial y podemos comenzar a visualizarlos.
 
-Por último, una buena práctica a la hora de definir las variables es usar nombres cortos y descriptivos. Al mismo tiempo, agregar descripciones a medida que vamos modelando los datos nos ayuda a mantener bien documentado nuestro trabajo para facilitar nuevas iteraciones que hagamos sobre ellos y para poder entregarle nuestro trabajo a otra persona para que continúe desarrollando. A mí, por ejemplo, me gusta trabajar en español, así que cambié los nombres de las variables y agregué unas primeras descripciones. Así se ve mi primera fase de modelado en _Google Data Studio_:
+Por último, una buena práctica a la hora de definir las variables es usar nombres cortos y descriptivos. Al mismo tiempo, agregar descripciones a medida que vamos modelando los datos nos ayuda a mantener bien documentado nuestro trabajo para facilitar nuevas iteraciones que hagamos sobre ellos y para poder entregarle nuestro trabajo a otra persona para que continúe desarrollando. A mí, por ejemplo, me gusta trabajar en español, así que cambié los nombres de las variables y agregué unas primeras descripciones. Así se ve mi primera fase de modelado en _Looker Studio_:
 
 <img src="/vysimgs/nombrar-describir.jpg">
 
 > **Figura 8**  
-> _Nombres y descripciones en Google Data Studio_
+> _Nombres y descripciones en Looker Studio_
 
 Ustedes pueden mantener los nombres de las variables en inglés o crear sus propias traducciones. Cuando lo decidan, sean consistentes con todas las variables.
 
@@ -104,7 +104,7 @@ Si revisamos el <a href="https://www.askamanager.org/2021/04/how-much-money-do-y
 <img src="/vysimgs/mapa-sin-limpiar.png">
 
 > **Figura 9**  
-> _Nombres y descripciones en Google Data Studio_
+> _Nombres y descripciones en Looker Studio_
 > Para ver el reporte interactivo ir a: https://datastudio.google.com/reporting/369461f0-a5e7-4593-bf70-1d747e3ffc6c
 
 **¡Es un desastre! ¿Cuántas instancias diferentes hay de Estados Unidos?** Hay muchas formas de escribir el nombre de un país y nuestra aplicación simplemente no las reconoce como uno solo.
@@ -114,7 +114,7 @@ Para limpiar los datos tienen dos opciones:
 - **Limpieza manual**: Directamente en Excel o Google Sheets, pueden elegir una única forma de escribir el nombre de un país, buscar todas las otras y reemplazarlas por la que eligieron. Esto puede ser un proceso tedioso y poco productivo si queremos actualizar los datos en el futuro.
 - **Limpieza con “scripts”**: En este caso debemos usar programación para automatizar la limpieza, implica siempre el reto de crear las fórmulas y probarlas detenidamente, pero una vez tenemos esto, actualizar los datos es automático y efectivo para un proyecto.
 
-Para este ejercicio pueden elegir la opción que más les convenga, ya que estamos trabajando sobre datos estáticos que no van a cambiar en el futuro. Pero les voy a mostrar cómo crear un script para limpiar país en _Google Data Studio_:
+Para este ejercicio pueden elegir la opción que más les convenga, ya que estamos trabajando sobre datos estáticos que no van a cambiar en el futuro. Pero les voy a mostrar cómo crear un script para limpiar país en _Looker Studio_:
 
 Pueden ver el siguiente video para el paso a paso, también está escrito después del video:
 
@@ -152,7 +152,7 @@ La fórmula que les estoy dejando como base es apenas una versión de cómo crea
 
 ### Un guiño a las prácticas open-source
 
-En este curso pueden compartir entre ustedes soluciones de programación para los ejercicios. Si alguien quiere compartir su solución al script con sus compañeros, siéntanse libres de hacerlo en el Slack. Aparte de ser permitido, ¡lo celebro!, pues este curso no se trata tanto de que aprendan a programar, sino de que aprendan a narrar. Entiendo que hay procesos técnicos que son necesarios para hacer las visualizaciones y se pueden ayudar entre todos para lograrlo. Espacios como Github o StackOverflow han demostrado la potencia de compartir y trabajar en comunidad, acá podemos hacer eco de estas nuevas formas pedagógicas.
+En este curso pueden compartir entre ustedes soluciones de programación para los ejercicios. Si alguien quiere compartir su solución al script con sus compañeros, siéntanse libres de hacerlo en el Slack. Aparte de ser permitido, ¡lo celebro!, pues este curso no se trata tanto de que aprendan a programar, sino de que aprendan a narrar. Entiendo que hay procesos técnicos que son necesarios para hacer las visualizaciones y se pueden ayudar entre todos para lograrlo. Espacios como GitHub o StackOverflow han demostrado la potencia de compartir y trabajar en comunidad, acá podemos hacer eco de estas nuevas formas pedagógicas.
 
 ## Conclusiones
 

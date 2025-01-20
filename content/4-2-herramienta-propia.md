@@ -12,14 +12,14 @@ En este tutorial van a crear la siguiente aplicación que muestra, en tiempo rea
 > **Figura 1**  
 > _Cambio de precios en criptomonedas_
 
-Vamos a hacerlo juntos, paso por paso, así que no se preocupen si nunca han creado una aplicación web. La idea con este tutorial es que se hagan a una idea general del proceso de visualización por medio de la programación. Vamos a hacer paralelos con lo que han aprendido de _Google Data Studio_ para que puedan reconocer las similitudes y diferencias entre las herramientas prediseñadas y la creación de una herramienta propia. Con estas bases pueden explorar autónomamente nuevas fuentes de datos con diferentes APIs en futuros proyectos. Van a comenzar con una plantilla relativamente vacía y al final del tutorial van a tener la entrega de la semana prácticamente terminada, así que ánimo y si surgen preguntas en el camino no duden en contactarnos.
+Vamos a hacerlo juntos, paso por paso, así que no se preocupen si nunca han creado una aplicación web. La idea con este tutorial es que se hagan a una idea general del proceso de visualización por medio de la programación. Vamos a hacer paralelos con lo que han aprendido de _Looker Studio_ para que puedan reconocer las similitudes y diferencias entre las herramientas prediseñadas y la creación de una herramienta propia. Con estas bases pueden explorar autónomamente nuevas fuentes de datos con diferentes APIs en futuros proyectos. Van a comenzar con una plantilla relativamente vacía y al final del tutorial van a tener la entrega de la semana prácticamente terminada, así que ánimo y si surgen preguntas en el camino no duden en contactarnos.
 
 ### Espacio de trabajo
 
 Para este ejercicio vamos a trabajar en Replit, una herramienta que nos permite crear aplicaciones en diferentes lenguajes de programación, directamente en el explorador sin tener que descargar o instalar nada.
 
 - Paso 1: Crear cuenta en Replit
-  Primero van a <a href="https://replit.com/" target="_blank">https://replit.com/</a> y seleccionan la opción “Sign Up” en la esquina superior derecha. Se pueden registrar con su cuenta de Google, Github, Facebook o directamente diligenciando el formulario. Con esto ya tienen una cuenta gratuita que es suficiente para este ejercicio.
+  Primero van a <a href="https://replit.com/" target="_blank">https://replit.com/</a> y seleccionan la opción “Sign Up” en la esquina superior derecha. Se pueden registrar con su cuenta de Google, GitHub, Facebook o directamente diligenciando el formulario. Con esto ya tienen una cuenta gratuita que es suficiente para este ejercicio.
 - Paso 2: Hacer copia (Fork) de la plantilla
   Luego de crear la cuenta, van al siguiente enlace: <a href="https://replit.com/@1cgonza/Criptomonedas-Precios?v=1" target="_blank">https://replit.com/@1cgonza/Criptomonedas-Precios?v=1</a> y hacen clic en el botón **“Fork repl”** que les debe aparecer a la derecha como se ve en la Figura 2 a continuación:
 
@@ -103,7 +103,7 @@ Esta semana no vamos a hacer mucho énfasis en el diseño, pero el archivo de "s
 
 En el archivo "scripts.js" es donde vamos a crear nuestra aplicación. Desde este archivo podemos modificar la estructura y el contenido del HTML o los estilos del CSS de manera dinámica.
 
-En el JavaScript vamos a hacer 3 cosas que vienen haciendo en _Google Data Studio_:
+En el JavaScript vamos a hacer 3 cosas que vienen haciendo en _Looker Studio_:
 
 1. Conectar la aplicación a una fuente de datos.
 2. Modelar los datos.
@@ -132,7 +132,7 @@ function procesarNuevoMensaje(mensaje) {
 
 #### Estructura para modelado de datos
 
-La semana pasada vimos cómo limpiar y modelar los datos por medio de scripts en _Google Data Studio_. Este proceso nos ayudó a convertir la estructura original de los datos a una nueva estructura que tiene sentido para nuestra investigación. En el caso de _CoinCap_, estamos conectados a la API para que nos envíe datos en el momento que cambia el precio de alguna criptomoneda que nos interesa. La estructura original que nos llega es simplemente el nombre de la moneda y su valor actual que se ve así en formato JSON:
+La semana pasada vimos cómo limpiar y modelar los datos por medio de scripts en _Looker Studio_. Este proceso nos ayudó a convertir la estructura original de los datos a una nueva estructura que tiene sentido para nuestra investigación. En el caso de _CoinCap_, estamos conectados a la API para que nos envíe datos en el momento que cambia el precio de alguna criptomoneda que nos interesa. La estructura original que nos llega es simplemente el nombre de la moneda y su valor actual que se ve así en formato JSON:
 
 ```json
 {
@@ -262,7 +262,7 @@ Ustedes deben cambiar estos textos para la entrega, recuerden que su público ob
 
 #### Visualización
 
-Para visualizar los datos vamos a usar la librería D3 que es bastante robusta y permite crear todo tipo de gráficas, tanto las que vemos disponibles en _Google Data Studio_ como otras que no van a encontrar allí. Para este caso vamos a usar una línea para mostrar la fluctuación de precios en las criptomonedas, aparte de ser sencilla de implementar nos funciona narrativamente.
+Para visualizar los datos vamos a usar la librería D3 que es bastante robusta y permite crear todo tipo de gráficas, tanto las que vemos disponibles en _Looker Studio_ como otras que no van a encontrar allí. Para este caso vamos a usar una línea para mostrar la fluctuación de precios en las criptomonedas, aparte de ser sencilla de implementar nos funciona narrativamente.
 
 Justo antes de la declaración de la función creamos el contenedor de la gráfica:
 
@@ -302,7 +302,7 @@ const ejeY = d3.axisLeft().scale(y);
 svg.append('g').attr('class', 'ejeY');
 ```
 
-Lo que acabamos de hacer es igual a agregar un "Time series chart" en _Google Data Studio_ a un reporte. En _Google Data Studio_ lo hacemos con un par de clicks y acá son varias líneas de código, pero no se desanimen, luego vale la pena.
+Lo que acabamos de hacer es igual a agregar un "Time series chart" en _Looker Studio_ a un reporte. En _Looker Studio_ lo hacemos con un par de clicks y acá son varias líneas de código, pero no se desanimen, luego vale la pena.
 
 #### Actualizar visualización
 

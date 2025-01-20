@@ -15,7 +15,7 @@ El proceso de filtrar los datos es un proceso intelectual en el que atendemos nu
 
 Para atender la pregunta que formulaba antes -¿qué pasa si quisiéramos comparar esos salarios de manera global?- tenemos que decidir una sola moneda base. En el siguiente ejercicio vamos a convertir el salario anual (_Annual Salary_) a pesos colombianos. Primero tenemos que revisar la moneda que describe cada _Annual Salary_ usando la variable _Currency_ y multiplicamos el valor de _Annual Salary_ por la tasa de cambio (TRM).
 
-Si se sienten cómodos creando fórmulas en Excel, pueden crear una nueva columna directamente en la base de datos. Acá les voy a mostrar cómo crear una nueva variable desde _Google Data Studio_:
+Si se sienten cómodos creando fórmulas en Excel, pueden crear una nueva columna directamente en la base de datos. Acá les voy a mostrar cómo crear una nueva variable desde _Looker Studio_:
 
 Seleccionan **“ADD A FIELD”**, luego le dan un nombre a su variable, en mi caso la voy a llamar “Salarios (pesos colombianos)” y agregamos la fórmula para nuestro nuevo campo usando la condicional `CASE` (pueden leer más sobre las posibles condicionales en https://support.google.com/datastudio/topic/10490726?hl=en&ref_topic=7019880):
 

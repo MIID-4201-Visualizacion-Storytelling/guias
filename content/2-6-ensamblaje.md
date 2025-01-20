@@ -23,7 +23,7 @@ Para construir su historia con los datos que han visualizado vamos a componer un
 Pueden entregar su ejercicio en dos modalidades:
 
 - **Estático**: Pueden entregar foto(s) si lo hacen a mano o en un software diferente a los que producen páginas web. En este caso es importante subir solamente 1 archivo que puede ser PDF, Word o incluso PowerPoint. El orden en el que se presentan los elementos es importante y es por esta razón que deben entregar 1 solo archivo con los elementos en el orden que quieren que se lean / vean.
-- **Interactivo**: Si hacen su ejercicio en Google Data Studio, deben entregar el enlace público al tablero.
+- **Interactivo**: Si hacen su ejercicio en Looker Studio, deben entregar el enlace público al tablero.
 
 Para obtener el enlace deben:
 

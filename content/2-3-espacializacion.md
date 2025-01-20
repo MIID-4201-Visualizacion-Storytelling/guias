@@ -9,7 +9,7 @@ description: '...'
 
 En las dos guías anteriores (“Forma y color” y “Escalas”) cubrimos bastante terreno conceptual en las introducciones. Teniendo en cuenta lo aprendido, vamos a espacializar los datos usando la referencia geográfica que tenemos en nuestra base de datos para producir diferentes tipos de mapas y así reconocer posibles narrativas que podemos construir con datos geográficos sobre un mapa.
 
-Pueden seguir los siguientes pasos en _Google Data Studio_ usando como fuente la base de datos de la población del curso. Si deciden utilizar otro software, el proceso es muy parecido.
+Pueden seguir los siguientes pasos en _Looker Studio_ usando como fuente la base de datos de la población del curso. Si deciden utilizar otro software, el proceso es muy parecido.
 
 ## Paso 1: Crear reporte y cargar los datos
 
@@ -23,18 +23,18 @@ Vamos a usar la siguiente base de datos para el tutorial. En el caso de ustedes,
 | Los Ángeles | USA      |
 | Bogotá      | Colombia |
 
-En _Google Data Studio_ crean un nuevo reporte y suben el CSV usando la opción "File Upload". El siguiente video _(sin sonido)_ muestra cómo hacerlo paso a paso:
+En _Looker Studio_ crean un nuevo reporte y suben el CSV usando la opción "File Upload". El siguiente video _(sin sonido)_ muestra cómo hacerlo paso a paso:
 
 <video controls muted>
   <source src="/vysvideos/vys-cargar-csv-gds.mp4" type="video/mp4">
 </video>
 
 > **Video 1**  
-> _Cargar CSV en Google Data Studio_
+> _Cargar CSV en Looker Studio_
 
 ## Paso 2: Elegir tipo de mapa
 
-En _Google Data Studio_ tenemos 2 opciones de mapa: “Mapa con burbujas” (Bubble map) y “Mapa por zonas” (Filled map). El tipo de mapa que escogemos depende de lo que queremos contar, es decir, es una decisión creativa alrededor de la estructura de los datos. Por ejemplo:
+En _Looker Studio_ tenemos 2 opciones de mapa: “Mapa con burbujas” (Bubble map) y “Mapa por zonas” (Filled map). El tipo de mapa que escogemos depende de lo que queremos contar, es decir, es una decisión creativa alrededor de la estructura de los datos. Por ejemplo:
 
 ### Historia con número de estudiantes por ciudad:
 
@@ -84,7 +84,7 @@ El mapa por países (Figura 2) que vimos anteriormente nos podría funcionar par
 
 ## Paso 3: Definir métricas
 
-Una de las ventajas que tiene _Google Data Studio_ es que podemos utilizar datos con ubicación geográfica por latitud y longitud, o con texto. En los ejemplos anteriores (y en la base de datos con la que están trabajando), las locaciones están escritas en texto y aún así la aplicación sabe dónde ubicar los puntos o rellenar las regiones. Pero para que funcione, debemos indicarle al software cómo interpretar el texto como ubicación geográfica.
+Una de las ventajas que tiene _Looker Studio_ es que podemos utilizar datos con ubicación geográfica por latitud y longitud, o con texto. En los ejemplos anteriores (y en la base de datos con la que están trabajando), las locaciones están escritas en texto y aún así la aplicación sabe dónde ubicar los puntos o rellenar las regiones. Pero para que funcione, debemos indicarle al software cómo interpretar el texto como ubicación geográfica.
 
 Hagamos un paso a paso para construir el mapa de "Figura 1", pueden ver el siguiente video que resume los pasos a continuación:
 
@@ -98,21 +98,21 @@ Hagamos un paso a paso para construir el mapa de "Figura 1", pueden ver el sigui
 2. Agregar mapa haciendo clic en "Add Chart".
 3. En este caso voy a elegir "Bubble map" en la sección "Google Maps".
 
-Cuando insertan un mapa a _Google Data Studio_, lo más probable es que les salga el siguiente error:
+Cuando insertan un mapa a _Looker Studio_, lo más probable es que les salga el siguiente error:
 
-<img src="/vysimgs/gds-error-mapa.JPG" alt="Error al cargar mapa en Google Data Studio" />
+<img src="/vysimgs/gds-error-mapa.JPG" alt="Error al cargar mapa en Looker Studio" />
 
 No se preocupen. Primero debemos definir los campos para que funcione el mapa.
 
 4. En la sección de la derecha, bajo "Fields" seleccionan la opción llamada "Location".
 5. Para este ejemplo, "Location" van a ser las ciudades porque estamos haciendo el mapa de burbujas. _Si estuviéramos creando los mapas de las figuras 2 y 3, este campo sería "País" ya que corresponde a las zonas que queremos rellenar en el mapa._
-6. Luego hacen clic en el botón para editar el campo que se encuentra justo a la izquierda (resaltado en la siguiente imágen).
+6. Luego hacen clic en el botón para editar el campo que se encuentra justo a la izquierda (resaltado en la siguiente imagen).
 
-<img src="/vysimgs/gds-location.JPG" alt="Campo Location en Google Data Studio" />
+<img src="/vysimgs/gds-location.JPG" alt="Campo Location en Looker Studio" />
 
 7. Ir a la sección "Type" -> "Geo" y seleccionar la opción "City". _Noten que debemos ser específicos con el tipo de datos, si estuviéramos usando el campo de país, el tipo que definimos en este paso sería "Country"._
 
-<img src="/vysimgs/gds-geo-ciudad.JPG" alt="Campo City en Google Data Studio" />
+<img src="/vysimgs/gds-geo-ciudad.JPG" alt="Campo City en Looker Studio" />
 
 8. De vuelta en "Fields" debemos definir el campo "Size" y opcionalmente el de "Color dimension", en ambos casos voy a usar el campo "País" para definir estos parámetros.
 
@@ -127,5 +127,5 @@ No se preocupen. Primero debemos definir los campos para que funcione el mapa.
 ## Ejercicio
 
 - Utilizando la base de datos “poblacion-curso.csv” identificar una historia que desean contar sobre la población del curso. Recuerden que la definición de la narrativa es un ejercicio creativo. ¿Qué creen que es valioso contar sobre esta población en particular?
-- Según su intención narrativa, crear un mapa utilizando cualquier software de visualización. Puede ser _Google Data Studio_ o cualquier otro en el que se sientan cómodos. El tipo de visualización debe apoyar su intención narrativa. En el caso de _Google Data Studio_, no es lo mismo usar “Bubble map” a “Filled map”, esta elección debe ser coherente con lo que quieren contar.
+- Según su intención narrativa, crear un mapa utilizando cualquier software de visualización. Puede ser _Looker Studio_ o cualquier otro en el que se sientan cómodos. El tipo de visualización debe apoyar su intención narrativa. En el caso de _Looker Studio_, no es lo mismo usar “Bubble map” a “Filled map”, esta elección debe ser coherente con lo que quieren contar.
 - Acompañar el mapa con un texto corto (máximo 1 párrafo) donde resumen lo que quieren contar con el mapa. Pueden usar este texto para abrir preguntas o esbozar conclusiones de lo que vemos en el mapa. (Ver los textos en el tutorial para tener una guía de posibles formas en que pueden redactar este texto).

@@ -5,26 +5,26 @@ description: '...'
 
 ## Introducción
 
-A partir de esta semana, y hasta el final del curso, van a trabajar en sus proyectos finales donde el objetivo es contar una historia en un sitio web. Teniendo en cuenta que este curso no puede cubrir todas las opciones de publicación web, vamos a continuar con los tutoriales de _Google Data Studio_ como una posible herramienta de trabajo. No quiere decir que deban usarla para su proyecto final, pero veamos cómo nos sirve para ir más allá de un simple dashboard.
+A partir de esta semana, y hasta el final del curso, van a trabajar en sus proyectos finales donde el objetivo es contar una historia en un sitio web. Teniendo en cuenta que este curso no puede cubrir todas las opciones de publicación web, vamos a continuar con los tutoriales de _Looker Studio_ como una posible herramienta de trabajo. No quiere decir que deban usarla para su proyecto final, pero veamos cómo nos sirve para ir más allá de un simple dashboard.
 
 ### La plantilla
 
-En este tutorial les voy a mostrar un ejemplo de un sitio web creado en _Google Data Studio_ que pueden usar como plantilla y editarla para crear su proyecto final. Pueden hacer clic en la siguiente imagen para abrir la plantilla o ir directamente a https://datastudio.google.com/reporting/58d14fe8-15a1-48f9-b12f-65a50ee14e94/page/Y0GmC
+En este tutorial les voy a mostrar un ejemplo de un sitio web creado en _Looker Studio_ que pueden usar como plantilla y editarla para crear su proyecto final. Pueden hacer clic en la siguiente imagen para abrir la plantilla o ir directamente a https://lookerstudio.google.com/u/0/reporting/58d14fe8-15a1-48f9-b12f-65a50ee14e94/page/Y0GmC
 
-<a href="https://datastudio.google.com/reporting/58d14fe8-15a1-48f9-b12f-65a50ee14e94/page/Y0GmC" target="_blank"><img src="/vysimgs/plantilla-web.jpg" alt="Plantilla Web en Google Data Studio" /></a>
+<a href="https://lookerstudio.google.com/u/0/reporting/58d14fe8-15a1-48f9-b12f-65a50ee14e94/page/Y0GmC" target="_blank"><img src="/vysimgs/plantilla-web.jpg" alt="Plantilla Web en Looker Studio" /></a>
 
 > **Figura 1**  
-> _Plantilla Web en Google Data Studio_  
-> https://datastudio.google.com/reporting/58d14fe8-15a1-48f9-b12f-65a50ee14e94/page/Y0GmC
+> _Plantilla Web en Looker Studio_  
+> https://lookerstudio.google.com/u/0/reporting/58d14fe8-15a1-48f9-b12f-65a50ee14e94/page/Y0GmC
 
 ### Copiar plantilla
 
 Para crear una copia de la plantilla que pueden editar, deben hacer clic en los 3 puntos azules en la esquina superior derecha y seleccionar "Hacer una copia". Esto crea un nuevo reporte en su propia cuenta donde pueden conectar sus datos y editar el contenido.
 
-<img src="/vysimgs/copiar-plantilla.jpg" alt="Copiar plantilla en Google Data Studio" />
+<img src="/vysimgs/copiar-plantilla.jpg" alt="Copiar plantilla en Looker Studio" />
 
 > **Figura 2**  
-> _Clonar plantilla en Google Data Studio_
+> _Clonar plantilla en Looker Studio_
 
 ### "Scrollytelling"
 
@@ -35,7 +35,7 @@ Ustedes pueden cambiar el formato acorde a su contenido en: **"Theme and layout"
 <img src="/vysimgs/formato-reporte.jpg" alt="Formato reporte" />
 
 > **Figura 3**  
-> _Editar el formato del reporte en Google Data Studio_
+> _Editar el formato del reporte en Looker Studio_
 
 ### Paleta de colores
 
@@ -46,14 +46,14 @@ Para definir la paleta de colores van a **"Theme and layout" -> "Theme" -> "Cust
 <img src="/vysimgs/colores-plantilla.jpg" alt="Colores reporte" />
 
 > **Figura 4**  
-> _Ir a sección de paleta de colores en Google Data Studio_
+> _Ir a sección de paleta de colores en Looker Studio_
 
 Allí van a encontrar una serie de opciones generales de estilo, incluyendo la opción para cambiar el color de fondo (**Report Background**), tipo de fuente y color de los textos (**Text Style**), etc.
 
 <img src="/vysimgs/editar-plantilla-formato.jpg" alt="formato general reporte" />
 
 > **Figura 5**  
-> _Editar estilos de la plantilla en Google Data Studio_
+> _Editar estilos de la plantilla en Looker Studio_
 
 ### Secciones y tipos de contenido
 
@@ -62,7 +62,7 @@ Ahora veamos cómo dividir el espacio de la página en secciones que van contand
 <img src="/vysimgs/gds-elementos-descriptivos.jpg" alt="Elementos descriptivos" />
 
 > **Figura 6**  
-> _Elementos para crear secciones en Google Data Studio_
+> _Elementos para crear secciones en Looker Studio_
 
 #### Bloques de texto
 
@@ -71,7 +71,7 @@ En la parte superior de la plantilla tenemos varios bloques de texto. Pueden cam
 <img src="/vysimgs/editor-texto.jpg" alt="Editor de texto" />
 
 > **Figura 7**  
-> _Editor de texto en Google Data Studio_
+> _Editor de texto en Looker Studio_
 
 #### Elementos externos: imágenes y videos
 
@@ -82,7 +82,7 @@ Las imágenes pueden ser archivos que tienen guardados en su computador o enlace
 <img src="/vysimgs/agregar-imgs.jpg" alt="Agregar imágenes" />
 
 > **Figura 8**  
-> _Agregar imágenes en Google Data Studio_
+> _Agregar imágenes en Looker Studio_
 
 _La ilustración es un archivo .svg que descargué de una fuente gratuita de ilustraciones llamada unDraw: https://undraw.co/illustrations donde se puede cambiar el color de la ilustración antes de descargarla. En mi caso usé el naranja brillante que definí para la identidad del sitio._
 
@@ -92,19 +92,19 @@ _La ilustración es un archivo .svg que descargué de una fuente gratuita de ilu
 > _Ilustración gratuita de unDraw_  
 > https://undraw.co/illustrations
 
-En el caso del video no podemos subir el archivo directamente a _Google Data Studio_, pero podemos vincular uno desde plataformas como YouTube o Vimeo. Para agregar el video a la página seleccionan la opción "URL Embed":
+En el caso del video no podemos subir el archivo directamente a _Looker Studio_, pero podemos vincular uno desde plataformas como YouTube o Vimeo. Para agregar el video a la página seleccionan la opción "URL Embed":
 
 <img src="/vysimgs/embed.jpg" alt="Embed" />
 
 > **Figura 10**  
-> _Opción "embed" en Google Data Sutdio_
+> _Opción "embed" en Looker Studio_
 
 Luego dibujan un rectángulo en el espacio de trabajo y a la derecha les aparece el campo donde ponen el enlace al video:
 
 <img src="/vysimgs/embed-url.jpg" alt="Embed URL" />
 
 > **Figura 11**  
-> _Vincular video de YouTube en Google Data Sutdio_
+> _Vincular video de YouTube en Looker Studio_
 
 _Les recomiendo el video para ir pensando en su ejercicio de pitch._
 
@@ -115,22 +115,22 @@ Por último, en la plantilla van a encontrar diferentes formas complementarias q
 <img src="/vysimgs/seccion-figuras.jpg" alt="Figuras complementarias" />
 
 > **Figura 12**  
-> _Figuras complementarias en Google Data Sutdio_
+> _Figuras complementarias en Looker Studio_
 
 Estos los podemos crear con la opción de línea (que ofrece diferentes conectores) y forma (con la que pueden crear áreas circulares o rectangulares):
 
 <img src="/vysimgs/linea-forma.jpg" alt="Líneas y formas" />
 
 > **Figura 13**  
-> _Líneas y formas en Google Data Sutdio_
+> _Líneas y formas en Looker Studio_
 
-En ocasiones debemos ordenar estas figuras para que estén encima o detrás de otros elementos en la página. En _Google Data Studio_ podemos ordenar cualquier elemento haciendo clic derecho y en la sección **"Order"** elegir si queremos traer el elemento seleccionado hacia adelante o hacia atrás. (En la caso de la línea que señala el mapa, usé la opción **"Bring Forward"** para que quedara encima del mapa):
+En ocasiones debemos ordenar estas figuras para que estén encima o detrás de otros elementos en la página. En _Looker Studio_ podemos ordenar cualquier elemento haciendo clic derecho y en la sección **"Order"** elegir si queremos traer el elemento seleccionado hacia adelante o hacia atrás. (En la caso de la línea que señala el mapa, usé la opción **"Bring Forward"** para que quedara encima del mapa):
 
 <img src="/vysimgs/orden.jpg" alt="Orden de los elementos" />
 
 > **Figura 13**  
-> _Orden de los elementos en Google Data Sutdio_
+> _Orden de los elementos en Looker Studio_
 
 ## Conclusiones
 
-A lo largo del curso vimos cómo crear visualizaciones en _Google Data Studio_, una herramienta flexible y ágil para crear dashboards. Pero podemos hacer uso de conceptos básicos de diseño web para transformar esta herramienta en un espacio potente para contar historias más allá de un simple reporte. Estos mismos conceptos los pueden aplicar a otras herramientas que estén usando para crear sus visualizaciones. El orden en que presentan cada sección de la página nos ayuda a contar una historia coherente y persuasiva, es un recorrido donde progresivamente le cuentan la historia a su audiencia y deben mantenerla intrigada e interesada hasta el final.
+A lo largo del curso vimos cómo crear visualizaciones en _Looker Studio_, una herramienta flexible y ágil para crear dashboards. Pero podemos hacer uso de conceptos básicos de diseño web para transformar esta herramienta en un espacio potente para contar historias más allá de un simple reporte. Estos mismos conceptos los pueden aplicar a otras herramientas que estén usando para crear sus visualizaciones. El orden en que presentan cada sección de la página nos ayuda a contar una historia coherente y persuasiva, es un recorrido donde progresivamente le cuentan la historia a su audiencia y deben mantenerla intrigada e interesada hasta el final.

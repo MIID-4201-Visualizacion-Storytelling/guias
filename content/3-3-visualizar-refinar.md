@@ -5,25 +5,25 @@ description: '...'
 
 ## Introducción
 
-Con nuestros datos modelados a lo largo de los tutoriales anteriores, podemos volver a las visualizaciones con la actitud exploratoria que propone John Tukey (expuesto en el video de esta semana). Las aplicaciones como Google Data Studio, Power BI, Tableau, etc., son muy útiles para este proceso, ya que podemos visualizar rápidamente los datos modelados en diferentes estructuras (tipos de gráficas) sin tener que programar cada una. Saltando de una gráfica a otra y conectando diferentes variables a las dimensiones, se pueden comenzar a revelar patrones insospechados que abren nuevas preguntas e invitan a reiterar sobre el proceso de modelado. Ese ir y volver entre las gráficas y el modelado es uno de los principales usos de lo que llamamos en clase "narración a nosotros mismos".
+Con nuestros datos modelados a lo largo de los tutoriales anteriores, podemos volver a las visualizaciones con la actitud exploratoria que propone John Tukey (expuesto en el video de esta semana). Las aplicaciones como Looker Studio, Power BI, Tableau, etc., son muy útiles para este proceso, ya que podemos visualizar rápidamente los datos modelados en diferentes estructuras (tipos de gráficas) sin tener que programar cada una. Saltando de una gráfica a otra y conectando diferentes variables a las dimensiones, se pueden comenzar a revelar patrones insospechados que abren nuevas preguntas e invitan a reiterar sobre el proceso de modelado. Ese ir y volver entre las gráficas y el modelado es uno de los principales usos de lo que llamamos en clase "narración a nosotros mismos".
 
-En _Google Data Studio_, este proceso es muy sencillo:
+En _Looker Studio_, este proceso es muy sencillo:
 
 - Con los datos modelados, vuelven al espacio de trabajo y seleccionan la opción **"Add a chart"**
 
 <img src="/vysimgs/gds-graficas.jpg" alt="Nueva gráfica" />
 
 > **Figura 1**  
-> _Agregar gráfica a espacio de trabajo en Google Data Studio_
+> _Agregar gráfica a espacio de trabajo en Looker Studio_
 
-- _Google Data Studio_ reconoce los tipos de datos que ustedes definieron y hace un intento por conectar las variables más relevantes al tipo de gráfica elegida. Si seleccionan alguna de las opciones de _Google Maps_, la aplicación conecta automáticamente las variables de georeferencia que definieron en el modelado.
+- _Looker Studio_ reconoce los tipos de datos que ustedes definieron y hace un intento por conectar las variables más relevantes al tipo de gráfica elegida. Si seleccionan alguna de las opciones de _Google Maps_, la aplicación conecta automáticamente las variables de georeferencia que definieron en el modelado.
 
 - En la esquina superior derecha, pueden encontrar un menú llamado **"Charts > {tipo de gráfica}"** y desde allí pueden ir cambiando el tipo de gráfica sin crear una nueva, esto les permite rápidamente explorar las variables en diferentes estructuras hasta que encuentran patrones por refinar en el modelado.
 
 <img src="/vysimgs/gds-switch-charts.jpg" alt="Intercambiar gráficas" />
 
 > **Figura 2**  
-> _Menú para intercambiar gráficas en Google Data Studio_
+> _Menú para intercambiar gráficas en Looker Studio_
 
 ## Conclusión
 

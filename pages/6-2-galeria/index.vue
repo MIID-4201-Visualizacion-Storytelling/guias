@@ -3,14 +3,14 @@
     <h1>{{ page.title }}</h1>
     <p>
       La siguiente galería de proyectos es una colección de casos que les pueden dar inspiración e ideas para su
-      proyecto final. Todos están hechos en Google Data Studio, lo que quiere decir que todos están al alcance de lo que
+      proyecto final. Todos están hechos en Looker Studio, lo que quiere decir que todos están al alcance de lo que
       ustedes pueden llegar a hacer.
     </p>
 
     <p>
       De los casos que les muestro a continuación resalto en cada uno <strong>"lo bueno"</strong> y
       <strong>"lo malo"</strong> para que lo tengan en cuenta. Pero pueden ver más proyectos en la amplia galería de
-      Google Data Studio
+      Looker Studio
       <a href="https://datastudio.google.com/gallery?category=community" target="_blank"
         >https://datastudio.google.com/gallery?category=community</a
       >. ¿Pueden identificar cuales tienen Storytelling y cuales no?
