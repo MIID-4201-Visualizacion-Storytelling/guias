@@ -11,15 +11,15 @@
       De los casos que les muestro a continuación resalto en cada uno <strong>"lo bueno"</strong> y
       <strong>"lo malo"</strong> para que lo tengan en cuenta. Pero pueden ver más proyectos en la amplia galería de
       Looker Studio
-      <a href="https://datastudio.google.com/gallery?category=community" target="_blank"
-        >https://datastudio.google.com/gallery?category=community</a
+      <a href="https://lookerstudio.google.com/gallery?category=community" target="_blank"
+        >https://lookerstudio.google.com/gallery?category=community</a
       >. ¿Pueden identificar cuales tienen Storytelling y cuales no?
     </p>
 
     <section>
       <div class="proyecto">
         <a
-          href="https://datastudio.google.com/u/0/reporting/1MgYU4KA4gkQ_JlzghInhYsgYYHlsJi-U/page/58xV"
+          href="https://lookerstudio.google.com/u/0/reporting/1MgYU4KA4gkQ_JlzghInhYsgYYHlsJi-U/page/58xV"
           target="_blank"
         >
           <h3>The Big Mac Index</h3>
@@ -37,7 +37,7 @@
 
       <div class="proyecto">
         <a
-          href="https://datastudio.google.com/u/0/reporting/9e3ad5bc-c4f5-4e15-95a0-71dd7c5c60c6/page/3nn6B"
+          href="https://lookerstudio.google.com/u/0/reporting/9e3ad5bc-c4f5-4e15-95a0-71dd7c5c60c6/page/3nn6B"
           target="_blank"
         >
           <h3>Databloo</h3>
@@ -58,7 +58,7 @@
 
       <div class="proyecto">
         <a
-          href="https://datastudio.google.com/u/0/reporting/1oJdNeXvwgSmCto8LD6KJLcVHt7BRz1iW/page/r6LM"
+          href="https://lookerstudio.google.com/u/0/reporting/1oJdNeXvwgSmCto8LD6KJLcVHt7BRz1iW/page/r6LM"
           target="_blank"
         >
           <h3>U.S. Household Income Distribution by State (2016)</h3>
@@ -78,7 +78,7 @@
 
       <div class="proyecto">
         <a
-          href="https://datastudio.google.com/u/0/reporting/123f932c-0e29-4487-9186-c4b7df88967d/page/G1grB"
+          href="https://lookerstudio.google.com/u/0/reporting/123f932c-0e29-4487-9186-c4b7df88967d/page/G1grB"
           target="_blank"
         >
           <h3>50-Year Flood values (gauge data is up to 2017)</h3>
@@ -101,7 +101,7 @@
 
       <div class="proyecto">
         <a
-          href="https://datastudio.google.com/u/0/reporting/1-b3ckzPZwOHlw2Gd0zZmjOfCy73d6fKL/page/K7J3"
+          href="https://lookerstudio.google.com/u/0/reporting/1-b3ckzPZwOHlw2Gd0zZmjOfCy73d6fKL/page/K7J3"
           target="_blank"
         >
           <h3>My Email Habits</h3>

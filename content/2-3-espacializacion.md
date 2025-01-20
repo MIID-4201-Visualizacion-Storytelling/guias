@@ -42,11 +42,11 @@ En _Looker Studio_ tenemos 2 opciones de mapa: “Mapa con burbujas” (Bubble m
   <p>La virtualidad durante la pandemia ha sido agotadora y los estudiantes quieren tener algunos encuentros presenciales. En este mapa podemos ver que solamente los estudiantes que viven en Bogotá tienen la posibilidad de encontrarse para tomarse un café y trabajar en su proyecto de manera presencial.<p>
 </div>
 
-<a href="https://datastudio.google.com/u/0/reporting/f5fe7209-3471-4bb9-a60d-8e75691da34e/page/EVtkC" target="_blank"><img src="/vysimgs/VYS_-_2.3.1_Número_de_estudiantes_por_ciudad.jpg" alt="Número_de_estudiantes_por_ciudad" /></a>
+<a href="https://lookerstudio.google.com/u/0/reporting/f5fe7209-3471-4bb9-a60d-8e75691da34e/page/EVtkC" target="_blank"><img src="/vysimgs/VYS_-_2.3.1_Número_de_estudiantes_por_ciudad.jpg" alt="Número_de_estudiantes_por_ciudad" /></a>
 
 > **Figura 1**  
 > _Número de estudiantes por ciudad_  
-> Para ver el reporte interactivo, ir a: https://datastudio.google.com/reporting/f5fe7209-3471-4bb9-a60d-8e75691da34e
+> Para ver el reporte interactivo, ir a: https://lookerstudio.google.com/reporting/f5fe7209-3471-4bb9-a60d-8e75691da34e
 
 Lo que quiero narrar en este mapa tiene que ver con el número de estudiantes por ciudad. Hay 2 elementos específicos que necesito revelar en el mapa: Cada una de las ciudades donde viven los estudiantes y el número de estudiantes ubicados allí. Los globos son útiles para identificar visualmente la ubicación geográfica (posición), diferentes países (color) y la cantidad de estudiantes (escala).
 
@@ -57,14 +57,14 @@ Lo que quiero narrar en este mapa tiene que ver con el número de estudiantes po
 </div>
 
 <div class="iframe-container">
-  <iframe width="600" height="400" src="https://datastudio.google.com/embed/reporting/3d652493-3501-4548-a02a-85255ce3672e/page/KW7jC" frameborder="0" style="border:0" allowfullscreen></iframe>
+  <iframe width="600" height="400" src="https://lookerstudio.google.com/embed/reporting/3d652493-3501-4548-a02a-85255ce3672e/page/KW7jC" frameborder="0" style="border:0" allowfullscreen></iframe>
 </div>
 
 En esta segunda historia ya no importa tanto la especificidad de las ciudades sino tener un panorama más global, que nos indique de manera ágil los países donde viven los estudiantes. En este caso, los globos pueden opacar la lectura y sobrecargan de manera innecesaria el mapa. Por esa razón usamos la versión de "Filled map" para resaltar los países y la intensidad del color nos muestra la cantidad de estudiantes por región.
 
 > **Figura 2**  
 > _Número de estudiantes por país_  
-> https://datastudio.google.com/reporting/5f73d237-b16e-4e8f-bec2-ce9d26bded05
+> https://lookerstudio.google.com/embed/reporting/3d652493-3501-4548-a02a-85255ce3672e
 
 ### Historia con porcentajes:
 
@@ -73,12 +73,12 @@ En esta segunda historia ya no importa tanto la especificidad de las ciudades si
 </div>
 
 <div class="iframe-container">
-  <iframe width="600" height="400" src="https://datastudio.google.com/embed/reporting/64c41a50-f9a9-4129-9438-05b46a27f98d/page/p_43uq2hsirc" frameborder="0" style="border:0" allowfullscreen></iframe>
+  <iframe width="600" height="400" src="https://lookerstudio.google.com/embed/reporting/64c41a50-f9a9-4129-9438-05b46a27f98d/page/p_43uq2hsirc" frameborder="0" style="border:0" allowfullscreen></iframe>
 </div>
 
 > **Figura 3**  
 > _Porcentaje de estudiantes por país_  
-> https://datastudio.google.com/reporting/64c41a50-f9a9-4129-9438-05b46a27f98d
+> https://lookerstudio.google.com/reporting/64c41a50-f9a9-4129-9438-05b46a27f98d
 
 El mapa por países (Figura 2) que vimos anteriormente nos podría funcionar para contar esta tercera historia: tenemos una vista general por países que nos indica dónde viven los estudiantes, pero la métrica (por número de estudiantes) deja de ser descriptiva en esta historia. Podemos mejorar el mismo mapa cambiando el conteo de estudiantes por país a porcentajes. Al acercarnos con el ratón a alguno de los países, ya no tenemos que investigar todo el mapa para saber la relación de ese país con el resto. El mapa de _Figura 2_ nos dice que Colombia tiene 3 estudiantes. Por sí solo, el dato de 3 estudiantes en Colombia no me ayuda mucho, pero saber que el 60% de estudiantes vive en Colombia inmediatamente me describe que allí vive la mayoría.
 

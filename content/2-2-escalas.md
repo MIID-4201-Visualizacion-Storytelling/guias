@@ -16,12 +16,12 @@ datos: [2, 8, 15, 25, 0, 11]
 ```
 
 <div class="iframe-container">
-  <iframe width="600" height="450" src="https://datastudio.google.com/embed/reporting/a85fdd38-e11c-4c18-a23b-eac57fd3f16f/page/ne9jC" frameborder="0" style="border:0" allowfullscreen></iframe>
+  <iframe width="600" height="450" src="https://lookerstudio.google.com/embed/reporting/a85fdd38-e11c-4c18-a23b-eac57fd3f16f/page/ne9jC" frameborder="0" style="border:0" allowfullscreen></iframe>
 </div>
 
 > **Figura 1**  
 > _Ejemplos de escala_  
-> https://datastudio.google.com/reporting/a85fdd38-e11c-4c18-a23b-eac57fd3f16f
+> https://lookerstudio.google.com/reporting/a85fdd38-e11c-4c18-a23b-eac57fd3f16f
 
 El acto de traducir datos a formas abstractas con cambios de escala lo vamos a llamar “mapear”, una tarea que típicamente delegamos a un proceso computacional. Es decir, una vez tenemos nuestros datos modelados y listos para ser visualizados, alimentamos el software de visualización con estos datos para que éste se encargue de mapear los valores cambiando las escalas y ubicándolas en el espacio visual por nosotros. Al mapear los datos, emerge entonces una gráfica que debería ayudarnos a narrar el fenómeno que tenemos en nuestras manos.
 
@@ -54,22 +54,22 @@ datos: [12.5, 12.1, 12.2, 11.5, 12.4]
 ```
 
 <div class="iframe-container">
-  <iframe width="600" height="400" src="https://datastudio.google.com/embed/reporting/7e66bbb3-8843-4e26-8766-d4c019c89fa7/page/is9jC" frameborder="0" style="border:0" allowfullscreen></iframe>
+  <iframe width="600" height="400" src="https://lookerstudio.google.com/embed/reporting/7e66bbb3-8843-4e26-8766-d4c019c89fa7/page/is9jC" frameborder="0" style="border:0" allowfullscreen></iframe>
 </div>
 
 > **Figura 2**  
 > _Problemas con valores similares_  
-> https://datastudio.google.com/reporting/7e66bbb3-8843-4e26-8766-d4c019c89fa7
+> https://lookerstudio.google.com/reporting/7e66bbb3-8843-4e26-8766-d4c019c89fa7
 
 La torta en estos casos es una mala opción, pero con las barras podemos solucionar el problema cortando la base para poder diferenciar los valores con mayor resolución. Esto quiere decir que la base no comienza en 0 sino en un valor más alto. Veamos lo que sucede si hacemos el corte para que comience en 10:
 
 <div class="iframe-container">
-  <iframe width="600" height="400" src="https://datastudio.google.com/embed/reporting/03f48dcf-2c02-4623-880b-5ab3d8b9c5d0/page/is9jC" frameborder="0" style="border:0" allowfullscreen></iframe>
+  <iframe width="600" height="400" src="https://lookerstudio.google.com/embed/reporting/03f48dcf-2c02-4623-880b-5ab3d8b9c5d0/page/is9jC" frameborder="0" style="border:0" allowfullscreen></iframe>
 </div>
 
 > **Figura 3**  
 > _Barras con valores similares y corte alto para mejorar resolución_  
-> https://datastudio.google.com/reporting/03f48dcf-2c02-4623-880b-5ab3d8b9c5d0
+> https://lookerstudio.google.com/reporting/03f48dcf-2c02-4623-880b-5ab3d8b9c5d0
 
 Para lograr esto en _Looker Studio_, deben ir a la sección "STYLE" y cambiar el valor de "Left Y-Axis" de su gráfica de barras:
 
@@ -85,12 +85,12 @@ Para lograr esto en _Looker Studio_, deben ir a la sección "STYLE" y cambiar el
 Cuando tenemos un valor dramáticamente alto, el resultado automático de la gráfica puede hacer que el resto de valores se vuelvan imperceptibles. En la siguiente figura podemos ver este fenómeno en la gráfica de la izquierda. A la derecha usamos la misma estrategia de cortar el eje, pero en este caso en la parte superior. El máximo valor lo cambiamos a 1000 para hacer visibles las otras barras, pero no tan bajo para preservar la diferencia real entre los valores.
 
 <div class="iframe-container">
-  <iframe width="600" height="400" src="https://datastudio.google.com/embed/reporting/d3f2e1d6-270e-4211-976e-b4d1f4e6f0e4/page/769jC" frameborder="0" style="border:0" allowfullscreen></iframe>
+  <iframe width="600" height="400" src="https://lookerstudio.google.com/embed/reporting/d3f2e1d6-270e-4211-976e-b4d1f4e6f0e4/page/769jC" frameborder="0" style="border:0" allowfullscreen></iframe>
 </div>
 
 > **Figura 5**  
 > _Barras con valor alto_  
-> https://datastudio.google.com/reporting/d3f2e1d6-270e-4211-976e-b4d1f4e6f0e4
+> https://lookerstudio.google.com/reporting/d3f2e1d6-270e-4211-976e-b4d1f4e6f0e4
 
 ### Se ve bonito pero genera distorsión
 

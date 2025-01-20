@@ -32,10 +32,9 @@ Con esta aclaración y advertencia sobre el uso de ilustraciones en sus proyecto
 - **Icons8** https://icons8.com/icons: Varios estilos de íconos, a diferencia de las ilustraciones, los íconos pueden complementar el diseño de la interfaz.
 - **The noun project** https://thenounproject.com/: Íconos y fotos, gratuitas si son en baja resolución.
 
-
 ### Secciones
 
-Toda historia se cuenta por partes y dos son inevitables: el inicio y el final. En el medio podemos decidir cuántas partes componen nuestro relato según sea necesario. Por ejemplo, en la plantilla que vimos en el tutorial anterior (https://datastudio.google.com/reporting/58d14fe8-15a1-48f9-b12f-65a50ee14e94/page/Y0GmC) el relato está dividido en 5 secciones:
+Toda historia se cuenta por partes y dos son inevitables: el inicio y el final. En el medio podemos decidir cuántas partes componen nuestro relato según sea necesario. Por ejemplo, en la plantilla que vimos en el tutorial anterior (https://lookerstudio.google.com/reporting/58d14fe8-15a1-48f9-b12f-65a50ee14e94/page/Y0GmC) el relato está dividido en 5 secciones:
 
 - Introducción: Título, ilustración y texto.
 - Contexto: Video

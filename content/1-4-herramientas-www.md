@@ -9,7 +9,7 @@ description: '...'
 
 Esta lectura es una guía general de las herramientas que pueden utilizar durante el curso y sobre todo para su proyecto final. Son recomendaciones de lo que pueden usar para crear un sitio web que les permita contar una historia con visualizaciones y contextos a estas imágenes. Nos adelantamos para que las puedan probar y comiencen a familiarizarse con alguna de ellas. A la hora de hacer sus ejercicios de clase, pueden montar sus visualizaciones en alguna de ella y presentar el enlace al sitio web. Esto no es obligatorio, pero lo sugiero para que practiquen y lleguen bien preparados al proyecto final donde deben publicar en la web su trabajo.
 
-### Looker Studio <a href="https://datastudio.google.com/" target="_blank">lookerstudio.google.com</a>
+### Looker Studio <a href="https://lookerstudio.google.com/" target="_blank">lookerstudio.google.com</a>
 
 Esta es la aplicación recomendada para la mayoría de ustedes, funciona directamente en el explorador creando una cuenta gratuita. En la siguiente lectura van a encontrar un tutorial para aprender a usar esta herramienta.
 
@@ -104,6 +104,6 @@ Con esto tienen 3 buenas opciones que se adaptarán a sus propios gustos y habil
 
 #### Similares a Replit
 
-- **Glitch**  <a href="https://glitch.com/" target="_blank">glitch.com</a> (A veces la interfaz es lenta, muy parecido a Replit en todo).
+- **Glitch** <a href="https://glitch.com/" target="_blank">glitch.com</a> (A veces la interfaz es lenta, muy parecido a Replit en todo).
 - **CodePen** <a href="https://codepen.io" target="_blank">codepen.io</a> (Solamente permite usar lenguajes de programación web: HTML, CSS y JavaScript, excelente para hacer bocetos).
-- **GitHub Pages** <a href="https://pages.github.com/" target="_blank">pages.github.com</a>  (Solamente permite crear sitios web con HTML estático, requiere conocimiento en Git y Static Site Generators. Si estos términos son ajenos a ustedes, puede ser una empinada curva de aprendizaje para los tiempos de este curso).
+- **GitHub Pages** <a href="https://pages.github.com/" target="_blank">pages.github.com</a> (Solamente permite crear sitios web con HTML estático, requiere conocimiento en Git y Static Site Generators. Si estos términos son ajenos a ustedes, puede ser una empinada curva de aprendizaje para los tiempos de este curso).

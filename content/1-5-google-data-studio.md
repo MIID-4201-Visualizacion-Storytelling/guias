@@ -24,7 +24,7 @@ Ya que _Looker Studio_ nos permite hacer todo esto en un mismo lugar, dentro del
 
 ### Paso 1 - Crear cuenta
 
-Ir a la página de <a href="https://datastudio.google.com/overview" target="_blank"> Looker Studio</a> y picar en el botón **"USE IT FOR FREE"**. Esto los dirige a otra página donde deben ingresar el correo y contraseña de su cuenta de gmail.
+Ir a la página de <a href="https://lookerstudio.google.com/overview" target="_blank"> Looker Studio</a> y picar en el botón **"USE IT FOR FREE"**. Esto los dirige a otra página donde deben ingresar el correo y contraseña de su cuenta de Gmail.
 
 Eso es todo, ahora tienen una cuenta de _Looker Studio_ y pueden utilizar la aplicación directamente en el explorador sin necesidad de descargar o instalar nada en su computador.
 

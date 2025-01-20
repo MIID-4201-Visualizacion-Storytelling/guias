@@ -59,23 +59,23 @@ Veamos algunas formas de visualizarlos para profundizar un poco en la teoría de
 
 Cuando les digo que 8 es mayor que 2, visualmente lo puedo decir:
 
-<iframe width="600" height="450" src="https://datastudio.google.com/embed/reporting/e376a6fd-fe27-495e-bcc4-bf40cd826d88/page/qg0gC" frameborder="0" style="border:0" allowfullscreen></iframe>
+<iframe width="600" height="450" src="https://lookerstudio.google.com/embed/reporting/e376a6fd-fe27-495e-bcc4-bf40cd826d88/page/qg0gC" frameborder="0" style="border:0" allowfullscreen></iframe>
 
 > **Figura 2**  
 > _VYS - 2.1.1 Barras_  
-> https://datastudio.google.com/reporting/e376a6fd-fe27-495e-bcc4-bf40cd826d88/page/qg0gC
+> https://lookerstudio.google.com/reporting/e376a6fd-fe27-495e-bcc4-bf40cd826d88/page/qg0gC
 
-<iframe width="600" height="450" src="https://datastudio.google.com/embed/reporting/57a116ef-f69e-4233-aaf0-6370cad2079a/page/qg0gC" frameborder="0" style="border:0" allowfullscreen></iframe>
+<iframe width="600" height="450" src="https://lookerstudio.google.com/embed/reporting/57a116ef-f69e-4233-aaf0-6370cad2079a/page/qg0gC" frameborder="0" style="border:0" allowfullscreen></iframe>
 
 > **Figura 3**  
 > _VYS - 2.1.2 Círculos_  
-> https://datastudio.google.com/reporting/57a116ef-f69e-4233-aaf0-6370cad2079a
+> https://lookerstudio.google.com/reporting/57a116ef-f69e-4233-aaf0-6370cad2079a
 
-<iframe width="600" height="450" src="https://datastudio.google.com/embed/reporting/4c8ed885-5be3-4d91-9929-ffd141d843fb/page/qg0gC" frameborder="0" style="border:0" allowfullscreen></iframe>
+<iframe width="600" height="450" src="https://lookerstudio.google.com/embed/reporting/4c8ed885-5be3-4d91-9929-ffd141d843fb/page/qg0gC" frameborder="0" style="border:0" allowfullscreen></iframe>
 
 > **Figura 4**  
 > _VYS - 2.1.3 Torta_  
-> https://datastudio.google.com/reporting/4c8ed885-5be3-4d91-9929-ffd141d843fb
+> https://lookerstudio.google.com/reporting/4c8ed885-5be3-4d91-9929-ffd141d843fb
 
 En estas gráficas, podemos ver intuitivamente la relación entre los dos valores a pesar de que las formas visuales son abstractas. Entre ellas comparten un principio fundamental: la forma crece a medida que incrementa el número. Pero una pequeña variación en las características de la forma puede comenzar a opacar su lectura. Veamos:
 

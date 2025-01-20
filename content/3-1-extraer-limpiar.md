@@ -105,7 +105,7 @@ Si revisamos el <a href="https://www.askamanager.org/2021/04/how-much-money-do-y
 
 > **Figura 9**  
 > _Nombres y descripciones en Looker Studio_
-> Para ver el reporte interactivo ir a: https://datastudio.google.com/reporting/369461f0-a5e7-4593-bf70-1d747e3ffc6c
+> Para ver el reporte interactivo ir a: https://lookerstudio.google.com/reporting/369461f0-a5e7-4593-bf70-1d747e3ffc6c
 
 **¡Es un desastre! ¿Cuántas instancias diferentes hay de Estados Unidos?** Hay muchas formas de escribir el nombre de un país y nuestra aplicación simplemente no las reconoce como uno solo.
 
