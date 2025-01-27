@@ -15,7 +15,7 @@ Las ilustraciones pueden ser de gran ayuda en nuestros relatos, ya que le dan vi
 
 > **Figura 1**  
 > _Ejemplo de Chartjunk_
-> Fuente: https://www.visualcapitalist.com/the-worlds-top-10-most-spoken-languages/
+> Fuente: [https://www.voronoiapp.com/Climate/Comparing-the-Carbon-Footprint-of-Transportation-Options-81](https://www.voronoiapp.com/Climate/Comparing-the-Carbon-Footprint-of-Transportation-Options-81)
 
 Las ilustraciones pueden ser un recurso narrativo potente cuando queremos indicarle a nuestra audiencia unas ideas que no podemos articular completamente en palabras. En el ejemplo de la plantilla que trabajamos en el tutorial anterior, la ilustración de la mujer mirando la pantalla fue utilizada en la sección introductoria junto al título y campos de texto como una forma de presentar la idea general del relato antes de que el espectador llegue a las visualizaciones. Un uso discreto que junto al título de la página pretende brindarle al espectador una idea general de la intención narrativa que se centra en mostrar cómo la página web - "más allá que un simple dashboard" -, es una experiencia humana cuando contamos una historia pensando en nuestra audiencia.
 
