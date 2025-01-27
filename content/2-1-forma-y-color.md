@@ -119,7 +119,7 @@ Otro error común en las visualizaciones es presentar todos los elementos con un
 
 Usando la base de datos que creamos en la primera semana, quiero que investiguen los datos para identificar una posible forma de narrarle a un público general una historia sobre la población del curso. Esta historia es algo que ustedes van a definir libres y de forma creativa luego de estudiar los datos.
 
-- CSV con resultados de encuesta 1: [Aquí](https://www.coursera.org/learn/visualizacin-y-storytelling/resources/qLxCs?utm_medium=email&utm_source=other&utm_campaign=group.Rc1y7nlBEeyihg6_3NrwNw.opencourse.targetedmessages.group_announcement~group.Rc1y7nlBEeyihg6_3NrwNw.zh8yEpt0TD-91hroHjUVOw)
+- CSV con resultados de encuesta 1: [Aquí](https://www.coursera.org/learn/visualizacin-y-storytelling/resources/7wQvY).
 
 Quiero que, de manera individual, describan visualmente a la población que compone este curso en un _dashboard_ que nos muestre los diferentes grupos poblaciones. Pueden agrupar por profesión, habilidades o ubicación, y el objetivo es que escojan formas visuales que comparativamente describan las diferencias entre los miembros del curso. A lo largo de los siguientes tutoriales van a ir desarrollando partes del _dashboard_, pero pueden agregar otras visualizaciones adicionales que apoyen su historia.
 
