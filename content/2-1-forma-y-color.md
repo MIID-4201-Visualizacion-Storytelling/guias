@@ -129,4 +129,4 @@ Quiero que, de manera individual, describan visualmente a la población que comp
 - ¿Puede un público general reconocer inmediatamente las diferencias en la población?
 - ¿Si cambio la forma, se compromete la comprensión de los datos?
 
-El producto de esta visualización es un enlace que deben subir a la plataforma en: https://www.coursera.org/learn/visualizacin-y-storytelling/irt/aSR2W/ensamblaje, este puede ser una imagen creada a mano, en Looker Studio, o si lo hacen en otro software de visualización que no genere enlace en la web, pueden tomar foto de la pantalla y subir ese archivo.
+El producto de esta visualización es un enlace que deben subir a la plataforma en: https://www.coursera.org/learn/visualizacin-y-storytelling/assignment-submission/aSR2W/ensamblaje, este puede ser una imagen creada a mano, en Looker Studio, o si lo hacen en otro software de visualización que no genere enlace en la web, pueden tomar foto de la pantalla y subir ese archivo.
