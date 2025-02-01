@@ -98,7 +98,7 @@ Otro error común en las visualizaciones es presentar todos los elementos con un
 <img src="https://64.media.tumblr.com/ac422b124ab88c79c81a86cd606913f3/tumblr_qdusowO20K1sgh0voo1_1280.jpg">
 
 > **Figura 8**  
-> Cáda punto representa un valor muy alto (1,000 personas) y el total de la población no necesariamente corresponde con la cantidad de puntos en el mapa. Mostrar 3,075 muertos con 3 pequeños puntos en el mapa conduce a una terrible distorsión del fenómeno representado.  
+> Cada punto representa un valor muy alto (1,000 personas) y el total de la población no necesariamente corresponde con la cantidad de puntos en el mapa. Mostrar 3,075 muertos con 3 pequeños puntos en el mapa conduce a una terrible distorsión del fenómeno representado.  
 > Fuente: https://viz.wtf/image/625452155235647488
 
 ## Resumen
@@ -113,7 +113,7 @@ Otro error común en las visualizaciones es presentar todos los elementos con un
 
 - Bertin, J. (1983). Semiology of graphics; diagrams networks maps: Un importante texto sobre el lenguaje de las gráficas. Los conceptos desarrollados por Bertin en su libro, los encontramos aplicados constantemente en software de visualización hoy en día.
 - From Data to Viz. https://www.data-to-viz.com/: Un excelente recurso para conocer tipos de visualizaciones y sugerencias de casos para usarlos.
-- WTF https://viz.wtf/: Una colección de visualizaciones mal hechas, algunas deliberadamente para distorsionar los datos, y otras por descuido de quienes las hacen. A primera vista parecen todas absurdas, pero los invito a que visiten el sitio (se actualiza permanentemente) y hagan el ejercicio de pensar en los conceptos que propone éste curso en relación a los casos reales que aquí se presentan.
+- WTF https://viz.wtf/: Una colección de visualizaciones mal hechas, algunas deliberadamente para distorsionar los datos, y otras por descuido de quienes las hacen. A primera vista parecen todas absurdas, pero los invito a que visiten el sitio (se actualiza permanentemente) y hagan el ejercicio de pensar en los conceptos que propone este curso en relación a los casos reales que aquí se presentan.
 
 # Ejercicio
 
@@ -129,4 +129,4 @@ Quiero que, de manera individual, describan visualmente a la población que comp
 - ¿Puede un público general reconocer inmediatamente las diferencias en la población?
 - ¿Si cambio la forma, se compromete la comprensión de los datos?
 
-El producto de esta visualización es un enlace que deben subir a la plataforma en: https://www.coursera.org/learn/visualizacin-y-storytelling/assignment-submission/aSR2W/ensamblaje, este puede ser una imagen creada a mano, en Looker Studio, o si lo hacen en otro software de visualización que no genere enlace en la web, pueden tomar foto de la pantalla y subir ese archivo.
+El producto de esta visualización es un enlace que deben subir a la plataforma en: https://www.coursera.org/learn/visualizacin-y-storytelling/assignment-submission/aSR2W/ensamblaje. Este puede ser una imagen creada a mano, en Looker Studio, o si lo hacen en otro software de visualización que no genere enlace en la web, pueden tomar foto de la pantalla y subir ese archivo.
