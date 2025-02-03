@@ -17,7 +17,8 @@ Para atender la pregunta que formulaba antes -¿qué pasa si quisiéramos compar
 
 Si se sienten cómodos creando fórmulas en Excel, pueden crear una nueva columna directamente en la base de datos. Acá les voy a mostrar cómo crear una nueva variable desde _Looker Studio_:
 
-Seleccionan **“ADD A FIELD”**, luego le dan un nombre a su variable, en mi caso la voy a llamar “Salarios (pesos colombianos)” y agregamos la fórmula para nuestro nuevo campo usando la condicional `CASE` (pueden leer más sobre las posibles condicionales en https://support.google.com/datastudio/topic/10490726?hl=en&ref_topic=7019880):
+Seleccionan **“ADD A FIELD”**, luego le dan un nombre a su variable, en mi caso la voy a llamar “Salarios (pesos colombianos)” y agregamos la fórmula para nuestro nuevo campo usando la condicional `CASE` (pueden leer más sobre las posibles condicionales en <a href="https://cloud.google.com/looker/docs/studio/about-calculated-fields?hl=es-419" target="_blank">Información sobre campos calculados</a>, <a href="https://cloud.google.com/looker/docs/studio/function-list?hl=es-419" target="_blank">Lista de funciones</a>, <a href="https://cloud.google.com/looker/docs/studio/case-searched?hl=es-419" target="_blank">ejemplo condicional: Case searched</a>, <a href="https://support.google.com/datastudio/topic/10490726?hl=en&ref_topic=7019880" target="_blank">Aquí lo teníamos antes pero esta ruta está desactualizada</a>)
+
 
 ```sql
 CASE
