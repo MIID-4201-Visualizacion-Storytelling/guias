@@ -20,19 +20,19 @@ Para este ejercicio vamos a trabajar en Replit, una herramienta que nos permite 
 
 - Paso 1: Crear cuenta en Replit
   Primero van a <a href="https://replit.com/" target="_blank">https://replit.com/</a> y seleccionan la opción “Sign Up” en la esquina superior derecha. Se pueden registrar con su cuenta de Google, GitHub, Facebook o directamente diligenciando el formulario. Con esto ya tienen una cuenta gratuita que es suficiente para este ejercicio.
-- Paso 2: Hacer copia (Fork) de la plantilla
-  Luego de crear la cuenta, van al siguiente enlace: <a href="https://replit.com/@1cgonza/Criptomonedas-Precios?v=1" target="_blank">https://replit.com/@1cgonza/Criptomonedas-Precios?v=1</a> y hacen clic en el botón **“Fork repl”** que les debe aparecer a la derecha como se ve en la Figura 2 a continuación:
+- Paso 2: Hacer copia (Remix) de la plantilla
+  Luego de crear la cuenta, van al siguiente enlace: <a href="https://replit.com/@1cgonza/Criptomonedas-Precios?v=1" target="_blank">https://replit.com/@1cgonza/Criptomonedas-Precios?v=1</a> y hacen clic en el botón **"🔀 Remix this app”** que les debe aparecer a la derecha como se ve en la Figura 2 a continuación:
 
-<img src="/vysimgs/fork-repl.jpg" alt="Fork Repl" />
+<img src="/vysimgs/remix-replit-semana-4.png" alt="Remix Repl" />
 
 > **Figura 2**  
-> _Crear Fork de la plantilla en Replit_
+> _Crear Remix (Fork) de la plantilla en Replit_
 
-El “Fork” crea una copia exacta de la plantilla, pero los cambios que hagan les pertenecen a ustedes. Todos los cambios que hagan en el código se guardan automáticamente y pueden volver a su cuenta en cualquier momento para seguir trabajando en la aplicación.
+El “Remix” crea una copia exacta de la plantilla, pero los cambios que hagan les pertenecen a ustedes. Todos los cambios que hagan en el código se guardan automáticamente y pueden volver a su cuenta en cualquier momento para seguir trabajando en la aplicación.
 
 ### Interfaz de Replit
 
-Luego de crear el "Fork", van a entrar a la interfaz de trabajo que está dividida en 3 partes:
+Luego de crear el "Remix", van a entrar a la interfaz de trabajo que está dividida en 3 partes:
 
 - La lista de archivos a la izquierda.
 - El editor de código en el centro.
