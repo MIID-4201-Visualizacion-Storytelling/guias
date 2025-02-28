@@ -29,8 +29,8 @@
           <p>
             <strong>Lo bueno:</strong> Excelente uso de texto introductorio, ofrece contexto y describe un problema que
             ya se ha identificado en el análisis de datos. Las visualizaciones complementan este relato claramente.
-            Pueden hacer clic en cada pís para ampliar la información presentada en la página principal, un detalle
-            valioso para satisfacer la curiosidad qye genera la vista principal.
+            Pueden hacer clic en cada país para ampliar la información presentada en la página principal, un detalle
+            valioso para satisfacer la curiosidad que genera la vista principal.
           </p>
         </div>
       </div>
@@ -69,8 +69,8 @@
 
           <p>
             <strong>Lo malo:</strong> Las datos producen gráficas muy parecidas entre sí, lo que dificulta la lectura
-            detallada. El orden en el que se presenta cada estado no es muy clara pues la linea de referencia (25%)
-            aparece múltiples veces y no sabemos a simple vista a que se refiere ni podemos comparar todos los estados
+            detallada. El orden en el que se presenta cada estado no es muy clara pues la línea de referencia (25%)
+            aparece múltiples veces y no sabemos a simple vista a qué se refiere ni podemos comparar todos los estados
             en general.
           </p>
         </div>
@@ -92,7 +92,7 @@
 
           <p>
             <strong>Lo malo:</strong> El uso del color es problemático, por ejemplo, las variables que tienen colores
-            parecidos no parecen estar conectadas directamente. Los números de color naranja sobre barras rojas hace que
+            parecidos no parecen estar conectadas directamente. Los números de color naranja sobre barras rojas hacen que
             se confundan por falta de contraste. El mapa de color compite con el resto, principalmente con las barras
             azules que se parecen al color de los cuerpos de agua en el mapa sin que tengan ninguna relación entre sí.
           </p>
