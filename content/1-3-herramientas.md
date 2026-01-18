@@ -13,7 +13,7 @@ Durante el curso, ustedes pueden decidir la manera de visualizar los datos para 
 
 Para ser elocuentes con sus visualizaciones a veces es suficiente utilizar herramientas prediseñadas. Estas herramientas son software que ya viene con estructuras de visualización (o librerías de visualizaciones) que nos ayudan a resolver la narración de manera ágil a partir de estructuras visuales que siguen cánones de diseño constituidos por la historia y prácticas consensuadas. Una gran ventaja de esta aproximación es que nuestras audiencias posiblemente ya reconocen la mayoría de estas aproximaciones a la visualización: mapas, histogramas, pie-charts, etc. Nuestro trabajo se vuelve entonces depurar y hacer aparecer nuestra historia dentro de estas estructuras visuales reconocibles.
 
-Si necesitan ayuda para elegir, la recomendación es utilizar <a href="https://lookerstudio.google.com/" target="_blank">Looker Studio</a>, una herramienta robusta, gratuita, no requiere instalación local (se usa en navegador) y con excelente documentación que permite publicar en la web sus resultados.
+Si necesitan ayuda para elegir, la recomendación es utilizar <a href="https://lookerstudio.google.com/" target="_top" rel="noopener">Looker Studio</a>, una herramienta robusta, gratuita, no requiere instalación local (se usa en navegador) y con excelente documentación que permite publicar en la web sus resultados.
 
 #### Otras herramientas que pueden considerar
 
