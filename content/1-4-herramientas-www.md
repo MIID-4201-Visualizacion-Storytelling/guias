@@ -9,7 +9,7 @@ description: '...'
 
 Esta lectura es una guía general de las herramientas que pueden utilizar durante el curso y sobre todo para su proyecto final. Son recomendaciones de lo que pueden usar para crear un sitio web que les permita contar una historia con visualizaciones y contextos a estas imágenes. Nos adelantamos para que las puedan probar y comiencen a familiarizarse con alguna de ellas. A la hora de hacer sus ejercicios de clase, pueden montar sus visualizaciones en alguna de ella y presentar el enlace al sitio web. Esto no es obligatorio, pero lo sugiero para que practiquen y lleguen bien preparados al proyecto final donde deben publicar en la web su trabajo.
 
-### Looker Studio <a href="https://lookerstudio.google.com/" target="_blank">lookerstudio.google.com</a>
+### Looker Studio lookerstudio.google.com</a>
 
 Esta es la aplicación recomendada para la mayoría de ustedes, funciona directamente en el explorador creando una cuenta gratuita. En la siguiente lectura van a encontrar un tutorial para aprender a usar esta herramienta.
 
