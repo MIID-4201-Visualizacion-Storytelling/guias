@@ -11,7 +11,7 @@ A partir de esta semana, y hasta el final del curso, van a trabajar en sus proye
 
 En este tutorial les voy a mostrar un ejemplo de un sitio web creado en _Looker Studio_ que pueden usar como plantilla y editarla para crear su proyecto final. Pueden hacer clic en la siguiente imagen para abrir la plantilla o ir directamente a https://lookerstudio.google.com/u/0/reporting/58d14fe8-15a1-48f9-b12f-65a50ee14e94/page/Y0GmC
 
-<a href="https://lookerstudio.google.com/u/0/reporting/58d14fe8-15a1-48f9-b12f-65a50ee14e94/page/Y0GmC" target="_blank"><img src="/vysimgs/plantilla-web.jpg" alt="Plantilla Web en Looker Studio" /></a>
+<img src="/vysimgs/plantilla-web.jpg" alt="Plantilla Web en Looker Studio" />
 
 > **Figura 1**  
 > _Plantilla Web en Looker Studio_  
